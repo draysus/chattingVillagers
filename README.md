@@ -10,6 +10,8 @@ A Fabric mod for Minecraft 1.21.1 that gives villagers a voice: they speak conte
 
 ```json
 "language": "de_de"
+-
+"language": "en_us"
 ```
 
 Then run `/chattingvillagers reload` or restart. The language folder is created automatically.
