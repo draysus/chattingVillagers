@@ -10,7 +10,7 @@ A Fabric mod for Minecraft 1.21.1 that gives villagers a voice: they speak conte
 
 ```json
 "language": "de_de"
--
+- or:
 "language": "en_us"
 ```
 
