@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "chattingvillagers",
+	"version": "${version}",
+	"name": "Chatting Villagers",
+	"description": "Gives villagers a voice: they speak context-aware lines in chat, matched to biome, time of day, weather, profession and situation, and hold short conversations with each other. Server-side.",
+	"authors": [
+		"draysus"
+	],
+	"contact": {
+		"homepage": "https://github.com/draysus/chattingvillagers",
+		"sources": "https://github.com/draysus/chattingvillagers",
+		"issues": "https://github.com/draysus/chattingvillagers/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/chattingvillagers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.draysus.chattingvillagers.ChattingVillagers"
+		],
+		"client": [
+			"io.github.draysus.chattingvillagers.client.ChattingVillagersClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
