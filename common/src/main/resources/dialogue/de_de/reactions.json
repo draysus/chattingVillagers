@@ -1,0 +1,4227 @@
+[
+  {
+    "id": "react_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hm? Was gibt's?"
+  },
+  {
+    "id": "react_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ja, bitte?"
+  },
+  {
+    "id": "react_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Störe mich nicht, ja?"
+  },
+  {
+    "id": "react_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmpf."
+  },
+  {
+    "id": "react_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Brauchst du was von mir?"
+  },
+  {
+    "id": "react_6",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab zu tun, mach's kurz."
+  },
+  {
+    "id": "react_7",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was stupst du mich so an?"
+  },
+  {
+    "id": "react_8",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Guten Tag auch."
+  },
+  {
+    "id": "react_night",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Um diese Zeit noch? Lass mich schlafen."
+  },
+  {
+    "id": "react_morning",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Guten Morgen. Schon so früh unterwegs?"
+  },
+  {
+    "id": "react_nitwit",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Höhö... hallo!"
+  },
+  {
+    "id": "react_nitwit_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Was? Ich? Höhöhö."
+  },
+  {
+    "id": "react_jobless",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sollte mir wohl mal einen Beruf suchen."
+  },
+  {
+    "id": "react_jobless_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Handeln? Womit denn? Ich hab ja nichts."
+  },
+  {
+    "id": "react_low_health",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Bitte... lass mich in Ruhe, mir geht's nicht gut."
+  },
+  {
+    "id": "grunt_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hrrm."
+  },
+  {
+    "id": "grunt_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmmm-hm?"
+  },
+  {
+    "id": "grunt_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ee-uuh."
+  },
+  {
+    "id": "grunt_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ëhh?"
+  },
+  {
+    "id": "grunt_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ëhhue."
+  },
+  {
+    "id": "grunt_6",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Näähh."
+  },
+  {
+    "id": "grunt_7",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Örrrh."
+  },
+  {
+    "id": "grunt_8",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmpf-hm."
+  },
+  {
+    "id": "grunt_9",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uuungh."
+  },
+  {
+    "id": "grunt_10",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hö? ...hö."
+  },
+  {
+    "id": "grunt_11",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nnn-ja."
+  },
+  {
+    "id": "grunt_12",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Brumm. Brumm-brumm."
+  },
+  {
+    "id": "grunt_13",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hurrmpf."
+  },
+  {
+    "id": "grunt_14",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mmmh-hm!"
+  },
+  {
+    "id": "grunt_15",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Grmbl... hmm."
+  },
+  {
+    "id": "grunt_nitwit_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Höh-höh. Hö!"
+  },
+  {
+    "id": "grunt_nitwit_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Blubb? ...Hö-hö-hö."
+  },
+  {
+    "id": "react_9",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ja ja, ich hab dich gesehen."
+  },
+  {
+    "id": "react_10",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Immer diese Stupserei."
+  },
+  {
+    "id": "react_11",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was denn nun schon wieder?"
+  },
+  {
+    "id": "react_12",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hätt gern meine Ruhe, wenn's recht ist."
+  },
+  {
+    "id": "react_evening",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "So spät noch Besuch? Na gut."
+  },
+  {
+    "id": "react_ref_deal",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 0.1,
+    "text": "Ein Angebot, das du nicht ablehnen kannst? ...hab ich leider gerade nicht."
+  },
+  {
+    "id": "react_13",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ja? Ich hör zu."
+  },
+  {
+    "id": "react_14",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sprich, ich hab nicht den ganzen Tag."
+  },
+  {
+    "id": "react_15",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Oh! Du hast mich erschreckt."
+  },
+  {
+    "id": "react_16",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nicht so nah, wenn's recht ist."
+  },
+  {
+    "id": "react_17",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab nichts für dich. Tut mir leid."
+  },
+  {
+    "id": "react_18",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Willst du was kaufen oder nur reden?"
+  },
+  {
+    "id": "react_19",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hände weg, ja?"
+  },
+  {
+    "id": "react_20",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was ist? Steht mir was im Gesicht?"
+  },
+  {
+    "id": "react_21",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Aha. Und weiter?"
+  },
+  {
+    "id": "react_22",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Du wieder."
+  },
+  {
+    "id": "react_23",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Freundlich bleiben, ja? Ich auch."
+  },
+  {
+    "id": "react_24",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich bin beschäftigt. Sieht man das nicht?"
+  },
+  {
+    "id": "react_25",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Guten Tag, guten Tag. Und jetzt?"
+  },
+  {
+    "id": "react_26",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hm. Du bist noch da."
+  },
+  {
+    "id": "react_27",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn du mich anstupst, stups ich irgendwann zurück."
+  },
+  {
+    "id": "react_28",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sag's einfach. Ich bin geduldig. Meistens."
+  },
+  {
+    "id": "react_29",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Bist du sicher, dass du mich meinst?"
+  },
+  {
+    "id": "react_30",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Schon gut, schon gut. Ich hab dich gehört."
+  },
+  {
+    "id": "react_day",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten am Tag? Da hab ich zu tun."
+  },
+  {
+    "id": "react_wakeup",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaum die Augen offen, und schon du."
+  },
+  {
+    "id": "react_bedtime",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich wollte gerade ins Bett."
+  },
+  {
+    "id": "react_rain",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei dem Regen? Lass uns das kurz machen."
+  },
+  {
+    "id": "react_thunder",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei dem Donner red ich nicht. Rein mit dir."
+  },
+  {
+    "id": "react_cave",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten? Red leise."
+  },
+  {
+    "id": "react_nether",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Hilf mir hier raus, dann red ich mit dir!"
+  },
+  {
+    "id": "react_end",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Bring mich weg von hier. Bitte."
+  },
+  {
+    "id": "react_hurt",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Erst schlagen, dann reden? Nein."
+  },
+  {
+    "id": "react_low_health_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Nicht jetzt... mir ist schwindelig."
+  },
+  {
+    "id": "react_snowy",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Zu kalt für Gespräche."
+  },
+  {
+    "id": "react_desert",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei der Hitze? Mach's kurz."
+  },
+  {
+    "id": "react_nitwit_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Höhö. Du bist lustig."
+  },
+  {
+    "id": "react_nitwit_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich weiß nichts. Aber ich sag's gern."
+  },
+  {
+    "id": "react_nitwit_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Hö? Willst du was tauschen? Ich hab einen Stock."
+  },
+  {
+    "id": "react_jobless_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab keinen Beruf. Da kann ich nichts tauschen."
+  },
+  {
+    "id": "react_jobless_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Frag mich nochmal, wenn ich einen Arbeitstisch hab."
+  },
+  {
+    "id": "react_jobless_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich würd ja gern. Ich kann nur nichts."
+  },
+  {
+    "id": "grunt_16",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmm-hmm-hmm."
+  },
+  {
+    "id": "grunt_17",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ëhhm... hö."
+  },
+  {
+    "id": "grunt_18",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hrmpf-nnh."
+  },
+  {
+    "id": "grunt_19",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uh-hmm."
+  },
+  {
+    "id": "grunt_20",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nnnh."
+  },
+  {
+    "id": "grunt_21",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hö-hmm?"
+  },
+  {
+    "id": "grunt_22",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mmpf."
+  },
+  {
+    "id": "grunt_23",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ahhrm."
+  },
+  {
+    "id": "grunt_24",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hnnn... hm."
+  },
+  {
+    "id": "react_ref_shop",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.2,
+    "text": "Willkommen! ...Ach nein, das sagt man hier wohl anders."
+  },
+  {
+    "id": "react_ref_meta",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Du redest nie zurück. Ist dir das eigentlich klar?"
+  },
+  {
+    "id": "react_31",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Na, was gibt's Neues?"
+  },
+  {
+    "id": "react_32",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sprich, aber schnell."
+  },
+  {
+    "id": "react_33",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wieder du."
+  },
+  {
+    "id": "react_34",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hör ja schon."
+  },
+  {
+    "id": "react_35",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was denn nun?"
+  },
+  {
+    "id": "react_36",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Kannst reden, ich pflücke nebenbei weiter."
+  },
+  {
+    "id": "react_37",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nicht so laut, die Kinder schlafen."
+  },
+  {
+    "id": "react_38",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Erzähl. Ich hab kurz Zeit."
+  },
+  {
+    "id": "react_39",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Immer diese Unterbrechungen."
+  },
+  {
+    "id": "react_40",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mach's kurz, ja?"
+  },
+  {
+    "id": "react_41",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was liegt an?"
+  },
+  {
+    "id": "react_42",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "So eilig hab ich's auch wieder nicht."
+  },
+  {
+    "id": "react_43",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Rede, ich lausche."
+  },
+  {
+    "id": "react_44",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hab dich schon von Weitem kommen sehen."
+  },
+  {
+    "id": "react_45",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Na also, endlich Gesellschaft."
+  },
+  {
+    "id": "grunt_25",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ohhrm."
+  },
+  {
+    "id": "grunt_26",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ëëh-hm."
+  },
+  {
+    "id": "grunt_27",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Brmm?"
+  },
+  {
+    "id": "grunt_28",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uff-hm."
+  },
+  {
+    "id": "grunt_29",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hnngh."
+  },
+  {
+    "id": "grunt_30",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mrrh-mrr."
+  },
+  {
+    "id": "grunt_31",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ëhrm-ëhrm."
+  },
+  {
+    "id": "grunt_32",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Höff."
+  },
+  {
+    "id": "react_jungle",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier drin verirrt man sich leicht. Fass dich kurz."
+  },
+  {
+    "id": "react_swamp",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich halt lieber die Nase zu, während wir reden."
+  },
+  {
+    "id": "react_ocean",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Nass genug für dich? Was willst du?"
+  },
+  {
+    "id": "react_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Bäumen hört man's schlecht. Näher, bitte."
+  },
+  {
+    "id": "react_meadow",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten in den Blumen? Na gut, ich hör zu."
+  },
+  {
+    "id": "react_cherry",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Vorsicht, die Blüten fliegen dir noch ins Gesicht."
+  },
+  {
+    "id": "react_farmer",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Kann's warten, bis ich fertig gesät hab?"
+  },
+  {
+    "id": "react_librarian",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich les gerade. Was gibt's?"
+  },
+  {
+    "id": "react_cleric",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Störe die Andacht nicht, bitte."
+  },
+  {
+    "id": "react_smith",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer",
+        "toolsmith",
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Amboss wartet nicht, aber gut, ich hör zu."
+  },
+  {
+    "id": "react_trader_short",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Willst du handeln oder nur quatschen?"
+  },
+  {
+    "id": "react_blocky_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Hast du schon mal bemerkt, wie eckig hier eigentlich alles ist?"
+  },
+  {
+    "id": "react_blocky_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Meine Nase ist ein Würfel. Ich hab mich dran gewöhnt."
+  },
+  {
+    "id": "react_blocky_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Warum ist der Berg da drüben ein Treppenhaus? Frag nicht mich."
+  },
+  {
+    "id": "react_blocky_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Rund? Was ist rund? Kenn ich nicht."
+  },
+  {
+    "id": "react_pop_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Das Leben findet einen Weg. Hab ich mal irgendwo aufgeschnappt."
+  },
+  {
+    "id": "react_pop_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich möchte einfach nur lange und in Frieden weiterackern."
+  },
+  {
+    "id": "react_pop_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "He, hast du zufällig ein Herzstück für mich übrig?"
+  },
+  {
+    "id": "react_pop_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Wer, wenn nicht ich, ruft die Geisterjäger, wenn's hier spukt?"
+  },
+  {
+    "id": "react_anime_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Meine Kraft liegt heut irgendwo über neuntausend. Glaub ich."
+  },
+  {
+    "id": "react_anime_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ich werde eines Tages der beste Dorfbewohner überhaupt. Das schwöre ich!"
+  },
+  {
+    "id": "react_anime_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ist das hier ein Wald voller Geister? Dann bleib ich lieber drinnen."
+  },
+  {
+    "id": "react_anime_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Manchmal wein ich heimlich, wenn's traurig wird. Ist das schlimm?"
+  },
+  {
+    "id": "react_meta_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Warum schaust du mich eigentlich immer von unten an?"
+  },
+  {
+    "id": "react_meta_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ich hab gehört, irgendwo gibt's uns auch in Grün. Als Zombies. Gruselig."
+  },
+  {
+    "id": "react_meta_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Manchmal steh ich stundenlang an derselben Stelle. Ist mir auch schon aufgefallen."
+  },
+  {
+    "id": "react_biome_badlands",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "In dieser Hitze? Mach's kurz."
+  },
+  {
+    "id": "react_biome_bamboo",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Pass auf, dass dir kein Panda auf den Fuß tritt."
+  },
+  {
+    "id": "react_biome_basalt",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten will ich nicht lang bleiben. Sprich."
+  },
+  {
+    "id": "react_biome_beach",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Lass mich kurz die Füße im Sand haben, dann red ich."
+  },
+  {
+    "id": "react_biome_birch",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Die weißen Stämme hier machen mich immer müde. Was gibt's?"
+  },
+  {
+    "id": "react_biome_cherry_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei den Blüten wird man ja ganz sentimental. Also, was ist los?"
+  },
+  {
+    "id": "react_biome_crimson",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Farbe hier macht mich nervös. Rede."
+  },
+  {
+    "id": "react_biome_dark_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Zu dunkel hier für mich. Fass dich kurz."
+  },
+  {
+    "id": "react_biome_deep_dark",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Psst. Nicht so laut, sonst hört's uns noch was."
+  },
+  {
+    "id": "react_biome_desert_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand in jeder Ritze. Was willst du?"
+  },
+  {
+    "id": "react_biome_dripstone",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Vorsicht, wo du hintrittst. Und jetzt, was gibt's?"
+  },
+  {
+    "id": "react_biome_flower",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten im Blumenfeld? Na gut, red schon."
+  },
+  {
+    "id": "react_biome_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Bäume geben wenigstens Schatten. Was gibt's?"
+  },
+  {
+    "id": "react_biome_frozen",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei der Kälte will ich's kurz halten."
+  },
+  {
+    "id": "react_biome_grove",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Kalt hier zwischen den Tannen. Sprich schnell."
+  },
+  {
+    "id": "react_biome_ice_spikes",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Vorsicht, das Eis ist scharf. Und? Was willst du?"
+  },
+  {
+    "id": "react_biome_jungle",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier wächst alles schneller, als ich aufräumen kann."
+  },
+  {
+    "id": "react_biome_lush",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier tropft's ständig. Genau wie deine Fragen."
+  },
+  {
+    "id": "react_biome_mangrove",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Nasse Füße, schon wieder. Was gibt's?"
+  },
+  {
+    "id": "react_biome_meadow",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "So viele Blumen hier, da fällt das Reden leicht."
+  },
+  {
+    "id": "react_biome_mushroom",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Auf dieser Insel ist wenigstens Ruhe. War."
+  },
+  {
+    "id": "react_biome_ocean",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Salzwasser in den Ohren. Sprich lauter."
+  },
+  {
+    "id": "react_biome_old_growth",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Bäume waren schon da, bevor ich geboren wurde. Und du?"
+  },
+  {
+    "id": "react_biome_peaks",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier oben wird einem schwindelig. Mach's kurz."
+  },
+  {
+    "id": "react_biome_plains",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Nichts als Weite hier. Und du störst die Ruhe."
+  },
+  {
+    "id": "react_biome_river",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Wasser rauscht, ich hör dich kaum."
+  },
+  {
+    "id": "react_biome_savanna",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei der Trockenheit denk ich lieber nach als zu reden."
+  },
+  {
+    "id": "react_biome_snowy_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Zehen sind schon halb gefroren. Mach's kurz."
+  },
+  {
+    "id": "react_biome_soul_sand",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier will ich nicht lang stehen bleiben. Sprich."
+  },
+  {
+    "id": "react_biome_stony_shore",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Nichts als Kiesel hier. Und dich."
+  },
+  {
+    "id": "react_biome_swamp",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Es blubbert hier ständig. Genau wie du gerade."
+  },
+  {
+    "id": "react_biome_taiga",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Nadelbäumen wird's schnell dunkel. Mach's kurz."
+  },
+  {
+    "id": "react_biome_warped",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Farbe hier ist... speziell. Was gibt's?"
+  },
+  {
+    "id": "react_biome_windswept",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Wind bläst mir die Worte weg. Lauter, bitte."
+  },
+  {
+    "id": "react_badlands_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Terrakotta-Farben blenden ja fast wie die Sonne."
+  },
+  {
+    "id": "react_badlands_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Wasser wird hier oben schneller warm, als mir lieb ist."
+  },
+  {
+    "id": "react_bamboo_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Halme wachsen schneller, als ich zählen kann."
+  },
+  {
+    "id": "react_bamboo_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Klopf hier nicht zu fest, sonst fällt dir gleich ein Stängel auf den Kopf."
+  },
+  {
+    "id": "react_basalt_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Säulen sehen aus, als könnten sie jederzeit umfallen."
+  },
+  {
+    "id": "react_basalt_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier ist alles schwarz. Sogar meine Laune."
+  },
+  {
+    "id": "react_beach_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand zwischen den Zehen, schon wieder."
+  },
+  {
+    "id": "react_beach_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Wellen beruhigen mich. Du weniger."
+  },
+  {
+    "id": "react_birch_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese hellen Stämme wirken fast wie eine Reihe Zäune."
+  },
+  {
+    "id": "react_birch_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Herbstlaub hin oder her, hier ist's immer irgendwie hell."
+  },
+  {
+    "id": "react_cherry_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Ständig diese Blütenblätter im Haar. Stört mich kaum noch."
+  },
+  {
+    "id": "react_cherry_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "So rosa hier, man könnte fast vergessen, dass es Herbst wird."
+  },
+  {
+    "id": "react_crimson_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Pilze hier sind größer als ich."
+  },
+  {
+    "id": "react_crimson_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich vermiss das Grün, wenn ich ehrlich bin."
+  },
+  {
+    "id": "react_dark_forest_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst mittags ist es hier fast wie Nacht."
+  },
+  {
+    "id": "react_dark_forest_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hoffe, hier steht keine Hexenhütte in der Nähe."
+  },
+  {
+    "id": "react_deep_dark_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn's hier was hört, will ich nicht wissen, was."
+  },
+  {
+    "id": "react_deep_dark_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Stimme zittert hier automatisch. Keine Ahnung, warum."
+  },
+  {
+    "id": "react_desert_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Sand knirscht mir schon in den Zähnen."
+  },
+  {
+    "id": "react_desert_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts friert man hier, tagsüber verbrennt man. Wunderbar, oder?"
+  },
+  {
+    "id": "react_dripstone_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Tropfen hier klingt wie eine Uhr."
+  },
+  {
+    "id": "react_dripstone_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Zapfen sehen aus wie Zähne. Gruselig."
+  },
+  {
+    "id": "react_flower_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Bienen hier sind lauter als so mancher Marktschreier."
+  },
+  {
+    "id": "react_flower_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnt hier glatt einen Strauß pflücken. Für wen auch immer."
+  },
+  {
+    "id": "react_forest_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Genug Holz hier für drei neue Häuser."
+  },
+  {
+    "id": "react_forest_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Blättern seh ich kaum den Himmel."
+  },
+  {
+    "id": "react_frozen_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Finger sind hier drin schon taub."
+  },
+  {
+    "id": "react_frozen_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Eis knackt unter mir. Nicht beruhigend."
+  },
+  {
+    "id": "react_grove_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Tannen weht's noch kälter als sonst."
+  },
+  {
+    "id": "react_grove_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Schnee hier hält sich hartnäckiger als anderswo."
+  },
+  {
+    "id": "react_ice_spikes_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein falscher Schritt, und du steckst fest."
+  },
+  {
+    "id": "react_ice_spikes_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Türme aus Eis sind höher als unser Glockenturm."
+  },
+  {
+    "id": "react_jungle_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Ranken hier wachsen schneller, als ich schneiden kann."
+  },
+  {
+    "id": "react_jungle_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Irgendwo da oben schreit ein Papagei. Ständig."
+  },
+  {
+    "id": "react_lush_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Beeren hier leuchten ja fast."
+  },
+  {
+    "id": "react_lush_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Das da ist Moos, kein Teppich, falls du dich fragst."
+  },
+  {
+    "id": "react_mangrove_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Wurzeln sind wie ein Labyrinth."
+  },
+  {
+    "id": "react_mangrove_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, ich hab grad was Glibbriges berührt."
+  },
+  {
+    "id": "react_meadow_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Bienen summen hier lauter als in jedem Blumenfeld."
+  },
+  {
+    "id": "react_meadow_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier könnt ich glatt ein Nickerchen machen. Fast."
+  },
+  {
+    "id": "react_mushroom_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Riesenpilze werfen mehr Schatten als so mancher Baum."
+  },
+  {
+    "id": "react_mushroom_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Ganz schön still hier. Fast unheimlich ruhig."
+  },
+  {
+    "id": "react_ocean_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Zu viel Salzwasser macht durstig, weißt du das?"
+  },
+  {
+    "id": "react_ocean_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Da unten schwimmt was Großes. Ich schau lieber nicht so genau hin."
+  },
+  {
+    "id": "react_old_growth_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Stämme sind so dick, drei von uns kämen nicht drum rum."
+  },
+  {
+    "id": "react_old_growth_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier oben in den Kronen seh ich kaum noch Licht."
+  },
+  {
+    "id": "react_peaks_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Von hier oben sieht das Dorf winzig aus."
+  },
+  {
+    "id": "react_peaks_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Windstoß, und ich wär fast runtergeflogen."
+  },
+  {
+    "id": "react_plains_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Baum, kein Berg, nur Gras. Beruhigend, irgendwie."
+  },
+  {
+    "id": "react_plains_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pferde hier laufen freier als ich es je könnte."
+  },
+  {
+    "id": "react_river_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Wasser hier zieht ordentlich, pass auf."
+  },
+  {
+    "id": "react_river_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Lachs schwimmt direkt an mir vorbei. Frech."
+  },
+  {
+    "id": "react_savanna_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Akazien geben kaum Schatten, aber besser als nichts."
+  },
+  {
+    "id": "react_savanna_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden hier ist so trocken, er knirscht bei jedem Schritt."
+  },
+  {
+    "id": "react_snowy_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab meine Nase schon zweimal verloren. Fühlt sich so an."
+  },
+  {
+    "id": "react_snowy_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Schnee dämpft jeden Schritt. Fast gespenstisch leise."
+  },
+  {
+    "id": "react_soul_sand_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Schritt hier kostet doppelt so viel Kraft."
+  },
+  {
+    "id": "react_soul_sand_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese blauen Flammen machen mir mehr Angst als das Feuer selbst."
+  },
+  {
+    "id": "react_stony_shore_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Schritt hier ist ein potenzieller Stolperer."
+  },
+  {
+    "id": "react_stony_shore_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenigstens gibt's hier reichlich Kies zum Bauen."
+  },
+  {
+    "id": "react_swamp_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Frösche quaken lauter als der Marktschreier."
+  },
+  {
+    "id": "react_swamp_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Stiefel werden hier nie wieder richtig sauber."
+  },
+  {
+    "id": "react_taiga_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden hier ist weich vor lauter Nadeln."
+  },
+  {
+    "id": "react_taiga_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Fuchs schleicht da hinten rum. Beobachtet uns."
+  },
+  {
+    "id": "react_warped_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Pilze leuchten fast von selbst."
+  },
+  {
+    "id": "react_warped_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenigstens ist es hier ruhig. Zu ruhig, eigentlich."
+  },
+  {
+    "id": "react_windswept_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Wind trägt mir gleich noch den Hut davon."
+  },
+  {
+    "id": "react_windswept_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier oben hört man sich selbst kaum denken."
+  },
+  {
+    "id": "react_near_nether_portal_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Dieses Portal macht mir nicht geheuer. Rede, aber schnell."
+  },
+  {
+    "id": "react_near_nether_portal_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich rühr mich hier nicht vom Fleck, egal was du sagst."
+  },
+  {
+    "id": "react_near_nether_portal_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Das lila Ding da drüben knistert schon wieder. Unheimlich."
+  },
+  {
+    "id": "react_near_nether_portal_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Fass dich kurz, das Portal macht mich nervös."
+  },
+  {
+    "id": "react_near_end_portal_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Dieser Ort hier fühlt sich falsch an. Sprich leise."
+  },
+  {
+    "id": "react_near_end_portal_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schau lieber nicht zu lang in dieses Portal."
+  },
+  {
+    "id": "react_near_end_portal_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Was auch immer dahinter wartet, ich will's nicht wissen."
+  },
+  {
+    "id": "react_near_end_portal_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei diesem Portal wird mir immer ganz anders."
+  },
+  {
+    "id": "react_trading_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Einen Moment, ich handle gerade mit jemand anderem."
+  },
+  {
+    "id": "react_trading_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Du siehst doch, dass ich beschäftigt bin. Warte kurz."
+  },
+  {
+    "id": "react_trading_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Eins nach dem anderen, ja? Ich bin gleich fertig."
+  },
+  {
+    "id": "react_trading_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Dazwischenreden gilt nicht beim Handeln."
+  },
+  {
+    "id": "react_baby_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Hö? Was willst du von mir? Ich bin doch noch klein."
+  },
+  {
+    "id": "react_baby_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Frag lieber die Großen. Ich weiß noch gar nichts."
+  },
+  {
+    "id": "react_baby_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich darf noch nicht handeln. Sagt jedenfalls meine Mutter."
+  },
+  {
+    "id": "react_baby_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Hihi, du hast mich gekitzelt!"
+  },
+  {
+    "id": "react_sleeping_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Mmmh... nicht jetzt... schlaf noch..."
+  },
+  {
+    "id": "react_sleeping_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer stört mich mitten in der Nacht?"
+  },
+  {
+    "id": "react_sleeping_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "...fünf Minuten noch..."
+  },
+  {
+    "id": "react_sleeping_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Lass mich schlafen. Bitte."
+  },
+  {
+    "id": "react_bell_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Glocke eben hat mich ganz schön erschreckt."
+  },
+  {
+    "id": "react_bell_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sobald die Glocke läutet, lauf ich automatisch los. Ohne nachzudenken."
+  },
+  {
+    "id": "react_bell_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "War das die Glocke? Oder bild ich mir das ein?"
+  },
+  {
+    "id": "react_bell_alert_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Glocke! Rein, schnell!"
+  },
+  {
+    "id": "react_bell_alert_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab die Glocke gehört. Wir reden später weiter."
+  },
+  {
+    "id": "react_bell_alert_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "War das eben die Glocke? Ich muss los."
+  },
+  {
+    "id": "react_bell_alert_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Keine Zeit jetzt, die Glocke hat geläutet."
+  },
+  {
+    "id": "react_bell_alert_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Sobald die Glocke läutet, lauf ich automatisch los. Ohne nachzudenken."
+  },
+  {
+    "id": "react_butcher_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Hackblock wartet nicht. Was gibt's?"
+  },
+  {
+    "id": "react_butcher_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab blutige Hände, wortwörtlich. Fass dich kurz."
+  },
+  {
+    "id": "react_cartographer_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zeichne gerade. Störe mich nicht, sonst wird die Linie krumm."
+  },
+  {
+    "id": "react_cartographer_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Karten lügen nicht. Ich brauch nur noch mehr Papier."
+  },
+  {
+    "id": "react_fisherman_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Psst, du verscheuchst mir noch die Fische."
+  },
+  {
+    "id": "react_fisherman_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Angeln braucht Ruhe. Du bist das Gegenteil davon."
+  },
+  {
+    "id": "react_fletcher_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schnitz gerade Pfeile. Kurz warten, ja?"
+  },
+  {
+    "id": "react_fletcher_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Nicht so nah, sonst piks ich dich aus Versehen."
+  },
+  {
+    "id": "react_leatherworker_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hände sind grad voller Gerbsäure. Was gibt's?"
+  },
+  {
+    "id": "react_leatherworker_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Leder wartet nicht auf niemanden. Also, schnell."
+  },
+  {
+    "id": "react_mason_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Meißel wartet nicht. Sprich."
+  },
+  {
+    "id": "react_mason_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin mitten in einer Mauer. Buchstäblich."
+  },
+  {
+    "id": "react_shepherd_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Schafe brauchen mich mehr als du gerade."
+  },
+  {
+    "id": "react_shepherd_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Kurz, ich muss zurück zur Herde."
+  },
+  {
+    "id": "react_weather_clear_1",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Endlich klarer Himmel. Da red ich gern ein bisschen länger."
+  },
+  {
+    "id": "react_weather_clear_2",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Regen, keine Wolken - perfekter Tag zum Reden."
+  },
+  {
+    "id": "react_weather_clear_3",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei dem schönen Wetter? Klar, frag ruhig."
+  },
+  {
+    "id": "react_night_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten in der Nacht? Mutig von dir."
+  },
+  {
+    "id": "react_night_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sollte eigentlich schlafen. Aber gut, was gibt's?"
+  },
+  {
+    "id": "react_morning_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Noch nicht mal Kaffee gehabt. Also, was ist?"
+  },
+  {
+    "id": "react_morning_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Tag fängt ja gut an, mit dir gleich hier."
+  },
+  {
+    "id": "react_evening_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Sonne geht unter, und du stehst hier. Na gut."
+  },
+  {
+    "id": "react_evening_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich wollt grad Feierabend machen. Kurz noch, dann."
+  },
+  {
+    "id": "react_day_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten am Tag hab ich eigentlich zu tun. Aber los."
+  },
+  {
+    "id": "react_day_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Beste Zeit für ein Gespräch, ehrlich gesagt."
+  },
+  {
+    "id": "react_wakeup_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Lass mir wenigstens Zeit, die Augen zu öffnen."
+  },
+  {
+    "id": "react_bedtime_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Fünf Minuten, dann bin ich weg. Also mach schnell."
+  },
+  {
+    "id": "react_cave_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten hallt jedes Wort. Sprich leiser."
+  },
+  {
+    "id": "react_nether_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl die Sekunden, bis ich wieder raus bin. Rede schnell."
+  },
+  {
+    "id": "react_end_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Dieser Ort macht mir Angst. Bitte, mach's kurz."
+  },
+  {
+    "id": "react_hurt_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Erst der Schlag, jetzt die Fragen? Nein danke."
+  },
+  {
+    "id": "react_movie_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Wir werden immer unser Dorf haben. Was auch passiert."
+  },
+  {
+    "id": "react_movie_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich fühl mich gerade wie der König der ganzen Ebene!"
+  },
+  {
+    "id": "react_movie_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Du willst die Wahrheit? Die verträgst du nicht."
+  },
+  {
+    "id": "react_movie_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Dorf, wir haben ein Problem."
+  },
+  {
+    "id": "react_movie_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich seh tote... äh, untote Leute. Ständig. Wohnt so."
+  },
+  {
+    "id": "react_butcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Frisches Fleisch riecht anders als du denkst. Und ich riech alles."
+  },
+  {
+    "id": "react_butcher_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Messer ist schärfer als meine Laune gerade."
+  },
+  {
+    "id": "react_butcher_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Nicht so nah ans Hackbrett, ja? Unfälle passieren schnell."
+  },
+  {
+    "id": "react_butcher_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl die Würste, nicht die Leute, die mich stören."
+  },
+  {
+    "id": "react_butcher_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Rauch zieht mir in die Kleidung. Man gewöhnt sich dran."
+  },
+  {
+    "id": "react_butcher_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer Fleisch will, wartet. Wer nur reden will, wartet auch."
+  },
+  {
+    "id": "react_cartographer_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Tinte kostet, Papier kostet, Zeit kostet. Und du kostest mich gerade auch was."
+  },
+  {
+    "id": "react_cartographer_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine krumme Linie ruiniert die ganze Karte. Also, still."
+  },
+  {
+    "id": "react_cartographer_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zeichne Grenzen, die ich selbst nie überschreite."
+  },
+  {
+    "id": "react_cartographer_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Feder ist präziser als meine Geduld gerade."
+  },
+  {
+    "id": "react_cartographer_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Jede Karte hat weiße Flecken. Genau wie mein Wissen über dich."
+  },
+  {
+    "id": "react_cartographer_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Frag später. Ich bin mitten in einem Fluss."
+  },
+  {
+    "id": "react_fisherman_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Fische beißen heute schlecht. Genau wie meine Laune."
+  },
+  {
+    "id": "react_fisherman_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab schon alles gefangen, außer was ich wollte."
+  },
+  {
+    "id": "react_fisherman_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Köder ist teurer als der Fisch, den ich damit fang. Ironisch."
+  },
+  {
+    "id": "react_fisherman_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Am Wasser wird man geduldig. Oder verrückt. Bei mir beides."
+  },
+  {
+    "id": "react_fisherman_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ruhe am Ufer ist selten. Du machst es gerade noch seltener."
+  },
+  {
+    "id": "react_fisherman_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein guter Fang braucht Stille. Du bist das Gegenteil."
+  },
+  {
+    "id": "react_fletcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Jede Feder zählt. Verschwende sie nicht, indem du mich ablenkst."
+  },
+  {
+    "id": "react_fletcher_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein krummer Pfeil ist Verschwendung. Genau wie diese Unterhaltung, wenn du nichts willst."
+  },
+  {
+    "id": "react_fletcher_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich brauch ruhige Hände für gerade Schäfte. Also, ruhig bleiben."
+  },
+  {
+    "id": "react_fletcher_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Werktisch ist voller Holzspäne. Genau wie mein Kopf gerade."
+  },
+  {
+    "id": "react_fletcher_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl meine Pfeile öfter, als mir lieb ist. Man verliert leicht den Überblick."
+  },
+  {
+    "id": "react_fletcher_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Bogen ohne Pfeile ist nur ein Stück Holz. Genau wie ich ohne Ruhe nur Nerven bin."
+  },
+  {
+    "id": "react_leatherworker_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich riech nach Gerbsäure, aber wenigstens verkauf ich was Nützliches."
+  },
+  {
+    "id": "react_leatherworker_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Rohe Häute werden zu was Wertvollem. Braucht nur Zeit und starke Nerven."
+  },
+  {
+    "id": "react_leatherworker_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Werkbank ist voller Reste. Nichts wird hier verschwendet."
+  },
+  {
+    "id": "react_leatherworker_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Naht hält länger als so manches Versprechen."
+  },
+  {
+    "id": "react_leatherworker_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich häng lieber Leder auf als mit dir zu quatschen. Nichts Persönliches."
+  },
+  {
+    "id": "react_leatherworker_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Jedes Stück braucht seine Zeit zum Gerben. Genau wie Geduld."
+  },
+  {
+    "id": "react_mason_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich klopf Steine zurecht, keine Ausreden."
+  },
+  {
+    "id": "react_mason_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine Mauer hält nur, wenn jeder Stein sitzt. Genau wie ein Dorf."
+  },
+  {
+    "id": "react_mason_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Staub in der Lunge, Muskeln im Arm. Ehrliche Arbeit."
+  },
+  {
+    "id": "react_mason_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bau schneller, als du reden kannst. Fast."
+  },
+  {
+    "id": "react_mason_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein schiefer Stein fällt irgendwann um. Deshalb prüf ich zweimal."
+  },
+  {
+    "id": "react_mason_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Stein für Stein, Tag für Tag. Kein Grund zur Eile."
+  },
+  {
+    "id": "react_shepherd_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Schafe laufen nicht weg. Zumindest nicht weit."
+  },
+  {
+    "id": "react_shepherd_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Wolle wächst nach. Geduld leider nicht immer."
+  },
+  {
+    "id": "react_shepherd_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl lieber Schafe als Ausreden."
+  },
+  {
+    "id": "react_shepherd_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein geschertes Schaf schaut mich immer vorwurfsvoll an. Kenn ich schon."
+  },
+  {
+    "id": "react_shepherd_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Herde braucht Führung. Genau wie manche Gespräche."
+  },
+  {
+    "id": "react_shepherd_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich rieche nach Wolle und frischer Luft. Schlechter geht's schlimmer."
+  },
+  {
+    "id": "react_weather_clear_4",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Blauer Himmel, warme Luft - was will man mehr."
+  },
+  {
+    "id": "react_weather_clear_5",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei diesem Wetter fällt mir das Reden leichter als sonst."
+  },
+  {
+    "id": "react_weather_clear_6",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Wölkchen am Himmel. Fast schon verdächtig ruhig."
+  },
+  {
+    "id": "react_weather_clear_7",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "So ein Tag sollte man nicht drinnen verbringen. Aber gut, hier bin ich."
+  },
+  {
+    "id": "react_weather_clear_8",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Sonne tut gut. Genau wie ein bisschen Gesellschaft, ehrlich gesagt."
+  },
+  {
+    "id": "react_weather_clear_9",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Klares Wetter macht klare Gedanken. Frag ruhig, was du willst."
+  },
+  {
+    "id": "react_night_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Sterne sind hell heute. Du bist laut."
+  },
+  {
+    "id": "react_night_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hör die Monster schon von hier. Mach's kurz."
+  },
+  {
+    "id": "react_night_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Um diese Zeit sollte selbst ein Golem schlafen."
+  },
+  {
+    "id": "react_night_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts wird jedes Geräusch doppelt so gruselig."
+  },
+  {
+    "id": "react_night_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag die Nacht. Nur nicht, wenn sie mich wach hält."
+  },
+  {
+    "id": "react_night_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaum Licht, aber du findest mich trotzdem. Beeindruckend."
+  },
+  {
+    "id": "react_morning_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Tau liegt noch auf dem Gras. Genau wie meine Müdigkeit auf mir."
+  },
+  {
+    "id": "react_morning_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Früh übt sich, wer ein guter Nachbar werden will. Übst du gerade?"
+  },
+  {
+    "id": "react_morning_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Vögel sind lauter als du normalerweise. Fast schon eine Leistung."
+  },
+  {
+    "id": "react_morning_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin erst halb wach. Erwart nicht zu viel."
+  },
+  {
+    "id": "react_morning_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein frischer Morgen, eine frische Frage? Gerne."
+  },
+  {
+    "id": "react_morning_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaffee gibt's hier nicht, aber Gesellschaft schon. Reicht das?"
+  },
+  {
+    "id": "react_evening_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Schatten werden lang. Genau wie mein Tag."
+  },
+  {
+    "id": "react_evening_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Bald ist Zeit fürs Bett. Aber noch nicht ganz."
+  },
+  {
+    "id": "react_evening_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Himmel färbt sich orange. Schöner Moment für ein Gespräch."
+  },
+  {
+    "id": "react_evening_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag den Abend. Ruhiger als der Tag, lauter als die Nacht."
+  },
+  {
+    "id": "react_evening_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Letzte Erledigungen vor der Dunkelheit. Mach schnell."
+  },
+  {
+    "id": "react_evening_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Tag neigt sich, aber ich hab noch kurz Zeit."
+  },
+  {
+    "id": "react_day_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Volle Sonne, volles Programm. Aber gut, was gibt's?"
+  },
+  {
+    "id": "react_day_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten in der Arbeit, aber ich hör trotzdem zu."
+  },
+  {
+    "id": "react_day_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Tag ist lang genug für ein kurzes Gespräch."
+  },
+  {
+    "id": "react_day_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Beste Sicht, beste Zeit, um mich zu finden."
+  },
+  {
+    "id": "react_day_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schwitz schon in der Sonne. Mach's kurz."
+  },
+  {
+    "id": "react_day_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Tagsüber bin ich geduldiger als nachts. Nutz die Chance."
+  },
+  {
+    "id": "react_wakeup_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab die Augen kaum offen. Sprich langsam."
+  },
+  {
+    "id": "react_wakeup_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "So früh schon wach? Respekt. Oder Wahnsinn."
+  },
+  {
+    "id": "react_wakeup_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Gedanken sind noch im Bett. Der Rest von mir schon hier."
+  },
+  {
+    "id": "react_wakeup_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Morgen hat mich noch nicht ganz erreicht."
+  },
+  {
+    "id": "react_wakeup_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Gib mir einen Moment. Nur einen."
+  },
+  {
+    "id": "react_wakeup_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaum aufgestanden, und schon Trubel. Klassiker."
+  },
+  {
+    "id": "react_bedtime_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Bett ruft. Lauter als du gerade."
+  },
+  {
+    "id": "react_bedtime_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zieh mich gleich zurück. Also, worum geht's?"
+  },
+  {
+    "id": "react_bedtime_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Sonne geht, ich auch, gleich."
+  },
+  {
+    "id": "react_bedtime_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Letzte Frage vor dem Schlafengehen, ja?"
+  },
+  {
+    "id": "react_bedtime_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin schon halb im Nachthemd. Im Kopf zumindest."
+  },
+  {
+    "id": "react_bedtime_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Kurz noch, dann ist für mich Feierabend."
+  },
+  {
+    "id": "react_cave_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten seh ich kaum die Hand vor Augen. Wer bist du überhaupt?"
+  },
+  {
+    "id": "react_cave_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Luft hier ist stickig. Mach's kurz."
+  },
+  {
+    "id": "react_cave_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag Höhlen nicht besonders. Zu viele Ecken, zu wenig Licht."
+  },
+  {
+    "id": "react_cave_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Jedes Geräusch hier unten macht mich nervös."
+  },
+  {
+    "id": "react_cave_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Was suchst du hier unten? Außer mich zu stören."
+  },
+  {
+    "id": "react_cave_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Fackeln wären hier nicht schlecht. Aber gut, sprich."
+  },
+  {
+    "id": "react_nether_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Hitze hier ist unerträglich. Fass dich kurz."
+  },
+  {
+    "id": "react_nether_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich will hier nicht länger bleiben als nötig."
+  },
+  {
+    "id": "react_nether_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Dieser Ort macht mir Angst. Aber gut, was gibt's?"
+  },
+  {
+    "id": "react_nether_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Lava überall. Ich pass lieber auf, wo ich hintrete."
+  },
+  {
+    "id": "react_nether_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst die Luft hier fühlt sich falsch an."
+  },
+  {
+    "id": "react_nether_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Bring mich hier raus, dann reden wir in Ruhe."
+  },
+  {
+    "id": "react_end_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Dieser Ort ist so still, dass es mir Angst macht."
+  },
+  {
+    "id": "react_end_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich seh diese fliegenden Kreaturen und will nur noch weg."
+  },
+  {
+    "id": "react_end_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Nichts hier fühlt sich normal an. Bitte, mach's kurz."
+  },
+  {
+    "id": "react_end_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden hier schwebt fast. Genau wie mein Magen."
+  },
+  {
+    "id": "react_end_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich vermiss den Boden unter mir. Den echten."
+  },
+  {
+    "id": "react_end_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Bring mich zurück, dann erzähl ich dir alles."
+  },
+  {
+    "id": "react_hurt_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Autsch. War das nötig?"
+  },
+  {
+    "id": "react_hurt_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich blute noch, und du willst reden?"
+  },
+  {
+    "id": "react_hurt_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Erst schlagen, dann fragen - das mag ich gar nicht."
+  },
+  {
+    "id": "react_hurt_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Das tat weh. Mehr als du denkst."
+  },
+  {
+    "id": "react_hurt_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Gib mir einen Moment, bevor du weiterredest."
+  },
+  {
+    "id": "react_hurt_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin kein Ziel zum Üben, falls das klar ist."
+  },
+  {
+    "id": "react_joke_cartographer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hoffe du glaubst an das Herz der Karten, ich tue es."
+  },
+  {
+    "id": "react_joke_weaponsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Lichtschwerter sind leider ausverkauft."
+  },
+  {
+    "id": "react_joke_butcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Privat bin ich ja Vegetarier."
+  },
+  {
+    "id": "react_joke_farmer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal ein Feld mit Bohnen bepflanzt. Kein Wunder ist gewachsen, aber die Suppe war gut."
+  },
+  {
+    "id": "react_joke_librarian_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich besitz ein Buch, das angeblich alle Zauber der Welt kennt. Meistens erklärt es nur die Bibliotheksordnung."
+  },
+  {
+    "id": "react_joke_fisherman_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal von einem riesigen weißen Wal geträumt. Aufgewacht bin ich nur mit einem nassen Bett."
+  },
+  {
+    "id": "react_joke_cleric_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich braue keine Tränke, die Menschen in Katzen verwandeln. Das war nur einmal, und es ist mir peinlich."
+  },
+  {
+    "id": "react_joke_mason_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal versucht, eine Mauer zu bauen, die den Winter fernhält. Der Winter kam trotzdem."
+  },
+  {
+    "id": "react_joke_shepherd_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich achte immer auf Wölfe im Schafspelz. Bei uns hier sind das meistens einfach nur Wölfe."
+  },
+  {
+    "id": "react_joke_fletcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Manche sagen, ich schieß nie daneben. Stimmt nicht ganz, aber ich lass sie's glauben."
+  },
+  {
+    "id": "react_joke_armorer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal einen Anzug aus Eisen gebaut, der angeblich fliegen können sollte. Konnte er nicht."
+  },
+  {
+    "id": "react_joke_wandering_trader_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal einem Ring ein Angebot gemacht, das er nicht ablehnen könnte. Er hat trotzdem abgelehnt."
+  },
+  {
+    "id": "react_joke_toolsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Ich hab mal eine Axt geschmiedet, die angeblich jeden Baum in einem Streich fällt. Hat bisher nur meinen Daumen getroffen."
+  }
+]

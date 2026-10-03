@@ -1,0 +1,19 @@
+{
+  "fallback": "Dorfbewohner",
+  "professions": {
+    "armorer": "Rüstungsschmied",
+    "butcher": "Metzger",
+    "cartographer": "Kartograf",
+    "cleric": "Geistlicher",
+    "farmer": "Bauer",
+    "fisherman": "Fischer",
+    "fletcher": "Pfeilmacher",
+    "leatherworker": "Gerber",
+    "librarian": "Bibliothekar",
+    "mason": "Steinmetz",
+    "shepherd": "Schäfer",
+    "toolsmith": "Werkzeugschmied",
+    "weaponsmith": "Waffenschmied",
+    "wandering_trader": "Fahrender Händler"
+  }
+}

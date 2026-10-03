@@ -1,0 +1,4943 @@
+[
+  {
+    "id": "smalltalk_general",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "All quiet on your end?"
+      },
+      {
+        "speaker": "B",
+        "text": "Can't complain. Village is still standing."
+      }
+    ]
+  },
+  {
+    "id": "greet_by_name",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Well, {other}? All good with you?"
+      },
+      {
+        "speaker": "B",
+        "text": "So-so, {other}. Lot to do today."
+      }
+    ]
+  },
+  {
+    "id": "greet_by_name_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Ah, {other}! Haven't seen you in ages."
+      },
+      {
+        "speaker": "B",
+        "text": "Been busy, {other}. You know how it is."
+      }
+    ]
+  },
+  {
+    "id": "gossip_pair",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Say, {other}, did you hear that too?"
+      },
+      {
+        "speaker": "B",
+        "text": "Hear what? Out with it!"
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, forget it. Probably just the wind."
+      }
+    ]
+  },
+  {
+    "id": "smalltalk_day_clear",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Fine day today, isn't it?"
+      },
+      {
+        "speaker": "B",
+        "text": "Aye, perfect for the fields."
+      },
+      {
+        "speaker": "A",
+        "text": "That's what I said. Out we go."
+      }
+    ]
+  },
+  {
+    "id": "smalltalk_morning",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Good morning, {other}. Sleep well?"
+      },
+      {
+        "speaker": "B",
+        "text": "Like a stone. And you?"
+      }
+    ]
+  },
+  {
+    "id": "smalltalk_evening",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Getting dark. Are your doors shut?"
+      },
+      {
+        "speaker": "B",
+        "text": "Of course. I want no visitors tonight."
+      }
+    ]
+  },
+  {
+    "id": "bedtime_pair",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm off to bed, {other}. See you tomorrow."
+      },
+      {
+        "speaker": "B",
+        "text": "Sleep well, {other}. Dream something nice."
+      }
+    ]
+  },
+  {
+    "id": "night_worry",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hear the zombies? Closer than I'd like."
+      },
+      {
+        "speaker": "B",
+        "text": "Get inside. Nobody has business being out now."
+      }
+    ]
+  },
+  {
+    "id": "smalltalk_rain",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Best stay under a roof in this rain."
+      },
+      {
+        "speaker": "B",
+        "text": "At least the field waters itself."
+      }
+    ]
+  },
+  {
+    "id": "thunder_pair",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The storm is coming closer, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "I know. Stay away from the tall trees."
+      }
+    ]
+  },
+  {
+    "id": "farm_talk",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How is the harvest looking, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Splendid! Haven't seen ears this full in years."
+      }
+    ]
+  },
+  {
+    "id": "market_talk",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Prices are up again, so I hear."
+      },
+      {
+        "speaker": "B",
+        "text": "An emerald is an emerald. Nothing to be done."
+      }
+    ]
+  },
+  {
+    "id": "cave_pair",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How did we even end up here, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask me something easier. Let's get back up."
+      }
+    ]
+  },
+  {
+    "id": "nether_pair",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "This heat will be the end of me, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Hold on. There must be a portal somewhere."
+      }
+    ]
+  },
+  {
+    "id": "snowy_pair",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Cold enough for you, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Better ask whether my nose is still attached."
+      }
+    ]
+  },
+  {
+    "id": "weather_smalltalk",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Think the weather will hold?"
+      },
+      {
+        "speaker": "B",
+        "text": "Who knows. The sky does as it pleases."
+      }
+    ]
+  },
+  {
+    "id": "friendly_check",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Everything all right with you, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Never better. As long as the bell rings, all is well."
+      }
+    ]
+  },
+  {
+    "id": "funny_emerald",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm asking five emeralds now. Five!"
+      },
+      {
+        "speaker": "B",
+        "text": "For one carrot?!"
+      },
+      {
+        "speaker": "A",
+        "text": "Inflation, {other}. Pure inflation."
+      }
+    ]
+  },
+  {
+    "id": "funny_wall",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why are you standing against the wall, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm thinking. At least the wall listens."
+      }
+    ]
+  },
+  {
+    "id": "funny_mansion",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Welcome to my mansion!"
+      },
+      {
+        "speaker": "B",
+        "text": "That is a hut made of three planks, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "A mansion with character."
+      }
+    ]
+  },
+  {
+    "id": "funny_golem_feelings",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you think the iron one has feelings?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask him, then."
+      },
+      {
+        "speaker": "A",
+        "text": "I did. He just stared."
+      }
+    ]
+  },
+  {
+    "id": "funny_nitwit",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Heh-heh, did you hear? A chicken looked at me!"
+      },
+      {
+        "speaker": "B",
+        "text": "...That is not news, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "It is to me!"
+      }
+    ]
+  },
+  {
+    "id": "funny_directions",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know the way to the well?"
+      },
+      {
+        "speaker": "B",
+        "text": "Straight ahead. Like everything around here."
+      },
+      {
+        "speaker": "A",
+        "text": "Ah. Convenient."
+      }
+    ]
+  },
+  {
+    "id": "funny_gossip2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The fisherman said his fish was THIS big."
+      },
+      {
+        "speaker": "B",
+        "text": "He says that every day, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "And every day the fish gets bigger."
+      }
+    ]
+  },
+  {
+    "id": "funny_stare_meta",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Is that... player staring at us again?"
+      },
+      {
+        "speaker": "B",
+        "text": "What player?"
+      },
+      {
+        "speaker": "A",
+        "text": "That one. The one pretending not to read this."
+      }
+    ]
+  },
+  {
+    "id": "funny_hmm",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hrrm."
+      },
+      {
+        "speaker": "B",
+        "text": "Hmmm."
+      },
+      {
+        "speaker": "A",
+        "text": "Hmmm-hm."
+      },
+      {
+        "speaker": "B",
+        "text": "...well said."
+      }
+    ]
+  },
+  {
+    "id": "funny_zombie_neighbor",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Remember old Walter from next door?"
+      },
+      {
+        "speaker": "B",
+        "text": "The one who turned green?"
+      },
+      {
+        "speaker": "A",
+        "text": "That's him. Doesn't even greet you anymore. Rude."
+      }
+    ]
+  },
+  {
+    "id": "mood_cheerup",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Chin up, {other}. The world looks different tomorrow."
+      },
+      {
+        "speaker": "B",
+        "text": "Do you really think so?"
+      },
+      {
+        "speaker": "A",
+        "text": "Certainly. And if not, I'll be standing next to you."
+      }
+    ]
+  },
+  {
+    "id": "mood_joy_pair",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The harvest is in, {other}! All of it, safe!"
+      },
+      {
+        "speaker": "B",
+        "text": "Then we celebrate tonight, that much is certain!"
+      }
+    ]
+  },
+  {
+    "id": "mood_worried_pair",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've got a strange feeling today, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "You have a strange feeling every day."
+      },
+      {
+        "speaker": "A",
+        "text": "And most of the time I'm right."
+      }
+    ]
+  },
+  {
+    "id": "ref_father",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Farmer... I am your father."
+      },
+      {
+        "speaker": "B",
+        "text": "That's impossible! ...Wait, is that really you, Uncle Bert?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. Forget it. It was a joke."
+      }
+    ]
+  },
+  {
+    "id": "ref_ring_pair",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "One emerald to rule them all, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Put it away before it corrupts you."
+      }
+    ]
+  },
+  {
+    "id": "ref_deal",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm going to make you an offer you can't refuse."
+      },
+      {
+        "speaker": "B",
+        "text": "And that would be?"
+      },
+      {
+        "speaker": "A",
+        "text": "Two loaves for one emerald. Fair, no?"
+      }
+    ]
+  },
+  {
+    "id": "conv_morning_2",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "On your feet already, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "The wheat doesn't wait."
+      }
+    ]
+  },
+  {
+    "id": "conv_wakeup",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Morning, {other}. Slept well?"
+      },
+      {
+        "speaker": "B",
+        "text": "I dreamt of emeralds. Again."
+      }
+    ]
+  },
+  {
+    "id": "conv_day_market",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Been to the well yet today?"
+      },
+      {
+        "speaker": "B",
+        "text": "Twice. It's always worth it."
+      }
+    ]
+  },
+  {
+    "id": "conv_evening_2",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Done for the day, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Done for the day. Finally."
+      }
+    ]
+  },
+  {
+    "id": "conv_bedtime_2",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Will you shut the door, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Already did. Twice."
+      }
+    ]
+  },
+  {
+    "id": "conv_night_2",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why are you still out here, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Couldn't sleep. Nor could you, apparently."
+      }
+    ]
+  },
+  {
+    "id": "conv_night_knock",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Something is knocking at my door."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't open it. No matter what you hear."
+      }
+    ]
+  },
+  {
+    "id": "conv_rain_2",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How long is it going to pour like this?"
+      },
+      {
+        "speaker": "B",
+        "text": "Until it stops, I suppose."
+      }
+    ]
+  },
+  {
+    "id": "conv_thunder_2",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "That struck something, I'm certain."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's hope it was nothing important."
+      }
+    ]
+  },
+  {
+    "id": "conv_weather_bet",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I say it rains tomorrow."
+      },
+      {
+        "speaker": "B",
+        "text": "I say it doesn't."
+      },
+      {
+        "speaker": "A",
+        "text": "One emerald?"
+      },
+      {
+        "speaker": "B",
+        "text": "One emerald."
+      }
+    ]
+  },
+  {
+    "id": "conv_trade_prices",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What do you want for a loaf, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "For you? One emerald."
+      },
+      {
+        "speaker": "A",
+        "text": "For ME?!"
+      }
+    ]
+  },
+  {
+    "id": "conv_gossip_3",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Don't tell anyone, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Of course not."
+      },
+      {
+        "speaker": "A",
+        "text": "The smith sings while he works."
+      },
+      {
+        "speaker": "B",
+        "text": "...The whole village knows that."
+      }
+    ]
+  },
+  {
+    "id": "conv_golem_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The iron one stood outside my door for three hours today."
+      },
+      {
+        "speaker": "B",
+        "text": "He is keeping watch."
+      },
+      {
+        "speaker": "A",
+        "text": "He was staring."
+      }
+    ]
+  },
+  {
+    "id": "conv_bell_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Who actually rings the bell?"
+      },
+      {
+        "speaker": "B",
+        "text": "I thought you did."
+      },
+      {
+        "speaker": "A",
+        "text": "I thought you did."
+      }
+    ]
+  },
+  {
+    "id": "conv_old_days",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Remember when there were only three houses here?"
+      },
+      {
+        "speaker": "B",
+        "text": "I remember when there was nothing here at all."
+      }
+    ]
+  },
+  {
+    "id": "conv_new_neighbor",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's someone new in the village."
+      },
+      {
+        "speaker": "B",
+        "text": "From where?"
+      },
+      {
+        "speaker": "A",
+        "text": "From outside. Where else."
+      }
+    ]
+  },
+  {
+    "id": "conv_argue_bread",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "That was MY bread, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "It was lying on the ground."
+      },
+      {
+        "speaker": "A",
+        "text": "It was lying there on purpose!"
+      }
+    ]
+  },
+  {
+    "id": "conv_compliment",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You look well today, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "I look the same every day."
+      },
+      {
+        "speaker": "A",
+        "text": "And well every day."
+      }
+    ]
+  },
+  {
+    "id": "conv_silence",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hmm."
+      },
+      {
+        "speaker": "B",
+        "text": "Hmm."
+      },
+      {
+        "speaker": "A",
+        "text": "Nice to have a quiet talk for once."
+      }
+    ]
+  },
+  {
+    "id": "conv_help_pair",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Need any help, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Always. But not today."
+      }
+    ]
+  },
+  {
+    "id": "conv_iron_golem_help",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "If there's trouble: scream."
+      },
+      {
+        "speaker": "B",
+        "text": "And then?"
+      },
+      {
+        "speaker": "A",
+        "text": "Then the iron one comes. Hopefully."
+      }
+    ]
+  },
+  {
+    "id": "conv_funny_boat",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why are you sitting in a boat? Here, in the middle of a field?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask whoever put it here."
+      }
+    ]
+  },
+  {
+    "id": "conv_funny_hat",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Is that a new hat, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "That is my head."
+      }
+    ]
+  },
+  {
+    "id": "conv_funny_door",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Your door opens inwards."
+      },
+      {
+        "speaker": "B",
+        "text": "So?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothing. I just think about it."
+      }
+    ]
+  },
+  {
+    "id": "conv_funny_count",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How many of us are there in this village?"
+      },
+      {
+        "speaker": "B",
+        "text": "Enough for one bell, not enough for two."
+      }
+    ]
+  },
+  {
+    "id": "conv_low_health",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You look bad, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm fine."
+      },
+      {
+        "speaker": "A",
+        "text": "You're not fine. Come with me."
+      }
+    ]
+  },
+  {
+    "id": "conv_hurt",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Who did that?!"
+      },
+      {
+        "speaker": "B",
+        "text": "Don't ask. Just get inside."
+      }
+    ]
+  },
+  {
+    "id": "conv_cave_2",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you hear the water, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'd rather hear the water than the other thing."
+      }
+    ]
+  },
+  {
+    "id": "conv_nether_2",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What kind of place is this, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Don't ask. Just keep walking."
+      }
+    ]
+  },
+  {
+    "id": "conv_end",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Is this... the end?"
+      },
+      {
+        "speaker": "B",
+        "text": "It certainly feels like it."
+      }
+    ]
+  },
+  {
+    "id": "conv_desert",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Water, {other}. We need water."
+      },
+      {
+        "speaker": "B",
+        "text": "We are standing at a well."
+      },
+      {
+        "speaker": "A",
+        "text": "Oh. Right."
+      }
+    ]
+  },
+  {
+    "id": "conv_swamp",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you smell that too?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm trying not to."
+      }
+    ]
+  },
+  {
+    "id": "conv_jungle",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I can't see the sky anymore."
+      },
+      {
+        "speaker": "B",
+        "text": "Then look up, not ahead."
+      }
+    ]
+  },
+  {
+    "id": "conv_ocean",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How far does the water go, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Further than we will ever get."
+      }
+    ]
+  },
+  {
+    "id": "conv_forest_pair",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So much wood. We could build."
+      },
+      {
+        "speaker": "B",
+        "text": "We could. We just never do."
+      }
+    ]
+  },
+  {
+    "id": "conv_meadow",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Flowers for your window, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Only if you pick them yourself."
+      }
+    ]
+  },
+  {
+    "id": "conv_cherry",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It's snowing pink!"
+      },
+      {
+        "speaker": "B",
+        "text": "Those are blossoms, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "Let me have the moment."
+      }
+    ]
+  },
+  {
+    "id": "conv_farmer_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How deep do you sow, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "As deep as the soil allows."
+      }
+    ]
+  },
+  {
+    "id": "conv_smith_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer",
+        "toolsmith",
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Clang, clang, clang - all day long."
+      },
+      {
+        "speaker": "B",
+        "text": "And in the evening your ears ring."
+      }
+    ]
+  },
+  {
+    "id": "conv_librarian_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you read the book yet?"
+      },
+      {
+        "speaker": "B",
+        "text": "Twice. The ending doesn't change."
+      }
+    ]
+  },
+  {
+    "id": "conv_cleric_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have your dreams been strange lately too?"
+      },
+      {
+        "speaker": "B",
+        "text": "I don't dream at all. Perhaps that's worse."
+      }
+    ]
+  },
+  {
+    "id": "conv_trader_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How far is it to the next village?"
+      },
+      {
+        "speaker": "B",
+        "text": "Further than you think. Nearer than you hope."
+      }
+    ]
+  },
+  {
+    "id": "conv_nitwit_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I have a plan!"
+      },
+      {
+        "speaker": "B",
+        "text": "You have no plan, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "True. But it sounded good."
+      }
+    ]
+  },
+  {
+    "id": "conv_jobless_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you seen a free workstation anywhere?"
+      },
+      {
+        "speaker": "B",
+        "text": "No. But if I do, I'll tell you."
+      },
+      {
+        "speaker": "A",
+        "text": "You won't."
+      },
+      {
+        "speaker": "B",
+        "text": "No."
+      }
+    ]
+  },
+  {
+    "id": "conv_ref_star",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There was a light out there, and it moved."
+      },
+      {
+        "speaker": "B",
+        "text": "That was a star."
+      },
+      {
+        "speaker": "A",
+        "text": "Stars don't move."
+      },
+      {
+        "speaker": "B",
+        "text": "That one does."
+      }
+    ]
+  },
+  {
+    "id": "conv_ref_matrix",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Red berry or blue berry, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sweet berries are red. Always."
+      },
+      {
+        "speaker": "A",
+        "text": "Red it is, then."
+      }
+    ]
+  },
+  {
+    "id": "conv_meta_player",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "That one just put a bed down for me yesterday."
+      },
+      {
+        "speaker": "B",
+        "text": "Just like that?"
+      },
+      {
+        "speaker": "A",
+        "text": "Just like that. I don't understand it either."
+      }
+    ]
+  },
+  {
+    "id": "ref_squidward",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Squidward???"
+      },
+      {
+        "speaker": "B",
+        "text": "You must be confusing me with someone else."
+      },
+      {
+        "speaker": "A",
+        "text": "Oh, you're right, sorry."
+      }
+    ]
+  },
+  {
+    "id": "conv_new_market_gossip",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you see what the blacksmith's charging for armour these days?"
+      },
+      {
+        "speaker": "B",
+        "text": "Three emeralds. For ONE piece of armour."
+      },
+      {
+        "speaker": "A",
+        "text": "I told him that was robbery."
+      },
+      {
+        "speaker": "B",
+        "text": "And? What did he say?"
+      },
+      {
+        "speaker": "A",
+        "text": "He offered me a better one for four."
+      },
+      {
+        "speaker": "B",
+        "text": "Typical."
+      }
+    ]
+  },
+  {
+    "id": "conv_new_travel_plan",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've been thinking about moving to the next village."
+      },
+      {
+        "speaker": "B",
+        "text": "So what's keeping you here?"
+      },
+      {
+        "speaker": "A",
+        "text": "The bell. My bed. Honestly, everything."
+      },
+      {
+        "speaker": "B",
+        "text": "Sounds like you're staying, then."
+      },
+      {
+        "speaker": "A",
+        "text": "Sounds like it, yeah."
+      }
+    ]
+  },
+  {
+    "id": "conv_fisher_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What did you catch today, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "A boot. Again."
+      },
+      {
+        "speaker": "A",
+        "text": "At least it was a clean one."
+      }
+    ]
+  },
+  {
+    "id": "conv_butcher_pair",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Whatever you're making smells good, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "It ALWAYS smells good. That's the secret."
+      }
+    ]
+  },
+  {
+    "id": "conv_hurt_2",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Ouch. That hurt, didn't it?"
+      },
+      {
+        "speaker": "B",
+        "text": "Don't ask such a silly question."
+      },
+      {
+        "speaker": "A",
+        "text": "Sorry about that. Come on, let me help you inside."
+      }
+    ]
+  },
+  {
+    "id": "conv_low_health_2",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Sit down, {other}. Now."
+      },
+      {
+        "speaker": "B",
+        "text": "I can still stand."
+      },
+      {
+        "speaker": "A",
+        "text": "No, you can't. Sit."
+      },
+      {
+        "speaker": "B",
+        "text": "...fine. Thank you."
+      }
+    ]
+  },
+  {
+    "id": "conv_trader_gossip",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My llamas are absolutely unbearable today, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "What's wrong with them?"
+      },
+      {
+        "speaker": "A",
+        "text": "They're spitting. All of them. Constantly."
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe they just don't like you."
+      },
+      {
+        "speaker": "A",
+        "text": "That would hurt, if it weren't so likely."
+      }
+    ]
+  },
+  {
+    "id": "conv_long_bell_debate",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm telling you, the bell is hanging crooked."
+      },
+      {
+        "speaker": "B",
+        "text": "It is not."
+      },
+      {
+        "speaker": "A",
+        "text": "Look closely."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm looking. It's hanging straight."
+      },
+      {
+        "speaker": "A",
+        "text": "Then maybe it's ME that's crooked."
+      },
+      {
+        "speaker": "B",
+        "text": "That would explain a few things."
+      },
+      {
+        "speaker": "A",
+        "text": "Very funny."
+      },
+      {
+        "speaker": "B",
+        "text": "I thought it was good."
+      }
+    ]
+  },
+  {
+    "id": "conv_long_haggle",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "One emerald for three loaves. My final offer."
+      },
+      {
+        "speaker": "B",
+        "text": "Two loaves."
+      },
+      {
+        "speaker": "A",
+        "text": "Two and a half."
+      },
+      {
+        "speaker": "B",
+        "text": "There's no such thing as half a loaf, {other}."
+      },
+      {
+        "speaker": "A",
+        "text": "Fine, two then. Only because I like you."
+      },
+      {
+        "speaker": "B",
+        "text": "You said that last time too."
+      }
+    ]
+  },
+  {
+    "id": "conv_blocky_corners",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.15,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you ever seen anything round, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Once. A pumpkin. Still somehow blocky, though."
+      },
+      {
+        "speaker": "A",
+        "text": "Everything's blocky. Even the pumpkin."
+      }
+    ]
+  },
+  {
+    "id": "conv_blocky_stairs",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.15,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "That mountain over there is nothing but steps."
+      },
+      {
+        "speaker": "B",
+        "text": "That's just how mountains are around here."
+      },
+      {
+        "speaker": "A",
+        "text": "Handy for the knees, at least."
+      }
+    ]
+  },
+  {
+    "id": "conv_pop_lifefindsaway",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.15,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I pulled up all the melons. Every last one."
+      },
+      {
+        "speaker": "B",
+        "text": "And?"
+      },
+      {
+        "speaker": "A",
+        "text": "They're back. Overnight."
+      },
+      {
+        "speaker": "B",
+        "text": "Life finds a way, {other}."
+      }
+    ]
+  },
+  {
+    "id": "conv_pop_beammeup",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.15,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I wish someone could just beam me out of here."
+      },
+      {
+        "speaker": "B",
+        "text": "Beam you out? To where?"
+      },
+      {
+        "speaker": "A",
+        "text": "Anywhere that doesn't have a turnip harvest waiting."
+      }
+    ]
+  },
+  {
+    "id": "conv_anime_power_level",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Can you even sense my power level, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "No."
+      },
+      {
+        "speaker": "A",
+        "text": "Because it's over nine thousand. That's why."
+      },
+      {
+        "speaker": "B",
+        "text": "I think you just slept badly."
+      }
+    ]
+  },
+  {
+    "id": "conv_anime_ninja_way",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "This is my way of trading, {other}, and I'm following it to the end."
+      },
+      {
+        "speaker": "B",
+        "text": "It's about carrots."
+      },
+      {
+        "speaker": "A",
+        "text": "About MY carrots."
+      }
+    ]
+  },
+  {
+    "id": "conv_meta_respawn",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Remember when the village just completely vanished for a moment?"
+      },
+      {
+        "speaker": "B",
+        "text": "And then it was back. Exactly as it was before."
+      },
+      {
+        "speaker": "A",
+        "text": "I'd rather not ask why."
+      }
+    ]
+  },
+  {
+    "id": "conv_meta_trade_gui",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Whenever I trade, I briefly see everything like through a window."
+      },
+      {
+        "speaker": "B",
+        "text": "A window?"
+      },
+      {
+        "speaker": "A",
+        "text": "Never mind. Do you want the bread or not?"
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_badlands",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These red rocks are downright blinding."
+      },
+      {
+        "speaker": "B",
+        "text": "Wait till the midday sun. It gets worse."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_bamboo",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've never seen anything grow this fast."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't wait too long, or you'll get stuck in it."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_basalt",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These black pillars everywhere - unsettling."
+      },
+      {
+        "speaker": "B",
+        "text": "Just stay away from the edges."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_beach",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "We could put a bench right here."
+      },
+      {
+        "speaker": "B",
+        "text": "Who sits on a beach without going in the water?"
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_birch",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These trunks are so pale, almost like paper."
+      },
+      {
+        "speaker": "B",
+        "text": "Careful, or you'll end up writing on one."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_crimson",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Everything here is red. Even the ground."
+      },
+      {
+        "speaker": "B",
+        "text": "Better not to ask why."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_dark_forest",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Barely any light gets through here."
+      },
+      {
+        "speaker": "B",
+        "text": "All the better, then no one sees me get lost."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_deep_dark",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Stay calm, {other}. Not a word too loud."
+      },
+      {
+        "speaker": "B",
+        "text": "I've been whispering this whole time."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_dripstone",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's something sharp hanging up there."
+      },
+      {
+        "speaker": "B",
+        "text": "Then don't stand right underneath it."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_flower",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So many colours all at once."
+      },
+      {
+        "speaker": "B",
+        "text": "I think I'm about to sneeze."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_frozen",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The water's completely frozen over."
+      },
+      {
+        "speaker": "B",
+        "text": "Better to walk over it than fall in."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_grove",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Snow among the firs - lovely to look at."
+      },
+      {
+        "speaker": "B",
+        "text": "Lovely and cold, more like."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_ice_spikes",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Those spikes look dangerous."
+      },
+      {
+        "speaker": "B",
+        "text": "They are. Keep your distance."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_lush",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It's dripping from every side down here."
+      },
+      {
+        "speaker": "B",
+        "text": "At least something green grows from it."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_mangrove",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My boots are completely soaked now."
+      },
+      {
+        "speaker": "B",
+        "text": "Welcome to the mangroves, {other}."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_mushroom",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "No monsters here at all. Hard to believe."
+      },
+      {
+        "speaker": "B",
+        "text": "Mushrooms everywhere, though. Also strange."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_old_growth",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These trees are massive."
+      },
+      {
+        "speaker": "B",
+        "text": "And probably older than the whole village."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_peaks",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The air feels thinner up here, don't you think?"
+      },
+      {
+        "speaker": "B",
+        "text": "Mostly I find it windy up here."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_plains",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Nothing but grass as far as you can see."
+      },
+      {
+        "speaker": "B",
+        "text": "Enough room for a second village, really."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_river",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The current's pulling pretty hard."
+      },
+      {
+        "speaker": "B",
+        "text": "Hold on tight in case you fall in."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_savanna",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Dry out here. And hot."
+      },
+      {
+        "speaker": "B",
+        "text": "At least there's shade under the acacias."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_soul_sand",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My feet keep sinking in here."
+      },
+      {
+        "speaker": "B",
+        "text": "Welcome to the soul sand, {other}."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_stony_shore",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Nothing but stones as far as the eye can see."
+      },
+      {
+        "speaker": "B",
+        "text": "At least you rarely trip over grass here."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_taiga",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It smells of pine sap here."
+      },
+      {
+        "speaker": "B",
+        "text": "And wet socks. Mine."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_warped",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "This blue colour is oddly calming."
+      },
+      {
+        "speaker": "B",
+        "text": "It makes me nervous, if anything."
+      }
+    ]
+  },
+  {
+    "id": "conv_biome_windswept",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hold on, {other}, the wind means business."
+      },
+      {
+        "speaker": "B",
+        "text": "Too late. My hat's already gone."
+      }
+    ]
+  },
+  {
+    "id": "conv_badlands_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've heard gold sits right under the surface here."
+      },
+      {
+        "speaker": "B",
+        "text": "Then dig. I'll keep an eye on that goat meanwhile."
+      }
+    ]
+  },
+  {
+    "id": "conv_badlands_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Not a tree in sight around here."
+      },
+      {
+        "speaker": "B",
+        "text": "Plenty of cacti staring back at you, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_bamboo_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you see the panda?"
+      },
+      {
+        "speaker": "B",
+        "text": "That thing sleeps more than you and I combined."
+      }
+    ]
+  },
+  {
+    "id": "conv_bamboo_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So dense in here, you can barely see your hand in front of your face."
+      },
+      {
+        "speaker": "B",
+        "text": "Smells pleasantly green, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_basalt_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Not a drop of water as far as you can see."
+      },
+      {
+        "speaker": "B",
+        "text": "Plenty of lava, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_basalt_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How on earth do we get back out of here?"
+      },
+      {
+        "speaker": "B",
+        "text": "The same way we came in. Hopefully."
+      }
+    ]
+  },
+  {
+    "id": "conv_beach_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Look, a turtle."
+      },
+      {
+        "speaker": "B",
+        "text": "That thing's got it better than either of us."
+      }
+    ]
+  },
+  {
+    "id": "conv_beach_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I could sit here for hours."
+      },
+      {
+        "speaker": "B",
+        "text": "You already are."
+      }
+    ]
+  },
+  {
+    "id": "conv_birch_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why do the trees stand so neatly here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Are you asking them, or am I?"
+      }
+    ]
+  },
+  {
+    "id": "conv_birch_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I like the ground here. Soft."
+      },
+      {
+        "speaker": "B",
+        "text": "Until you step on a root."
+      }
+    ]
+  },
+  {
+    "id": "conv_cherry_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you smell that?"
+      },
+      {
+        "speaker": "B",
+        "text": "Blossoms. Nothing but blossoms."
+      }
+    ]
+  },
+  {
+    "id": "conv_cherry_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How long do these actually bloom for?"
+      },
+      {
+        "speaker": "B",
+        "text": "Longer than I'd like, honestly."
+      }
+    ]
+  },
+  {
+    "id": "conv_crimson_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These red mushrooms - are they edible?"
+      },
+      {
+        "speaker": "B",
+        "text": "Don't ask me. Ask whoever tries them first."
+      }
+    ]
+  },
+  {
+    "id": "conv_crimson_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've spotted hoglins around here before."
+      },
+      {
+        "speaker": "B",
+        "text": "Then you'd better stay close to me."
+      }
+    ]
+  },
+  {
+    "id": "conv_dark_forest_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why is it so quiet here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe it wants to stay that way. Leave it be."
+      }
+    ]
+  },
+  {
+    "id": "conv_dark_forest_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These giant mushrooms look odd."
+      },
+      {
+        "speaker": "B",
+        "text": "Better not eat any of them."
+      }
+    ]
+  },
+  {
+    "id": "conv_deep_dark_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What was that noise?"
+      },
+      {
+        "speaker": "B",
+        "text": "I heard nothing. And you heard nothing either."
+      }
+    ]
+  },
+  {
+    "id": "conv_deep_dark_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Those sensors on the walls - are they dangerous?"
+      },
+      {
+        "speaker": "B",
+        "text": "Only if you get loud. So don't."
+      }
+    ]
+  },
+  {
+    "id": "conv_desert_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How does anything even survive out here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask the cactus. It's managed for years."
+      }
+    ]
+  },
+  {
+    "id": "conv_desert_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think I spotted a temple back there."
+      },
+      {
+        "speaker": "B",
+        "text": "Then let's not go inside, whatever we do."
+      }
+    ]
+  },
+  {
+    "id": "conv_dripstone_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you hear that dripping?"
+      },
+      {
+        "speaker": "B",
+        "text": "Constantly. I dream about it by now."
+      }
+    ]
+  },
+  {
+    "id": "conv_dripstone_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Careful, those spikes on the ground are sharp."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks, I just learned that the hard way."
+      }
+    ]
+  },
+  {
+    "id": "conv_flower_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Which flower do you like best?"
+      },
+      {
+        "speaker": "B",
+        "text": "Whichever one stings the least."
+      }
+    ]
+  },
+  {
+    "id": "conv_flower_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The bees seem to like you."
+      },
+      {
+        "speaker": "B",
+        "text": "They don't like anyone. They like blossoms."
+      }
+    ]
+  },
+  {
+    "id": "conv_forest_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you hear the birds?"
+      },
+      {
+        "speaker": "B",
+        "text": "Constantly. Especially first thing in the morning."
+      }
+    ]
+  },
+  {
+    "id": "conv_forest_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "We could gather mushrooms here."
+      },
+      {
+        "speaker": "B",
+        "text": "Only the ones you actually recognise, please."
+      }
+    ]
+  },
+  {
+    "id": "conv_frozen_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Don't you dare go out on the ice, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm not stupid. ...mostly."
+      }
+    ]
+  },
+  {
+    "id": "conv_frozen_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Your breath practically freezes out here."
+      },
+      {
+        "speaker": "B",
+        "text": "Then maybe say less."
+      }
+    ]
+  },
+  {
+    "id": "conv_grove_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "At least it's calm here, no wind."
+      },
+      {
+        "speaker": "B",
+        "text": "Cold enough for two winters, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_grove_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These firs stand so close together."
+      },
+      {
+        "speaker": "B",
+        "text": "Good against the wind. Bad against the cold."
+      }
+    ]
+  },
+  {
+    "id": "conv_ice_spikes_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How did these grow so tall?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask the frost. I've got no idea."
+      }
+    ]
+  },
+  {
+    "id": "conv_ice_spikes_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Just stay away from those sharp points."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't worry, I'm careful enough."
+      }
+    ]
+  },
+  {
+    "id": "conv_jungle_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think we've been walking in circles."
+      },
+      {
+        "speaker": "B",
+        "text": "Third time round. I'm keeping count."
+      }
+    ]
+  },
+  {
+    "id": "conv_jungle_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Up there, a temple."
+      },
+      {
+        "speaker": "B",
+        "text": "And guaranteed full of traps. Let's be careful."
+      }
+    ]
+  },
+  {
+    "id": "conv_lush_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So much green underground. Strangely beautiful."
+      },
+      {
+        "speaker": "B",
+        "text": "Until you step on it and it all bounces."
+      }
+    ]
+  },
+  {
+    "id": "conv_lush_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "This cave is almost prettier than outside."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't say that too loud, or someone will move in."
+      }
+    ]
+  },
+  {
+    "id": "conv_mangrove_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How does anyone get through here with dry feet?"
+      },
+      {
+        "speaker": "B",
+        "text": "You don't. Get used to it."
+      }
+    ]
+  },
+  {
+    "id": "conv_mangrove_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These frogs are loud today."
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe they just don't like you."
+      }
+    ]
+  },
+  {
+    "id": "conv_meadow_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Should we hold a festival out here?"
+      },
+      {
+        "speaker": "B",
+        "text": "With all these butterflies? Why not."
+      }
+    ]
+  },
+  {
+    "id": "conv_meadow_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The meadow's especially green today."
+      },
+      {
+        "speaker": "B",
+        "text": "No wonder, after yesterday's rain."
+      }
+    ]
+  },
+  {
+    "id": "conv_mushroom_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A mooshroom! Did you see that?"
+      },
+      {
+        "speaker": "B",
+        "text": "Of course. It's standing right in front of you."
+      }
+    ]
+  },
+  {
+    "id": "conv_mushroom_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Not a single monster here in days."
+      },
+      {
+        "speaker": "B",
+        "text": "Enjoy it while it lasts."
+      }
+    ]
+  },
+  {
+    "id": "conv_ocean_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I wonder how deep that goes."
+      },
+      {
+        "speaker": "B",
+        "text": "Deeper than I'd ever dive."
+      }
+    ]
+  },
+  {
+    "id": "conv_ocean_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A shipwreck, over there."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's hope it's empty."
+      }
+    ]
+  },
+  {
+    "id": "conv_old_growth_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How old do you reckon these trees are?"
+      },
+      {
+        "speaker": "B",
+        "text": "Older than any story I know."
+      }
+    ]
+  },
+  {
+    "id": "conv_old_growth_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Enough wood here for a whole village."
+      },
+      {
+        "speaker": "B",
+        "text": "And yet I still find it hard to chop one down."
+      }
+    ]
+  },
+  {
+    "id": "conv_peaks_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A billy goat, right above us."
+      },
+      {
+        "speaker": "B",
+        "text": "Keep your distance. They like to headbutt."
+      }
+    ]
+  },
+  {
+    "id": "conv_peaks_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "That's a lot of snow all at once, way up here."
+      },
+      {
+        "speaker": "B",
+        "text": "At least it melts down there."
+      }
+    ]
+  },
+  {
+    "id": "conv_plains_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You can see anyone coming from miles away here."
+      },
+      {
+        "speaker": "B",
+        "text": "Handy, if you don't like visitors."
+      }
+    ]
+  },
+  {
+    "id": "conv_plains_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So much space, and yet we all still build close together."
+      },
+      {
+        "speaker": "B",
+        "text": "Habit, {other}. Pure habit."
+      }
+    ]
+  },
+  {
+    "id": "conv_river_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Where does the river actually lead?"
+      },
+      {
+        "speaker": "B",
+        "text": "To the sea, I'd guess. Like all rivers."
+      }
+    ]
+  },
+  {
+    "id": "conv_river_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The current's strong today."
+      },
+      {
+        "speaker": "B",
+        "text": "Then you'd better stay by the bank."
+      }
+    ]
+  },
+  {
+    "id": "conv_savanna_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why is everything spaced out so far here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Plenty of room for everyone. Even you."
+      }
+    ]
+  },
+  {
+    "id": "conv_savanna_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think there's a herd of horses grazing over there."
+      },
+      {
+        "speaker": "B",
+        "text": "Tame one if you like. I'll watch."
+      }
+    ]
+  },
+  {
+    "id": "conv_snowy_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How many layers are you actually wearing?"
+      },
+      {
+        "speaker": "B",
+        "text": "Not enough. Don't ask."
+      }
+    ]
+  },
+  {
+    "id": "conv_snowy_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "An igloo, over there."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's hope nothing unfriendly lives in it."
+      }
+    ]
+  },
+  {
+    "id": "conv_soul_sand_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why does everyone keep sinking in here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ask the sand. I don't have an answer either."
+      }
+    ]
+  },
+  {
+    "id": "conv_soul_sand_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Those soul particles drifting up - unsettling."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't look too closely and you'll be fine."
+      }
+    ]
+  },
+  {
+    "id": "conv_stony_shore_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Pretty uncomfortable shore to sit on, this one."
+      },
+      {
+        "speaker": "B",
+        "text": "Plenty of stones to throw, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_stony_shore_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think there was a shipwreck here once."
+      },
+      {
+        "speaker": "B",
+        "text": "Looks that way, yeah."
+      }
+    ]
+  },
+  {
+    "id": "conv_swamp_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Over there, a witch's hut."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's give it a wide berth."
+      }
+    ]
+  },
+  {
+    "id": "conv_swamp_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you smell that again?"
+      },
+      {
+        "speaker": "B",
+        "text": "I've stopped asking by now."
+      }
+    ]
+  },
+  {
+    "id": "conv_taiga_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It smells of fresh wood here."
+      },
+      {
+        "speaker": "B",
+        "text": "And wet fur. A wolf's been through."
+      }
+    ]
+  },
+  {
+    "id": "conv_taiga_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These firs stand close together."
+      },
+      {
+        "speaker": "B",
+        "text": "Good for hiding. Bad for keeping an eye on things."
+      }
+    ]
+  },
+  {
+    "id": "conv_warped_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These blue vines grow like crazy."
+      },
+      {
+        "speaker": "B",
+        "text": "And I haven't spotted a single enderman. So far."
+      }
+    ]
+  },
+  {
+    "id": "conv_warped_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Not a single monster over here."
+      },
+      {
+        "speaker": "B",
+        "text": "Stay careful anyway. The Nether loves surprises."
+      }
+    ]
+  },
+  {
+    "id": "conv_windswept_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hold on to the rock, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "I am. The wind means business today."
+      }
+    ]
+  },
+  {
+    "id": "conv_windswept_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These goats leap around here like it's nothing."
+      },
+      {
+        "speaker": "B",
+        "text": "I don't envy them one bit."
+      }
+    ]
+  },
+  {
+    "id": "conv_user_farming_talent",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Farming? Really?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes."
+      },
+      {
+        "speaker": "A",
+        "text": "Someone with talent like yours?"
+      },
+      {
+        "speaker": "B",
+        "text": "It's a peaceful life."
+      }
+    ]
+  },
+  {
+    "id": "conv_user_duel",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Time for a D-D-D-Duel!"
+      },
+      {
+        "speaker": "B",
+        "text": "What do you want, {other}?"
+      },
+      {
+        "speaker": "A",
+        "text": "I challenge you. Draw a card!"
+      },
+      {
+        "speaker": "B",
+        "text": "Nah, let's not."
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, shame."
+      }
+    ]
+  },
+  {
+    "id": "conv_user_knock_knock",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Knock, knock."
+      },
+      {
+        "speaker": "B",
+        "text": "Who's there?"
+      },
+      {
+        "speaker": "A",
+        "text": "Creeper - BOOM!"
+      },
+      {
+        "speaker": "B",
+        "text": "That one was good."
+      }
+    ]
+  },
+  {
+    "id": "conv_user_three_headed_monkey",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Watch out!"
+      },
+      {
+        "speaker": "B",
+        "text": "What?"
+      },
+      {
+        "speaker": "A",
+        "text": "Behind you, a three-headed monkey!"
+      },
+      {
+        "speaker": "B",
+        "text": "Aaahh."
+      },
+      {
+        "speaker": "A",
+        "text": "Just kidding. There are no monkeys here."
+      },
+      {
+        "speaker": "B",
+        "text": "Phew, good thing."
+      }
+    ]
+  },
+  {
+    "id": "conv_user_wheel",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've reinvented the wheel!"
+      },
+      {
+        "speaker": "B",
+        "text": "What's a wheel?"
+      },
+      {
+        "speaker": "A",
+        "text": "I just made up the term myself."
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, right."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_1",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you hear? The blacksmith hit his thumb again."
+      },
+      {
+        "speaker": "B",
+        "text": "How many times this week?"
+      },
+      {
+        "speaker": "A",
+        "text": "Third."
+      },
+      {
+        "speaker": "B",
+        "text": "Sounds about right."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think it's going to rain soon."
+      },
+      {
+        "speaker": "B",
+        "text": "You say that every day."
+      },
+      {
+        "speaker": "A",
+        "text": "And eventually I'll be right."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_3",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How was your day, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Long. And yours?"
+      },
+      {
+        "speaker": "A",
+        "text": "Shorter, thankfully."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_4",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you see the new house at the edge of the village?"
+      },
+      {
+        "speaker": "B",
+        "text": "Who's building that?"
+      },
+      {
+        "speaker": "A",
+        "text": "No idea. But the windows are crooked."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_5",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think our well is getting old."
+      },
+      {
+        "speaker": "B",
+        "text": "It was already old when I moved here."
+      },
+      {
+        "speaker": "A",
+        "text": "Still holding up bravely, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_6",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You know what bothers me?"
+      },
+      {
+        "speaker": "B",
+        "text": "What?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothing really. I just wanted to talk."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_7",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I tidied up this morning."
+      },
+      {
+        "speaker": "B",
+        "text": "Wow, really?"
+      },
+      {
+        "speaker": "A",
+        "text": "A little. Very little."
+      },
+      {
+        "speaker": "B",
+        "text": "That sounds more like you."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_8",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know the new one in the village?"
+      },
+      {
+        "speaker": "B",
+        "text": "Not yet. What do they do?"
+      },
+      {
+        "speaker": "A",
+        "text": "No idea, they just stand by the well all the time."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_9",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think we should eat together more often."
+      },
+      {
+        "speaker": "B",
+        "text": "At your place? There's never anything to eat there."
+      },
+      {
+        "speaker": "A",
+        "text": "Fair point."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_10",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Autumn's coming early this year."
+      },
+      {
+        "speaker": "B",
+        "text": "My bones have noticed too."
+      },
+      {
+        "speaker": "A",
+        "text": "Well, we agree on something, then."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_11",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I heard you went travelling."
+      },
+      {
+        "speaker": "B",
+        "text": "Only as far as the next village."
+      },
+      {
+        "speaker": "A",
+        "text": "For you, that's basically a world tour."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_12",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What do you do when you're not trading?"
+      },
+      {
+        "speaker": "B",
+        "text": "I think about trading."
+      },
+      {
+        "speaker": "A",
+        "text": "Of course."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_13",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think my carrots are growing better this year."
+      },
+      {
+        "speaker": "B",
+        "text": "You say that every year."
+      },
+      {
+        "speaker": "A",
+        "text": "And every year I'm wrong."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_14",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why are you so quiet today, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Am I?"
+      },
+      {
+        "speaker": "A",
+        "text": "For five minutes now."
+      },
+      {
+        "speaker": "B",
+        "text": "Oh. Guess I'm talking now, then."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_15",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I could've sworn the bell was louder yesterday."
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe you were just closer."
+      },
+      {
+        "speaker": "A",
+        "text": "Could be."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_16",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How long have we known each other now, anyway?"
+      },
+      {
+        "speaker": "B",
+        "text": "Too long to count."
+      },
+      {
+        "speaker": "A",
+        "text": "Charming as ever."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_17",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I have a new neighbour."
+      },
+      {
+        "speaker": "B",
+        "text": "And? What are they like?"
+      },
+      {
+        "speaker": "A",
+        "text": "Loud. But friendly loud."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_18",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Don't you think the days are getting shorter?"
+      },
+      {
+        "speaker": "B",
+        "text": "Every year around this time, yes."
+      },
+      {
+        "speaker": "A",
+        "text": "Still catches me off guard every time."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_19",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think I need a new roof."
+      },
+      {
+        "speaker": "B",
+        "text": "Does it leak?"
+      },
+      {
+        "speaker": "A",
+        "text": "Only when it rains."
+      },
+      {
+        "speaker": "B",
+        "text": "So, yes."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_20",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Tell me something new, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Nothing new. Same as always."
+      },
+      {
+        "speaker": "A",
+        "text": "That's something too, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_21",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Some days just go smoothly."
+      },
+      {
+        "speaker": "B",
+        "text": "This one isn't one of them, apparently."
+      },
+      {
+        "speaker": "A",
+        "text": "How would you know?"
+      },
+      {
+        "speaker": "B",
+        "text": "Just a hunch."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_22",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think it'll be a good harvest day."
+      },
+      {
+        "speaker": "B",
+        "text": "How do you know that?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't. It just sounds good."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_23",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "If you had one wish, what would it be?"
+      },
+      {
+        "speaker": "B",
+        "text": "Peace and quiet."
+      },
+      {
+        "speaker": "A",
+        "text": "From me?"
+      },
+      {
+        "speaker": "B",
+        "text": "From everyone."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_24",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I didn't sleep at all last night."
+      },
+      {
+        "speaker": "B",
+        "text": "Why not?"
+      },
+      {
+        "speaker": "A",
+        "text": "I was thinking."
+      },
+      {
+        "speaker": "B",
+        "text": "About what?"
+      },
+      {
+        "speaker": "A",
+        "text": "Can't even remember now."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_25",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You know that feeling when you forget something but not what?"
+      },
+      {
+        "speaker": "B",
+        "text": "All the time."
+      },
+      {
+        "speaker": "A",
+        "text": "Good, at least I'm not alone in that."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_26",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think spring always makes me a little silly."
+      },
+      {
+        "speaker": "B",
+        "text": "Only spring?"
+      },
+      {
+        "speaker": "A",
+        "text": "...fine, maybe not only spring."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_27",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What do you think about a village festival?"
+      },
+      {
+        "speaker": "B",
+        "text": "Who's going to organise it?"
+      },
+      {
+        "speaker": "A",
+        "text": "You, obviously."
+      },
+      {
+        "speaker": "B",
+        "text": "Of course."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_28",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I heard the water from the well tastes better now."
+      },
+      {
+        "speaker": "B",
+        "text": "Who says that?"
+      },
+      {
+        "speaker": "A",
+        "text": "I do. Just now."
+      },
+      {
+        "speaker": "B",
+        "text": "Very convincing."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_29",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Sometimes I think we talk about the weather too much."
+      },
+      {
+        "speaker": "B",
+        "text": "What else are we supposed to talk about?"
+      },
+      {
+        "speaker": "A",
+        "text": "Fair point."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_30",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think my garden needs more love."
+      },
+      {
+        "speaker": "B",
+        "text": "Or less weeds."
+      },
+      {
+        "speaker": "A",
+        "text": "That's what I meant by love."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_31",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you ever been really far from here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Once. As far as the river."
+      },
+      {
+        "speaker": "A",
+        "text": "That's enough for you?"
+      },
+      {
+        "speaker": "B",
+        "text": "For this life, yes."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_32",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think today's a day for good news."
+      },
+      {
+        "speaker": "B",
+        "text": "Do you have any?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But I'm hoping for both of us."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_33",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How do you stand doing the same thing every day?"
+      },
+      {
+        "speaker": "B",
+        "text": "I like routines."
+      },
+      {
+        "speaker": "A",
+        "text": "So do I, honestly."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_34",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think this village could use some fresh energy."
+      },
+      {
+        "speaker": "B",
+        "text": "Or just a new fence."
+      },
+      {
+        "speaker": "A",
+        "text": "That too."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_35",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What was your best trade this week?"
+      },
+      {
+        "speaker": "B",
+        "text": "Three turnips for a smile."
+      },
+      {
+        "speaker": "A",
+        "text": "Doesn't sound like a good deal."
+      },
+      {
+        "speaker": "B",
+        "text": "It was a good smile, though."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_36",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you also notice how quiet it is today?"
+      },
+      {
+        "speaker": "B",
+        "text": "Too quiet, if you ask me."
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly what I was thinking."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_37",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think I should get up earlier more often."
+      },
+      {
+        "speaker": "B",
+        "text": "You've been saying that for years."
+      },
+      {
+        "speaker": "A",
+        "text": "And I mean it every single time."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_38",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you ever thought about moving away?"
+      },
+      {
+        "speaker": "B",
+        "text": "Every winter."
+      },
+      {
+        "speaker": "A",
+        "text": "And then?"
+      },
+      {
+        "speaker": "B",
+        "text": "Then it's spring."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_39",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think we don't just talk for no reason often enough."
+      },
+      {
+        "speaker": "B",
+        "text": "True. Shall we start now?"
+      },
+      {
+        "speaker": "A",
+        "text": "Let's start."
+      }
+    ]
+  },
+  {
+    "id": "conv_gen_40",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You know what I like about days like this?"
+      },
+      {
+        "speaker": "B",
+        "text": "How do you mean?"
+      },
+      {
+        "speaker": "A",
+        "text": "That nothing important happens. Wonderful."
+      }
+    ]
+  }
+]

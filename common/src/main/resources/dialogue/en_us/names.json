@@ -1,0 +1,19 @@
+{
+  "fallback": "Villager",
+  "professions": {
+    "armorer": "Armorer",
+    "butcher": "Butcher",
+    "cartographer": "Cartographer",
+    "cleric": "Cleric",
+    "farmer": "Farmer",
+    "fisherman": "Fisherman",
+    "fletcher": "Fletcher",
+    "leatherworker": "Leatherworker",
+    "librarian": "Librarian",
+    "mason": "Mason",
+    "shepherd": "Shepherd",
+    "toolsmith": "Toolsmith",
+    "weaponsmith": "Weaponsmith",
+    "wandering_trader": "Wandering Trader"
+  }
+}

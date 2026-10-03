@@ -1,0 +1,4227 @@
+[
+  {
+    "id": "react_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hm? What is it?"
+  },
+  {
+    "id": "react_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Yes? How can I help?"
+  },
+  {
+    "id": "react_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Don't bother me, all right?"
+  },
+  {
+    "id": "react_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmph."
+  },
+  {
+    "id": "react_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Do you need something from me?"
+  },
+  {
+    "id": "react_6",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I've got work to do. Make it quick."
+  },
+  {
+    "id": "react_7",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "What are you poking me for?"
+  },
+  {
+    "id": "react_8",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Good day to you too."
+  },
+  {
+    "id": "react_night",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "At this hour? Let me sleep."
+  },
+  {
+    "id": "react_morning",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Morning. Up already?"
+  },
+  {
+    "id": "react_nitwit",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Heh-heh... hello!"
+  },
+  {
+    "id": "react_nitwit_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "What? Me? Heh-heh-heh."
+  },
+  {
+    "id": "react_jobless",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I really ought to find myself a trade."
+  },
+  {
+    "id": "react_jobless_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Trade? With what? I've got nothing."
+  },
+  {
+    "id": "react_low_health",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Please... leave me be, I'm not well."
+  },
+  {
+    "id": "grunt_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hrrm."
+  },
+  {
+    "id": "grunt_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmmm-hm?"
+  },
+  {
+    "id": "grunt_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ee-uuh."
+  },
+  {
+    "id": "grunt_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ehh?"
+  },
+  {
+    "id": "grunt_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ehh-uh."
+  },
+  {
+    "id": "grunt_6",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nahh."
+  },
+  {
+    "id": "grunt_7",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Urrgh."
+  },
+  {
+    "id": "grunt_8",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmph-hm."
+  },
+  {
+    "id": "grunt_9",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uuungh."
+  },
+  {
+    "id": "grunt_10",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Huh? ...huh."
+  },
+  {
+    "id": "grunt_11",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nnn-yeah."
+  },
+  {
+    "id": "grunt_12",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mrrm. Mrrm-mrrm."
+  },
+  {
+    "id": "grunt_13",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hurrmph."
+  },
+  {
+    "id": "grunt_14",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mmmh-hm!"
+  },
+  {
+    "id": "grunt_15",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Grmbl... hmm."
+  },
+  {
+    "id": "grunt_nitwit_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Heh-heh. Heh!"
+  },
+  {
+    "id": "grunt_nitwit_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Blub? ...Heh-heh-heh."
+  },
+  {
+    "id": "react_9",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Yes, yes, I've seen you."
+  },
+  {
+    "id": "react_10",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Always with the poking."
+  },
+  {
+    "id": "react_11",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "What now?"
+  },
+  {
+    "id": "react_12",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I'd like some peace, if you don't mind."
+  },
+  {
+    "id": "react_evening",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Visitors at this hour? Fine, then."
+  },
+  {
+    "id": "react_ref_deal",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 0.1,
+    "text": "An offer you can't refuse? ...Sorry, fresh out of those."
+  },
+  {
+    "id": "react_13",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Yes? I'm listening."
+  },
+  {
+    "id": "react_14",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Out with it, I haven't got all day."
+  },
+  {
+    "id": "react_15",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Oh! You startled me."
+  },
+  {
+    "id": "react_16",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mind your distance, please."
+  },
+  {
+    "id": "react_17",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I've nothing for you. Sorry."
+  },
+  {
+    "id": "react_18",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Are you buying, or just talking?"
+  },
+  {
+    "id": "react_19",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hands off, thank you."
+  },
+  {
+    "id": "react_20",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "What? Have I got something on my face?"
+  },
+  {
+    "id": "react_21",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mm-hm. And?"
+  },
+  {
+    "id": "react_22",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "You again."
+  },
+  {
+    "id": "react_23",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Let's both stay civil, shall we?"
+  },
+  {
+    "id": "react_24",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I'm busy. Can't you tell?"
+  },
+  {
+    "id": "react_25",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Good day, good day. And now?"
+  },
+  {
+    "id": "react_26",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hm. You're still here."
+  },
+  {
+    "id": "react_27",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Poke me again and I'll poke back. Eventually."
+  },
+  {
+    "id": "react_28",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Just say it. I'm patient. Usually."
+  },
+  {
+    "id": "react_29",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Are you sure you mean me?"
+  },
+  {
+    "id": "react_30",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "All right, all right. I heard you."
+  },
+  {
+    "id": "react_day",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Right in the middle of the day? I'm needed elsewhere."
+  },
+  {
+    "id": "react_wakeup",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "My eyes are barely open and here you are."
+  },
+  {
+    "id": "react_bedtime",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "I was just off to bed."
+  },
+  {
+    "id": "react_rain",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "In this rain? Let's keep it short."
+  },
+  {
+    "id": "react_thunder",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not talking through that thunder. Get inside."
+  },
+  {
+    "id": "react_cave",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Down here? Keep your voice down."
+  },
+  {
+    "id": "react_nether",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Get me out of here and then we'll talk!"
+  },
+  {
+    "id": "react_end",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Take me away from here. Please."
+  },
+  {
+    "id": "react_hurt",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hit me first, talk after? No."
+  },
+  {
+    "id": "react_low_health_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Not now... my head's spinning."
+  },
+  {
+    "id": "react_snowy",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Too cold for conversation."
+  },
+  {
+    "id": "react_desert",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "In this heat? Say your piece."
+  },
+  {
+    "id": "react_nitwit_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Heh-heh. You're funny."
+  },
+  {
+    "id": "react_nitwit_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't know anything. But I'll say it gladly."
+  },
+  {
+    "id": "react_nitwit_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Heh? Want to trade? I've got a stick."
+  },
+  {
+    "id": "react_jobless_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I've got no trade. Nothing to barter with."
+  },
+  {
+    "id": "react_jobless_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ask me again when I've found a workstation."
+  },
+  {
+    "id": "react_jobless_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I'd love to help. I just can't do anything."
+  },
+  {
+    "id": "grunt_16",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hmm-hmm-hmm."
+  },
+  {
+    "id": "grunt_17",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ehhm... heh."
+  },
+  {
+    "id": "grunt_18",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hrmph-nnh."
+  },
+  {
+    "id": "grunt_19",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uh-hmm."
+  },
+  {
+    "id": "grunt_20",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nnnh."
+  },
+  {
+    "id": "grunt_21",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Heh-hmm?"
+  },
+  {
+    "id": "grunt_22",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mmph."
+  },
+  {
+    "id": "grunt_23",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ahhrm."
+  },
+  {
+    "id": "grunt_24",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hnnn... hm."
+  },
+  {
+    "id": "react_ref_shop",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.2,
+    "text": "Welcome! ...No, wait, that's not what they say around here."
+  },
+  {
+    "id": "react_ref_meta",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "You never talk back. Do you realise that?"
+  },
+  {
+    "id": "react_31",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "So, what's new?"
+  },
+  {
+    "id": "react_32",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Speak, but be quick."
+  },
+  {
+    "id": "react_33",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Back again, I see."
+  },
+  {
+    "id": "react_34",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Yes, I'm listening already."
+  },
+  {
+    "id": "react_35",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "What is it this time?"
+  },
+  {
+    "id": "react_36",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Go ahead and talk, I'll keep picking."
+  },
+  {
+    "id": "react_37",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Not so loud, the children are sleeping."
+  },
+  {
+    "id": "react_38",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Go on. I've got a moment."
+  },
+  {
+    "id": "react_39",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Always these interruptions."
+  },
+  {
+    "id": "react_40",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Keep it short, yes?"
+  },
+  {
+    "id": "react_41",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "What's the matter?"
+  },
+  {
+    "id": "react_42",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I'm not in that much of a hurry either."
+  },
+  {
+    "id": "react_43",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Talk. I'm all ears."
+  },
+  {
+    "id": "react_44",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "I saw you coming from a mile away."
+  },
+  {
+    "id": "react_45",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Well now, company at last."
+  },
+  {
+    "id": "grunt_25",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ohhrm."
+  },
+  {
+    "id": "grunt_26",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ehh-hm."
+  },
+  {
+    "id": "grunt_27",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Brmm?"
+  },
+  {
+    "id": "grunt_28",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Uff-hm."
+  },
+  {
+    "id": "grunt_29",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hnngh."
+  },
+  {
+    "id": "grunt_30",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mrrh-mrr."
+  },
+  {
+    "id": "grunt_31",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ehrm-ehrm."
+  },
+  {
+    "id": "grunt_32",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hoff."
+  },
+  {
+    "id": "react_jungle",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "It's easy to get lost in here. Make it quick."
+  },
+  {
+    "id": "react_swamp",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "I'll hold my nose while we talk, if you don't mind."
+  },
+  {
+    "id": "react_ocean",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Wet enough for you? What do you want?"
+  },
+  {
+    "id": "react_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Hard to hear between the trees. Closer, please."
+  },
+  {
+    "id": "react_meadow",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "In the middle of the flowers? Fine, I'm listening."
+  },
+  {
+    "id": "react_cherry",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Careful, the blossoms will end up in your face."
+  },
+  {
+    "id": "react_farmer",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Can it wait until I've finished sowing?"
+  },
+  {
+    "id": "react_librarian",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm reading. What is it?"
+  },
+  {
+    "id": "react_cleric",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Please don't disturb my prayers."
+  },
+  {
+    "id": "react_smith",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer",
+        "toolsmith",
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "The anvil won't wait, but fine, I'm listening."
+  },
+  {
+    "id": "react_trader_short",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Are you here to trade or just to chat?"
+  },
+  {
+    "id": "react_blocky_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ever notice how blocky everything really is around here?"
+  },
+  {
+    "id": "react_blocky_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "My nose is a cube. I've gotten used to it."
+  },
+  {
+    "id": "react_blocky_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Why is that mountain over there just a staircase? Don't ask me."
+  },
+  {
+    "id": "react_blocky_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Round? What's round? Never heard of it."
+  },
+  {
+    "id": "react_pop_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Life finds a way. Heard that somewhere once."
+  },
+  {
+    "id": "react_pop_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "I just want to keep farming, long and in peace."
+  },
+  {
+    "id": "react_pop_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Hey, wouldn't happen to have a piece of heart to spare, would you?"
+  },
+  {
+    "id": "react_pop_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Who else is going to call the ghostbusters if this place is haunted?"
+  },
+  {
+    "id": "react_anime_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "My power level's over nine thousand today. I think."
+  },
+  {
+    "id": "react_anime_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Someday I'll be the greatest villager there ever was. Believe it!"
+  },
+  {
+    "id": "react_anime_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Is this forest full of spirits? Then I'd rather stay inside."
+  },
+  {
+    "id": "react_anime_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Sometimes I cry secretly when things get sad. Is that bad?"
+  },
+  {
+    "id": "react_meta_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Why do you always look up at me like that, anyway?"
+  },
+  {
+    "id": "react_meta_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "I heard somewhere there's a green version of us. Zombies. Creepy."
+  },
+  {
+    "id": "react_meta_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Sometimes I stand in the same spot for hours. I've noticed that too."
+  },
+  {
+    "id": "react_biome_badlands",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "In this heat? Make it quick."
+  },
+  {
+    "id": "react_biome_bamboo",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Watch out a panda doesn't step on your foot."
+  },
+  {
+    "id": "react_biome_basalt",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't want to stay down here long. Speak."
+  },
+  {
+    "id": "react_biome_beach",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Let me get my feet in the sand first, then I'll talk."
+  },
+  {
+    "id": "react_biome_birch",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "These white trunks always make me sleepy. What is it?"
+  },
+  {
+    "id": "react_biome_cherry_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "These blossoms make you all sentimental. So, what's wrong?"
+  },
+  {
+    "id": "react_biome_crimson",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "This colour makes me nervous. Talk."
+  },
+  {
+    "id": "react_biome_dark_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Too dark in here for me. Keep it brief."
+  },
+  {
+    "id": "react_biome_deep_dark",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Shh. Not so loud, or something will hear us."
+  },
+  {
+    "id": "react_biome_desert_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand in every crack. What do you want?"
+  },
+  {
+    "id": "react_biome_dripstone",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Watch where you step. Now, what is it?"
+  },
+  {
+    "id": "react_biome_flower",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "In the middle of a flower field? Fine, go on then."
+  },
+  {
+    "id": "react_biome_forest",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "At least these trees give some shade. What is it?"
+  },
+  {
+    "id": "react_biome_frozen",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "In this cold, I'll keep it short."
+  },
+  {
+    "id": "react_biome_grove",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Cold here among the firs. Speak quickly."
+  },
+  {
+    "id": "react_biome_ice_spikes",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Careful, that ice is sharp. So? What do you want?"
+  },
+  {
+    "id": "react_biome_jungle",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Everything grows here faster than I can clear it."
+  },
+  {
+    "id": "react_biome_lush",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "It's always dripping in here. Just like your questions."
+  },
+  {
+    "id": "react_biome_mangrove",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Wet feet, again. What is it?"
+  },
+  {
+    "id": "react_biome_meadow",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "So many flowers here, it makes talking easy."
+  },
+  {
+    "id": "react_biome_mushroom",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "At least it's quiet on this island. Was."
+  },
+  {
+    "id": "react_biome_ocean",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Salt water in my ears. Speak up."
+  },
+  {
+    "id": "react_biome_old_growth",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "These trees were here before I was born. And you?"
+  },
+  {
+    "id": "react_biome_peaks",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "It gets dizzying up here. Make it quick."
+  },
+  {
+    "id": "react_biome_plains",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Nothing but open space here. And you're disturbing the peace."
+  },
+  {
+    "id": "react_biome_river",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "The water's rushing, I can barely hear you."
+  },
+  {
+    "id": "react_biome_savanna",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "In this dryness, I'd rather think than talk."
+  },
+  {
+    "id": "react_biome_snowy_2",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "My toes are half frozen already. Make it quick."
+  },
+  {
+    "id": "react_biome_soul_sand",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't want to stand here long. Speak."
+  },
+  {
+    "id": "react_biome_stony_shore",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Nothing but pebbles here. And you."
+  },
+  {
+    "id": "react_biome_swamp",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "It's always bubbling here. Just like you are right now."
+  },
+  {
+    "id": "react_biome_taiga",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "It gets dark fast among the pines. Make it quick."
+  },
+  {
+    "id": "react_biome_warped",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "This colour is... something else. What is it?"
+  },
+  {
+    "id": "react_biome_windswept",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "The wind's blowing my words away. Louder, please."
+  },
+  {
+    "id": "react_badlands_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "These terracotta colours are almost as blinding as the sun."
+  },
+  {
+    "id": "react_badlands_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "My water warms up faster out here than I'd like."
+  },
+  {
+    "id": "react_bamboo_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "These stalks grow faster than I can count them."
+  },
+  {
+    "id": "react_bamboo_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Don't knock too hard, or a stalk will land right on your head."
+  },
+  {
+    "id": "react_basalt_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "These pillars look like they could topple any moment."
+  },
+  {
+    "id": "react_basalt_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Everything's black out here. Even my mood."
+  },
+  {
+    "id": "react_beach_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand between my toes, again."
+  },
+  {
+    "id": "react_beach_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "The waves calm me down. You, less so."
+  },
+  {
+    "id": "react_birch_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "These pale trunks almost look like a row of fences."
+  },
+  {
+    "id": "react_birch_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Autumn leaves or not, it's always somehow bright here."
+  },
+  {
+    "id": "react_cherry_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Petals in my hair, constantly. Barely bothers me anymore."
+  },
+  {
+    "id": "react_cherry_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "So much pink here, you could almost forget autumn's coming."
+  },
+  {
+    "id": "react_crimson_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "These mushrooms here are bigger than I am."
+  },
+  {
+    "id": "react_crimson_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "I miss the green, if I'm honest."
+  },
+  {
+    "id": "react_dark_forest_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Even at noon it's almost like night in here."
+  },
+  {
+    "id": "react_dark_forest_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "I hope there's no witch's hut nearby."
+  },
+  {
+    "id": "react_deep_dark_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "If something can hear us down here, I don't want to know what."
+  },
+  {
+    "id": "react_deep_dark_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "My voice shakes on its own down here. No idea why."
+  },
+  {
+    "id": "react_desert_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "I can already feel sand grinding in my teeth."
+  },
+  {
+    "id": "react_desert_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "You freeze at night and burn by day here. Wonderful, isn't it?"
+  },
+  {
+    "id": "react_dripstone_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Every drip in here sounds like a clock."
+  },
+  {
+    "id": "react_dripstone_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Those spikes look like teeth. Creepy."
+  },
+  {
+    "id": "react_flower_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "The bees here are louder than half the market callers."
+  },
+  {
+    "id": "react_flower_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "I could pick a bouquet right here. For whoever, really."
+  },
+  {
+    "id": "react_forest_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Enough wood here for three new houses."
+  },
+  {
+    "id": "react_forest_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "I can barely see the sky through these leaves."
+  },
+  {
+    "id": "react_frozen_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "My fingers have already gone numb out here."
+  },
+  {
+    "id": "react_frozen_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "The ice is cracking under me. Not reassuring."
+  },
+  {
+    "id": "react_grove_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "It's even colder between the firs than usual."
+  },
+  {
+    "id": "react_grove_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "The snow clings on stubbornly here, more than elsewhere."
+  },
+  {
+    "id": "react_ice_spikes_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "One wrong step and you're stuck."
+  },
+  {
+    "id": "react_ice_spikes_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "These ice spires are taller than our bell tower."
+  },
+  {
+    "id": "react_jungle_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "These vines grow faster than I can cut them back."
+  },
+  {
+    "id": "react_jungle_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Somewhere up there a parrot is screeching. Constantly."
+  },
+  {
+    "id": "react_lush_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "These berries practically glow."
+  },
+  {
+    "id": "react_lush_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "That's moss, not a carpet, in case you were wondering."
+  },
+  {
+    "id": "react_mangrove_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "These roots are like a maze."
+  },
+  {
+    "id": "react_mangrove_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "I think I just touched something slimy."
+  },
+  {
+    "id": "react_meadow_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "The bees hum louder here than in any flower field."
+  },
+  {
+    "id": "react_meadow_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "I could almost take a nap right here."
+  },
+  {
+    "id": "react_mushroom_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "These giant mushrooms cast more shade than most trees."
+  },
+  {
+    "id": "react_mushroom_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Pretty quiet out here. Almost eerily calm."
+  },
+  {
+    "id": "react_ocean_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Too much salt water makes you thirsty, you know."
+  },
+  {
+    "id": "react_ocean_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Something big is swimming down there. I'd rather not look too closely."
+  },
+  {
+    "id": "react_old_growth_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "These trunks are so thick, three of us couldn't reach around one."
+  },
+  {
+    "id": "react_old_growth_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Up in the canopy here, I can barely see the light."
+  },
+  {
+    "id": "react_peaks_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "The village looks tiny from up here."
+  },
+  {
+    "id": "react_peaks_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "One gust of wind and I nearly went flying off."
+  },
+  {
+    "id": "react_plains_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "No trees, no hills, just grass. Calming, somehow."
+  },
+  {
+    "id": "react_plains_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "The horses out here run freer than I ever could."
+  },
+  {
+    "id": "react_river_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "The current's pretty strong here, careful."
+  },
+  {
+    "id": "react_river_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "A salmon just swam right past me. Cheeky."
+  },
+  {
+    "id": "react_savanna_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "These acacias barely give any shade, but better than nothing."
+  },
+  {
+    "id": "react_savanna_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "The ground's so dry here it crunches with every step."
+  },
+  {
+    "id": "react_snowy_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "I've lost my nose twice already. At least it feels that way."
+  },
+  {
+    "id": "react_snowy_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "The snow muffles every step. Almost eerily quiet."
+  },
+  {
+    "id": "react_soul_sand_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Every step here takes twice the effort."
+  },
+  {
+    "id": "react_soul_sand_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Those blue flames scare me more than fire itself."
+  },
+  {
+    "id": "react_stony_shore_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Every step here is a potential stumble."
+  },
+  {
+    "id": "react_stony_shore_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "At least there's plenty of gravel here for building."
+  },
+  {
+    "id": "react_swamp_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "These frogs croak louder than the market crier."
+  },
+  {
+    "id": "react_swamp_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "My boots will never be properly clean again after this."
+  },
+  {
+    "id": "react_taiga_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "The ground here is soft, buried in pine needles."
+  },
+  {
+    "id": "react_taiga_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "A fox is sneaking around back there. Watching us."
+  },
+  {
+    "id": "react_warped_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "These fungi practically glow on their own."
+  },
+  {
+    "id": "react_warped_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "At least it's quiet here. Too quiet, actually."
+  },
+  {
+    "id": "react_windswept_a",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "The wind's about to carry my hat clean away."
+  },
+  {
+    "id": "react_windswept_b",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Up here you can barely hear yourself think."
+  },
+  {
+    "id": "react_near_nether_portal_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "This portal doesn't sit right with me. Talk, but quick."
+  },
+  {
+    "id": "react_near_nether_portal_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not moving from this spot, no matter what you say."
+  },
+  {
+    "id": "react_near_nether_portal_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "That purple thing over there is crackling again. Unsettling."
+  },
+  {
+    "id": "react_near_nether_portal_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Make it quick, this portal's got me on edge."
+  },
+  {
+    "id": "react_near_end_portal_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "This place feels wrong. Speak quietly."
+  },
+  {
+    "id": "react_near_end_portal_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "I'd rather not stare into that portal too long."
+  },
+  {
+    "id": "react_near_end_portal_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Whatever's waiting on the other side, I don't want to know."
+  },
+  {
+    "id": "react_near_end_portal_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "This portal always gives me the shivers."
+  },
+  {
+    "id": "react_trading_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "One moment, I'm trading with someone else right now."
+  },
+  {
+    "id": "react_trading_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Can't you see I'm busy? Wait a moment."
+  },
+  {
+    "id": "react_trading_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "One thing at a time, yes? I'll be done shortly."
+  },
+  {
+    "id": "react_trading_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "No cutting in while I'm trading."
+  },
+  {
+    "id": "react_baby_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Huh? What do you want from me? I'm still little."
+  },
+  {
+    "id": "react_baby_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Better ask the grown-ups. I don't know anything yet."
+  },
+  {
+    "id": "react_baby_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not allowed to trade yet. At least that's what my mother says."
+  },
+  {
+    "id": "react_baby_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "baby"
+      ]
+    },
+    "weight": 1,
+    "text": "Hehe, that tickled!"
+  },
+  {
+    "id": "react_sleeping_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Mmmh... not now... still sleeping..."
+  },
+  {
+    "id": "react_sleeping_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Who's bothering me in the middle of the night?"
+  },
+  {
+    "id": "react_sleeping_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "...five more minutes..."
+  },
+  {
+    "id": "react_sleeping_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "sleeping"
+      ]
+    },
+    "weight": 1,
+    "text": "Let me sleep. Please."
+  },
+  {
+    "id": "react_bell_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "That bell just now gave me quite a scare."
+  },
+  {
+    "id": "react_bell_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "The moment that bell rings, I run. Without even thinking."
+  },
+  {
+    "id": "react_bell_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was that the bell? Or am I imagining it?"
+  },
+  {
+    "id": "react_bell_alert_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "The bell! Inside, quick!"
+  },
+  {
+    "id": "react_bell_alert_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "I heard the bell. We'll talk later."
+  },
+  {
+    "id": "react_bell_alert_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Was that the bell just now? I need to go."
+  },
+  {
+    "id": "react_bell_alert_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "No time now, the bell rang."
+  },
+  {
+    "id": "react_bell_alert_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "The moment that bell rings, I run. Without even thinking."
+  },
+  {
+    "id": "react_butcher_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "The chopping block won't wait. What is it?"
+  },
+  {
+    "id": "react_butcher_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "My hands are bloody, literally. Keep it short."
+  },
+  {
+    "id": "react_cartographer_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm drawing right now. Don't distract me, or the line goes crooked."
+  },
+  {
+    "id": "react_cartographer_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Maps don't lie. I just need more paper."
+  },
+  {
+    "id": "react_fisherman_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Shh, you'll scare off the fish."
+  },
+  {
+    "id": "react_fisherman_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Fishing needs quiet. You're the opposite of that."
+  },
+  {
+    "id": "react_fletcher_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm carving arrows right now. Wait a moment, yes?"
+  },
+  {
+    "id": "react_fletcher_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Not so close, or I'll prick you by accident."
+  },
+  {
+    "id": "react_leatherworker_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "My hands are covered in tanning solution right now. What is it?"
+  },
+  {
+    "id": "react_leatherworker_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Leather waits for no one. So, quick."
+  },
+  {
+    "id": "react_mason_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "The chisel won't wait. Speak."
+  },
+  {
+    "id": "react_mason_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm in the middle of a wall. Literally."
+  },
+  {
+    "id": "react_shepherd_2_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "The sheep need me more than you do right now."
+  },
+  {
+    "id": "react_shepherd_2_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Quick, I need to get back to the flock."
+  },
+  {
+    "id": "react_weather_clear_1",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Clear sky at last. I don't mind talking a bit longer for that."
+  },
+  {
+    "id": "react_weather_clear_2",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "No rain, no clouds - perfect day for a chat."
+  },
+  {
+    "id": "react_weather_clear_3",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "In this lovely weather? Sure, go ahead and ask."
+  },
+  {
+    "id": "react_night_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "In the middle of the night? Bold of you."
+  },
+  {
+    "id": "react_night_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "I should really be asleep. But fine, what is it?"
+  },
+  {
+    "id": "react_morning_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Haven't even had my coffee yet. So, what's up?"
+  },
+  {
+    "id": "react_morning_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Well, the day's off to a start, with you here already."
+  },
+  {
+    "id": "react_evening_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "The sun's setting, and here you are. Fine, then."
+  },
+  {
+    "id": "react_evening_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "I was just about to call it a day. Quickly, then."
+  },
+  {
+    "id": "react_day_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Middle of the day, I've actually got things to do. But go on."
+  },
+  {
+    "id": "react_day_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Best time for a chat, honestly."
+  },
+  {
+    "id": "react_wakeup_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "At least give me time to open my eyes."
+  },
+  {
+    "id": "react_bedtime_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Five minutes and I'm gone. So make it quick."
+  },
+  {
+    "id": "react_cave_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Every word echoes down here. Speak quieter."
+  },
+  {
+    "id": "react_nether_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm counting the seconds till I'm out of here. Talk fast."
+  },
+  {
+    "id": "react_end_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "This place scares me. Please, make it quick."
+  },
+  {
+    "id": "react_hurt_extra_1",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hit first, questions after? No thanks."
+  },
+  {
+    "id": "react_movie_1",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "We'll always have this village. Whatever happens."
+  },
+  {
+    "id": "react_movie_2",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "I feel like the king of the entire plains right now!"
+  },
+  {
+    "id": "react_movie_3",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "You want the truth? You can't handle it."
+  },
+  {
+    "id": "react_movie_4",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Village, we have a problem."
+  },
+  {
+    "id": "react_movie_5",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "I see dead... well, undead people. Constantly. Comes with living here."
+  },
+  {
+    "id": "react_butcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Fresh meat smells different than you'd think. And I smell everything."
+  },
+  {
+    "id": "react_butcher_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "My knife's sharper than my mood right now."
+  },
+  {
+    "id": "react_butcher_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Not so close to the chopping block, yes? Accidents happen fast."
+  },
+  {
+    "id": "react_butcher_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I count sausages, not people bothering me."
+  },
+  {
+    "id": "react_butcher_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Smoke gets into my clothes. You get used to it."
+  },
+  {
+    "id": "react_butcher_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Whoever wants meat waits. Whoever just wants to talk waits too."
+  },
+  {
+    "id": "react_cartographer_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ink costs, paper costs, time costs. And you're costing me some right now too."
+  },
+  {
+    "id": "react_cartographer_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "One crooked line ruins the whole map. So, quiet."
+  },
+  {
+    "id": "react_cartographer_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "I draw borders I never cross myself."
+  },
+  {
+    "id": "react_cartographer_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "My quill's steadier than my patience right now."
+  },
+  {
+    "id": "react_cartographer_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Every map has blank spots. Just like my knowledge of you."
+  },
+  {
+    "id": "react_cartographer_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ask later. I'm in the middle of a river."
+  },
+  {
+    "id": "react_fisherman_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Fish aren't biting well today. Neither is my mood."
+  },
+  {
+    "id": "react_fisherman_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "I've caught everything except what I actually wanted."
+  },
+  {
+    "id": "react_fisherman_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "My bait costs more than the fish I catch with it. Ironic."
+  },
+  {
+    "id": "react_fisherman_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "The water makes you patient. Or mad. For me, both."
+  },
+  {
+    "id": "react_fisherman_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Quiet by the shore is rare. You're making it rarer."
+  },
+  {
+    "id": "react_fisherman_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "A good catch needs silence. You're the opposite of that."
+  },
+  {
+    "id": "react_fletcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Every feather counts. Don't waste it by distracting me."
+  },
+  {
+    "id": "react_fletcher_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "A crooked arrow is a waste. Same as this chat, if you want nothing."
+  },
+  {
+    "id": "react_fletcher_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I need steady hands for straight shafts. So, stay still."
+  },
+  {
+    "id": "react_fletcher_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "My workbench is covered in wood shavings. Same as my head right now."
+  },
+  {
+    "id": "react_fletcher_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I count my arrows more often than I'd like. Easy to lose track."
+  },
+  {
+    "id": "react_fletcher_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "A bow without arrows is just a stick. Same as me without peace and quiet, just nerves."
+  },
+  {
+    "id": "react_leatherworker_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "I smell of tanning solution, but at least I sell something useful."
+  },
+  {
+    "id": "react_leatherworker_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Raw hides become something valuable. Just takes time and strong nerves."
+  },
+  {
+    "id": "react_leatherworker_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "My workbench is covered in scraps. Nothing goes to waste here."
+  },
+  {
+    "id": "react_leatherworker_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "A good stitch outlasts most promises."
+  },
+  {
+    "id": "react_leatherworker_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "I'd rather hang leather than chat with you. Nothing personal."
+  },
+  {
+    "id": "react_leatherworker_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Every piece needs its time to tan. Same as patience."
+  },
+  {
+    "id": "react_mason_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "I chip stones into shape, not excuses."
+  },
+  {
+    "id": "react_mason_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "A wall only holds if every stone sits right. Same as a village."
+  },
+  {
+    "id": "react_mason_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Dust in my lungs, muscle in my arms. Honest work."
+  },
+  {
+    "id": "react_mason_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "I build faster than you can talk. Almost."
+  },
+  {
+    "id": "react_mason_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "A crooked stone falls eventually. That's why I check twice."
+  },
+  {
+    "id": "react_mason_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Stone by stone, day by day. No need to rush."
+  },
+  {
+    "id": "react_shepherd_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "My sheep don't run off. Not far, anyway."
+  },
+  {
+    "id": "react_shepherd_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Wool grows back. Patience, sadly, doesn't always."
+  },
+  {
+    "id": "react_shepherd_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "I'd rather count sheep than excuses."
+  },
+  {
+    "id": "react_shepherd_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "A sheared sheep always gives me that look. I know it well."
+  },
+  {
+    "id": "react_shepherd_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "The flock needs guidance. Same as some conversations."
+  },
+  {
+    "id": "react_shepherd_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "I smell of wool and fresh air. Could be worse."
+  },
+  {
+    "id": "react_weather_clear_4",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Blue sky, warm air - what more could you want."
+  },
+  {
+    "id": "react_weather_clear_5",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "In weather like this, talking comes easier than usual."
+  },
+  {
+    "id": "react_weather_clear_6",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Not a cloud in the sky. Almost suspiciously calm."
+  },
+  {
+    "id": "react_weather_clear_7",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "A day like this shouldn't be spent indoors. But well, here I am."
+  },
+  {
+    "id": "react_weather_clear_8",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "The sun feels good. So does a bit of company, honestly."
+  },
+  {
+    "id": "react_weather_clear_9",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Clear weather, clear thoughts. Go ahead, ask whatever you like."
+  },
+  {
+    "id": "react_night_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "The stars are bright tonight. You're loud."
+  },
+  {
+    "id": "react_night_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "I can already hear the monsters from here. Make it quick."
+  },
+  {
+    "id": "react_night_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Even a golem should be asleep at this hour."
+  },
+  {
+    "id": "react_night_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Every sound gets twice as creepy at night."
+  },
+  {
+    "id": "react_night_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "I like the night. Just not when it keeps me awake."
+  },
+  {
+    "id": "react_night_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Barely any light, and yet you still found me. Impressive."
+  },
+  {
+    "id": "react_morning_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "The dew's still on the grass. Same as the sleep still on me."
+  },
+  {
+    "id": "react_morning_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Early bird catches the good neighbour reputation. Are you practising?"
+  },
+  {
+    "id": "react_morning_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "The birds are louder than you usually are. Quite the feat."
+  },
+  {
+    "id": "react_morning_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm only half awake. Don't expect too much."
+  },
+  {
+    "id": "react_morning_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "A fresh morning, a fresh question? Sure, why not."
+  },
+  {
+    "id": "react_morning_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "No coffee here, but company, sure. Does that work?"
+  },
+  {
+    "id": "react_evening_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "The shadows are getting long. Same as my day."
+  },
+  {
+    "id": "react_evening_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Bedtime's coming soon. But not quite yet."
+  },
+  {
+    "id": "react_evening_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "The sky's turning orange. Nice moment for a chat."
+  },
+  {
+    "id": "react_evening_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "I like the evening. Calmer than the day, louder than the night."
+  },
+  {
+    "id": "react_evening_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Last errands before dark. Make it quick."
+  },
+  {
+    "id": "react_evening_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "The day's winding down, but I've got a moment still."
+  },
+  {
+    "id": "react_day_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Full sun, full schedule. But fine, what is it?"
+  },
+  {
+    "id": "react_day_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Right in the middle of work, but I'm still listening."
+  },
+  {
+    "id": "react_day_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "The day's long enough for a quick chat."
+  },
+  {
+    "id": "react_day_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Best visibility, best time to find me."
+  },
+  {
+    "id": "react_day_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm already sweating in this sun. Make it quick."
+  },
+  {
+    "id": "react_day_extra_8",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm more patient during the day than at night. Use the chance."
+  },
+  {
+    "id": "react_wakeup_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "My eyes are barely open. Speak slowly."
+  },
+  {
+    "id": "react_wakeup_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Awake this early? Respect. Or madness."
+  },
+  {
+    "id": "react_wakeup_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "My thoughts are still in bed. The rest of me's already here."
+  },
+  {
+    "id": "react_wakeup_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Morning hasn't quite caught up with me yet."
+  },
+  {
+    "id": "react_wakeup_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Give me a moment. Just one."
+  },
+  {
+    "id": "react_wakeup_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Barely up, and already chaos. Classic."
+  },
+  {
+    "id": "react_bedtime_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "My bed is calling. Louder than you right now."
+  },
+  {
+    "id": "react_bedtime_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm about to turn in. So, what's this about?"
+  },
+  {
+    "id": "react_bedtime_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "The sun's going, and so am I, soon."
+  },
+  {
+    "id": "react_bedtime_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Last question before bed, yes?"
+  },
+  {
+    "id": "react_bedtime_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm already half in my nightshirt. In my head, at least."
+  },
+  {
+    "id": "react_bedtime_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Just a bit longer, then I'm off duty."
+  },
+  {
+    "id": "react_cave_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "I can barely see my hand in front of my face down here. Who even are you?"
+  },
+  {
+    "id": "react_cave_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "The air's stuffy in here. Make it quick."
+  },
+  {
+    "id": "react_cave_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not fond of caves. Too many corners, not enough light."
+  },
+  {
+    "id": "react_cave_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Every sound down here makes me nervous."
+  },
+  {
+    "id": "react_cave_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "What are you even looking for down here? Besides bothering me."
+  },
+  {
+    "id": "react_cave_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Some torches wouldn't hurt in here. But fine, speak."
+  },
+  {
+    "id": "react_nether_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "The heat here is unbearable. Keep it short."
+  },
+  {
+    "id": "react_nether_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't want to stay here longer than I have to."
+  },
+  {
+    "id": "react_nether_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "This place scares me. But fine, what is it?"
+  },
+  {
+    "id": "react_nether_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Lava everywhere. I'd rather watch my step."
+  },
+  {
+    "id": "react_nether_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Even the air feels wrong here."
+  },
+  {
+    "id": "react_nether_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Get me out of here, then we'll talk properly."
+  },
+  {
+    "id": "react_end_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "This place is so quiet it scares me."
+  },
+  {
+    "id": "react_end_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "I see those flying creatures and just want to leave."
+  },
+  {
+    "id": "react_end_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Nothing here feels normal. Please, make it quick."
+  },
+  {
+    "id": "react_end_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "The ground here practically floats. Same as my stomach."
+  },
+  {
+    "id": "react_end_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "I miss solid ground beneath me. The real kind."
+  },
+  {
+    "id": "react_end_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Take me back, and I'll tell you everything."
+  },
+  {
+    "id": "react_hurt_extra_2",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ouch. Was that necessary?"
+  },
+  {
+    "id": "react_hurt_extra_3",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm still bleeding, and you want to talk?"
+  },
+  {
+    "id": "react_hurt_extra_4",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hit first, ask questions later - I don't care for that."
+  },
+  {
+    "id": "react_hurt_extra_5",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "That hurt. More than you'd think."
+  },
+  {
+    "id": "react_hurt_extra_6",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Give me a moment before you keep talking."
+  },
+  {
+    "id": "react_hurt_extra_7",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not a target for practice, in case that wasn't clear."
+  },
+  {
+    "id": "react_joke_cartographer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I hope you believe in the Heart of the Sea. I certainly do."
+  },
+  {
+    "id": "react_joke_weaponsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Lightsabers are sold out, unfortunately."
+  },
+  {
+    "id": "react_joke_butcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Off the clock, I'm actually a vegetarian."
+  },
+  {
+    "id": "react_joke_farmer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once planted a field of beans. No miracle grew, but the soup was good."
+  },
+  {
+    "id": "react_joke_librarian_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I own a book that supposedly knows every spell in the world. Mostly it just explains the library rules."
+  },
+  {
+    "id": "react_joke_fisherman_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once dreamed of a giant white whale. All I woke up with was a wet bed."
+  },
+  {
+    "id": "react_joke_cleric_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I don't brew potions that turn people into cats. That happened exactly once, and I'd rather not discuss it."
+  },
+  {
+    "id": "react_joke_mason_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once tried building a wall to keep the winter out. Winter came anyway."
+  },
+  {
+    "id": "react_joke_shepherd_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I always watch for wolves in sheep's clothing. Around here, they're usually just wolves."
+  },
+  {
+    "id": "react_joke_fletcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 0.15,
+    "text": "Some say I never miss a shot. Not entirely true, but I let them believe it."
+  },
+  {
+    "id": "react_joke_armorer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once built an iron suit that was supposedly going to fly. It didn't."
+  },
+  {
+    "id": "react_joke_wandering_trader_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once made a ring an offer it couldn't refuse. It refused anyway."
+  },
+  {
+    "id": "react_joke_toolsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 0.15,
+    "text": "I once forged an axe that was supposed to fell any tree in one blow. So far it's only hit my thumb."
+  }
+]

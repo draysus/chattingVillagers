@@ -1,0 +1,7592 @@
+[
+  {
+    "id": "general_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was für ein Tag heute."
+  },
+  {
+    "id": "general_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hast du schon das Neueste aus dem Dorf gehört?"
+  },
+  {
+    "id": "general_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Smaragd hier, ein Smaragd da – so vergeht der Tag."
+  },
+  {
+    "id": "general_4",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man müsste öfter mal innehalten und die Wolken zählen."
+  },
+  {
+    "id": "general_5",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Solange die Glocke läutet, ist alles in Ordnung."
+  },
+  {
+    "id": "general_6",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nachbarn muss man haben, sonst wird's still im Dorf."
+  },
+  {
+    "id": "general_7",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab das Gefühl, heute passiert noch was."
+  },
+  {
+    "id": "general_8",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Wege pflastern sich leider nicht von allein."
+  },
+  {
+    "id": "general_9",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Frag mich nicht, wo die Zeit hinläuft."
+  },
+  {
+    "id": "general_10",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein gutes Wort und ein Brot – mehr braucht der Mensch nicht."
+  },
+  {
+    "id": "morning_1",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Guten Morgen! Die Sonne ist kaum aufgegangen."
+  },
+  {
+    "id": "morning_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Früh raus, das gefällt mir. Da hat man den Tag noch vor sich."
+  },
+  {
+    "id": "morning_3",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Riechst du das? Der Tau liegt noch auf den Feldern."
+  },
+  {
+    "id": "day_1",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Mitten am Tag ist am meisten los, findest du nicht?"
+  },
+  {
+    "id": "day_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn die Sonne so hoch steht, geht die Arbeit leicht von der Hand."
+  },
+  {
+    "id": "evening_1",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Abend legt sich sanft übers Dorf."
+  },
+  {
+    "id": "evening_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Bald wird's dunkel. Ich mach mich langsam auf den Heimweg."
+  },
+  {
+    "id": "night_1",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Es wird spät. Ich sollte bald ins Bett."
+  },
+  {
+    "id": "night_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts hört man die Monster stöhnen. Kein schönes Geräusch."
+  },
+  {
+    "id": "night_3",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer jetzt noch draußen ist, hat entweder Mut oder keinen Verstand."
+  },
+  {
+    "id": "wakeup_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Ah, ausgeschlafen. Ein neuer Tag will gelebt werden."
+  },
+  {
+    "id": "wakeup_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaffee gibt's hier zwar nicht, aber die Sonne tut's auch."
+  },
+  {
+    "id": "wakeup_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Erst mal strecken. So, jetzt kann der Tag kommen."
+  },
+  {
+    "id": "bedtime_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Wird Zeit fürs Bett. Die Nacht gehört den Monstern."
+  },
+  {
+    "id": "bedtime_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mach die Läden dicht. Bis morgen früh."
+  },
+  {
+    "id": "bedtime_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Noch ein Gähnen, dann bin ich weg."
+  },
+  {
+    "id": "rain_1",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei diesem Regen bleibt man besser drinnen."
+  },
+  {
+    "id": "rain_2",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Immerhin muss ich heute nicht gießen."
+  },
+  {
+    "id": "rain_3",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Regen trommelt aufs Dach. Fast schon gemütlich."
+  },
+  {
+    "id": "thunder_1",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Hörst du das Donnern? Da bleib ich lieber unter Dach."
+  },
+  {
+    "id": "thunder_2",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei so einem Gewitter halte ich mich von den Bäumen fern."
+  },
+  {
+    "id": "thunder_3",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Blitz, so nah! Mir schlottern die Knie."
+  },
+  {
+    "id": "clear_1",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Wölkchen am Himmel. Herrlich."
+  },
+  {
+    "id": "farmer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Weizen erntet sich nicht von selbst."
+  },
+  {
+    "id": "farmer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Gute Erde ist mehr wert als Gold, sag ich immer."
+  },
+  {
+    "id": "farmer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Karotten stehen prächtig dieses Jahr."
+  },
+  {
+    "id": "librarian_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich habe ein neues Buch, das dich interessieren könnte."
+  },
+  {
+    "id": "librarian_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Wissen ist das Einzige, das mehr wird, wenn man es teilt."
+  },
+  {
+    "id": "librarian_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Pssst. Hier drin wird nicht so laut geredet."
+  },
+  {
+    "id": "cleric_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Möge das Dorf wohlbehalten bleiben."
+  },
+  {
+    "id": "cleric_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Manch seltene Zutat wandert durch meine Hände."
+  },
+  {
+    "id": "armorer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Rüstung hat schon manchem das Leben gerettet."
+  },
+  {
+    "id": "armorer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Esse ist heiß. Vorsicht, verbrenn dich nicht."
+  },
+  {
+    "id": "weaponsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Scharf muss sie sein, sonst taugt die Klinge nichts."
+  },
+  {
+    "id": "toolsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine stumpfe Spitzhacke ist des Bergmanns Feind."
+  },
+  {
+    "id": "fisherman_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Fische beißen heute gut."
+  },
+  {
+    "id": "fisherman_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Geduld, mein Freund, ist die halbe Angel."
+  },
+  {
+    "id": "fletcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein gerader Pfeil fliegt weit."
+  },
+  {
+    "id": "shepherd_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Schafe geben die schönste Wolle weit und breit."
+  },
+  {
+    "id": "shepherd_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Färben ist eine Kunst für sich, weißt du."
+  },
+  {
+    "id": "butcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Frisches Fleisch, direkt vom Haken."
+  },
+  {
+    "id": "leatherworker_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Gut gegerbtes Leder hält ein Leben lang."
+  },
+  {
+    "id": "mason_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Stein für Stein wird ein Dorf gebaut."
+  },
+  {
+    "id": "cartographer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnte dir eine Karte zeichnen – gegen ein paar Smaragde."
+  },
+  {
+    "id": "nitwit_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Höhöhö... schöner Tag, was?"
+  },
+  {
+    "id": "nitwit_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich weiß auch nicht so recht, was ich hier mache. Egal!"
+  },
+  {
+    "id": "jobless_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sollte mir wirklich mal einen Beruf suchen."
+  },
+  {
+    "id": "jobless_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ohne Arbeitsplatz weiß man gar nicht, wohin mit sich."
+  },
+  {
+    "id": "trader_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Seltene Waren aus fernen Landen – schau ruhig!"
+  },
+  {
+    "id": "trader_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin nur auf der Durchreise."
+  },
+  {
+    "id": "trader_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Lamas und ich haben schon viel gesehen."
+  },
+  {
+    "id": "trader_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer weiß, wo mich der Weg als Nächstes hinträgt."
+  },
+  {
+    "id": "trader_night",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ],
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei Nacht reist es sich gefährlich – aber der Handel ruht nie."
+  },
+  {
+    "id": "trader_rain",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ],
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Regen macht die Wege schwer."
+  },
+  {
+    "id": "farmer_morning",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ],
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Früh auf dem Feld – so mag ich das."
+  },
+  {
+    "id": "librarian_night",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ],
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Buch, eine Kerze, die Nacht. Was will man mehr?"
+  },
+  {
+    "id": "cleric_evening",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ],
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Zur Abendstunde spricht es sich am besten mit den Sternen."
+  },
+  {
+    "id": "desert_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Hitze und der Sand überall – man gewöhnt sich dran."
+  },
+  {
+    "id": "desert_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Schluck Wasser ist hier draußen Gold wert."
+  },
+  {
+    "id": "plains_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Weites Land, so weit das Auge reicht. Schön ist das."
+  },
+  {
+    "id": "forest_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen all den Bäumen fühlt man sich gut aufgehoben."
+  },
+  {
+    "id": "forest_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Horch – der Wald hat immer etwas zu erzählen."
+  },
+  {
+    "id": "taiga_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Nadelbäume duften herrlich harzig."
+  },
+  {
+    "id": "snowy_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Brrr, ist das kalt. Ich zieh mir noch was über."
+  },
+  {
+    "id": "snowy_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Frischer Schnee knirscht so schön unter den Sohlen."
+  },
+  {
+    "id": "swamp_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Sumpf riecht streng, aber er hat seinen eigenen Reiz."
+  },
+  {
+    "id": "jungle_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "So dicht ist der Dschungel, man verläuft sich glatt."
+  },
+  {
+    "id": "savanna_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Das trockene Gras raschelt im Wind der Savanne."
+  },
+  {
+    "id": "badlands_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese roten Felsen leuchten in der Sonne wie Feuer."
+  },
+  {
+    "id": "beach_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Meer rauscht, die Möwen kreisen. Ein feiner Platz."
+  },
+  {
+    "id": "mushroom_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Riesige Pilze? Man sieht hier wirklich sonderbare Dinge."
+  },
+  {
+    "id": "cherry_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Kirschblüten segeln herab wie rosa Schnee."
+  },
+  {
+    "id": "meadow_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Blumen soweit das Auge reicht – hier summt und brummt es."
+  },
+  {
+    "id": "cave_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten hallt jedes Geräusch. Mir wird ganz mulmig."
+  },
+  {
+    "id": "cave_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "So tief unter der Erde hat man doch nichts verloren."
+  },
+  {
+    "id": "cave_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Wo ist bloß der Ausgang? Ich mag das Tageslicht lieber."
+  },
+  {
+    "id": "nether_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Hitze! Wie bin ich nur hierher geraten?"
+  },
+  {
+    "id": "nether_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Überall Feuer und kein Feld weit und breit."
+  },
+  {
+    "id": "nether_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Was auch immer da drüben grunzt – ich will's nicht kennenlernen."
+  },
+  {
+    "id": "end_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Leere... hier will ich wirklich nicht bleiben."
+  },
+  {
+    "id": "end_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Nur Fels, Sterne und dieser lauernde Drache. Furchtbar."
+  },
+  {
+    "id": "portal_nether_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Von diesem violetten Leuchten wird mir ganz anders."
+  },
+  {
+    "id": "portal_nether_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Bleib bloß weg von dem Ding, hörst du?"
+  },
+  {
+    "id": "portal_end_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Aus diesem Loch weht ein kalter, fremder Wind."
+  },
+  {
+    "id": "low_health_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Autsch... mir geht's gerade nicht besonders."
+  },
+  {
+    "id": "low_health_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich brauche dringend etwas zu essen und Ruhe."
+  },
+  {
+    "id": "hurt_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Au! Das hat wehgetan!"
+  },
+  {
+    "id": "hurt_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Lass das! Womit hab ich das verdient?"
+  },
+  {
+    "id": "trading_1",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Na, sehen wir uns die Waren mal in Ruhe an."
+  },
+  {
+    "id": "trading_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein faires Geschäft freut uns beide."
+  },
+  {
+    "id": "farmer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Regen und Sonne im Wechsel – mehr will der Weizen gar nicht."
+  },
+  {
+    "id": "farmer_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn die Ernte reif ist, schläft man schlecht vor Vorfreude."
+  },
+  {
+    "id": "librarian_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen zwei Buchdeckeln steckt manchmal eine ganze Welt."
+  },
+  {
+    "id": "cleric_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich habe seltsame Träume in letzter Zeit. Vielleicht bedeuten sie etwas."
+  },
+  {
+    "id": "armorer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Klopf, klopf, klopf – so klingt ein ehrlicher Tag."
+  },
+  {
+    "id": "weaponsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schmiede Klingen, keine Ausreden."
+  },
+  {
+    "id": "toolsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ohne mich würdest du mit bloßen Händen graben."
+  },
+  {
+    "id": "fisherman_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Der große Fisch? Der wartet noch auf mich, da bin ich sicher."
+  },
+  {
+    "id": "fletcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Feder, Stock, Feuerstein – und schon fliegt's."
+  },
+  {
+    "id": "shepherd_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Zähl niemals Schafe zum Einschlafen. Ich schlaf dann erst recht nicht ein."
+  },
+  {
+    "id": "butcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein volles Vorratsfass ist ein glückliches Fass."
+  },
+  {
+    "id": "cartographer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Jede Karte erzählt, wo jemand mutig genug war hinzugehen."
+  },
+  {
+    "id": "mason_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Grade Wände, gerades Leben. So einfach ist das."
+  },
+  {
+    "id": "ocean_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Meer ist so groß. Da fühlt man sich gleich ganz klein."
+  },
+  {
+    "id": "ocean_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei Ebbe findet man die seltsamsten Dinge am Ufer."
+  },
+  {
+    "id": "dark_forest_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier drin ist es selbst am Mittag dämmrig. Nicht mein Lieblingsort."
+  },
+  {
+    "id": "birch_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Weiße Stämme, so weit man schaut. Fast feierlich."
+  },
+  {
+    "id": "flower_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "So viele Blüten – die Bienen wissen gar nicht, wo zuerst hin."
+  },
+  {
+    "id": "mangrove_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Alles hier ist feucht und verwurzelt. Aufpassen, wo man hintritt."
+  },
+  {
+    "id": "windswept_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Wind pfeift einem hier ordentlich um die Ohren."
+  },
+  {
+    "id": "peaks_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "So weit oben ist die Luft dünn und der Blick unendlich."
+  },
+  {
+    "id": "ice_spikes_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Eiszacken sehen aus, als hätte jemand die Kälte gepflanzt."
+  },
+  {
+    "id": "grove_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Verschneite Bäume und Stille. Hier findet die Seele Ruhe."
+  },
+  {
+    "id": "dripstone_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Tropf... tropf... dieser Stein wächst langsamer als ich denke."
+  },
+  {
+    "id": "lush_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Ranken und Leuchten tief unter der Erde – wer hätte das gedacht."
+  },
+  {
+    "id": "deep_dark_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten ist es zu still. Diese Stille... die lauscht zurück."
+  },
+  {
+    "id": "mood_joy_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was für ein Glück, an so einem Tag am Leben zu sein!"
+  },
+  {
+    "id": "mood_joy_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mir ist heute so leicht ums Herz, ich könnte tanzen!"
+  },
+  {
+    "id": "mood_joy_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Guten Tag, guten Tag! Ist das Leben nicht wunderbar?"
+  },
+  {
+    "id": "mood_joy_4",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich pfeife, weil mir danach ist. Einfach so!"
+  },
+  {
+    "id": "mood_sad_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal frage ich mich, ob überhaupt jemand merkt, dass es mich gibt."
+  },
+  {
+    "id": "mood_sad_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Immer dieselben Wege, immer dieselben Gesichter. Wozu das alles?"
+  },
+  {
+    "id": "mood_sad_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab schon lange nicht mehr richtig gelacht."
+  },
+  {
+    "id": "mood_sad_4",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Tage verschwimmen zu einem einzigen grauen Brei."
+  },
+  {
+    "id": "mood_sad_night",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts ist die Einsamkeit am lautesten."
+  },
+  {
+    "id": "mood_grumpy_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nein. Was auch immer du fragen wolltest: nein."
+  },
+  {
+    "id": "mood_grumpy_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Früher war alles besser. Und ruhiger. Und ohne dich."
+  },
+  {
+    "id": "mood_grumpy_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Kann man denn nirgends mehr seine Ruhe haben?"
+  },
+  {
+    "id": "mood_dreamy_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn ich eine Wolke wäre, würde ich einfach davonsegeln."
+  },
+  {
+    "id": "mood_philo_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sind wir die, die den Weg gehen – oder geht der Weg uns?"
+  },
+  {
+    "id": "mood_philo_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Alles vergeht. Sogar der schönste Sonnenuntergang. Vielleicht macht ihn das schön."
+  },
+  {
+    "id": "mood_hope_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Morgen wird bestimmt ein guter Tag. Das spüre ich."
+  },
+  {
+    "id": "mood_proud_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Schau dir dieses Dorf an. Das haben wir aufgebaut. Wir!"
+  },
+  {
+    "id": "mood_anxious_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hast du das auch gehört? ...Nein? Sicher? Ganz sicher?"
+  },
+  {
+    "id": "mood_bored_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mir ist so langweilig, ich zähl schon die Bretter am Zaun."
+  },
+  {
+    "id": "mood_lovesick_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Seit gestern muss ich ständig lächeln. Frag nicht warum."
+  },
+  {
+    "id": "ref_force",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Möge die Ernte mit dir sein."
+  },
+  {
+    "id": "ref_ring",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Smaragd, sie alle zu regieren. So fühlt es sich manchmal an."
+  },
+  {
+    "id": "ref_winter",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Winter naht. Das riecht man in der Luft."
+  },
+  {
+    "id": "ref_king",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Von hier oben bin ich der König der Welt!"
+  },
+  {
+    "id": "ref_choc",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Das Leben ist wie ein Beutel Smaragde: Man weiß nie, was man dafür kriegt."
+  },
+  {
+    "id": "ref_life",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Leben findet immer einen Weg, glaub mir."
+  },
+  {
+    "id": "ref_build",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Bau es – und sie werden kommen. So wurde jedes Dorf geboren."
+  },
+  {
+    "id": "ref_scratch",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Nur ein Kratzer! ...na gut, vielleicht zwei."
+  },
+  {
+    "id": "ref_knee",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Fast wäre ich hinaus in die Welt gezogen. Dann kam mir das Feld dazwischen."
+  },
+  {
+    "id": "ref_pass",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Du kommst hier nicht rein! ...Ach, du bist's. Komm rein."
+  },
+  {
+    "id": "ref_dangerous",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Es ist gefährlich, allein loszuziehen. Nimm wenigstens einen Apfel mit."
+  },
+  {
+    "id": "ref_space",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Weiten. Unendliche Weiten. Und ich mittendrin."
+  },
+  {
+    "id": "ref_matrix",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Nimm den grünen Smaragd, und ich zeig dir, wie tief der Brunnen ist."
+  },
+  {
+    "id": "egg_creeper",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese grünen Kerle... wenn du ein Zischen hörst, lauf. Einfach lauf."
+  },
+  {
+    "id": "egg_job",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Man hat mir mal den Arbeitsplatz unter dem Hintern weggehauen. Seitdem bin ich vorsichtig."
+  },
+  {
+    "id": "egg_golem",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Solange der große Eiserne wacht, schlaf ich ruhig."
+  },
+  {
+    "id": "egg_bell",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn die Glocke läutet, ab ins Haus. Regeln sind Regeln."
+  },
+  {
+    "id": "egg_player",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche sagen, hinter dem Himmel sitzt einer und lenkt alles. Verrückt, oder?"
+  },
+  {
+    "id": "egg_herobrine",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ],
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Manchmal steht da wer am Waldrand und schaut... und dann ist er weg."
+  },
+  {
+    "id": "egg_respawn",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn ich mal weg bin, bin ich weg. Ich hab keine zweite Chance wie manche."
+  },
+  {
+    "id": "egg_trade",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Drei Smaragde für DAS? ...na gut. Weil du's bist."
+  },
+  {
+    "id": "egg_sun",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich schwöre, die Sonne springt manchmal in Rucken über den Himmel. Bildet man sich das ein?"
+  },
+  {
+    "id": "egg_stare",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Fühlst du das auch? Als würde uns jemand die ganze Zeit anstarren."
+  },
+  {
+    "id": "general_11",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab heute schon dreimal dasselbe gedacht. Muss wohl wichtig sein."
+  },
+  {
+    "id": "general_12",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Grüß dich. Oder auch nicht, ganz wie du willst."
+  },
+  {
+    "id": "day_3",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Mittagssonne macht faul. Nur ein Weilchen ausruhen, dann weiter."
+  },
+  {
+    "id": "evening_3",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Zur blauen Stunde ist das Dorf am schönsten."
+  },
+  {
+    "id": "rain_4",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Regentropfen auf der Fensterbank – dagegen kommt kein Lied an."
+  },
+  {
+    "id": "thunder_4",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Eins... zwei... drei – und *bumm*. Nah dran, das."
+  },
+  {
+    "id": "general_13",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Kohle, Kohle, Kohle ..."
+  },
+  {
+    "id": "general_14",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man grüßt sich, man redet, man geht weiter. So läuft das hier."
+  },
+  {
+    "id": "general_15",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hast du zufällig eine Karotte übrig? Nur gefragt."
+  },
+  {
+    "id": "general_16",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn du was brauchst, sag Bescheid. Oder auch nicht."
+  },
+  {
+    "id": "general_17",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab da was gehört. Aber ich schweige lieber."
+  },
+  {
+    "id": "general_18",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Immer nur arbeiten. Irgendwann muss auch mal Feierabend sein."
+  },
+  {
+    "id": "general_19",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal setz ich mich einfach hin und hör dem Dorf zu."
+  },
+  {
+    "id": "general_20",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Tag ohne Handel ist ein verlorener Tag."
+  },
+  {
+    "id": "general_21",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Zwei Dinge braucht man: ein Dach und einen Nachbarn."
+  },
+  {
+    "id": "general_22",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab noch nie einen Berg von oben gesehen. Stell dir das mal vor."
+  },
+  {
+    "id": "general_23",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Läufst du eigentlich immer so schnell?"
+  },
+  {
+    "id": "general_24",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wo wollte ich eben hin? Ach, egal."
+  },
+  {
+    "id": "general_25",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab eine Regel: nie mit leerem Bauch verhandeln."
+  },
+  {
+    "id": "general_26",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der Brunnen ist der beste Platz im Dorf. Da erfährt man alles."
+  },
+  {
+    "id": "general_27",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hätte gern mal Besuch. Richtigen Besuch, meine ich."
+  },
+  {
+    "id": "general_28",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Sag mal, kannst du bauen? Wir bräuchten hier dringend eine Bank."
+  },
+  {
+    "id": "general_29",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Es riecht nach Brot. Irgendwo backt jemand, und ich find nicht heraus, wo."
+  },
+  {
+    "id": "general_30",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Meine Tür klemmt. Seit Jahren. Ich hab mich dran gewöhnt."
+  },
+  {
+    "id": "general_31",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Erzähl mir was von draußen. Ich komm hier ja nie weg."
+  },
+  {
+    "id": "general_32",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wusstest du, dass man Smaragde nicht essen kann? Ich hab's probiert."
+  },
+  {
+    "id": "general_33",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Alles hat seinen Platz, und mein Platz ist genau hier."
+  },
+  {
+    "id": "general_34",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche Tage sind zum Arbeiten da. Und manche zum Gucken."
+  },
+  {
+    "id": "general_35",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Hrrm. Entschuldige, ich hab laut gedacht."
+  },
+  {
+    "id": "general_36",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man sagt, Reden sei Silber. Bei mir ist es meistens gratis."
+  },
+  {
+    "id": "general_37",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hätte gern ein Tier. Irgendwas, das zuhört."
+  },
+  {
+    "id": "general_38",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Weißt du, was schön ist? Wenn abends alle Fenster leuchten."
+  },
+  {
+    "id": "general_39",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich zähl nicht mehr die Tage. Ich zähl die guten."
+  },
+  {
+    "id": "general_40",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Pass auf dich auf da draußen, hörst du?"
+  },
+  {
+    "id": "general_41",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn dir jemand ein Geschäft anbietet, das zu gut klingt: es ist zu gut."
+  },
+  {
+    "id": "general_42",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Neulich hab ich geträumt, ich könnte fliegen. War schön, bis zum Aufwachen."
+  },
+  {
+    "id": "general_43",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ordnung ist das halbe Dorf."
+  },
+  {
+    "id": "general_44",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich red zu viel, sagt meine Nachbarin. Sie redet mehr."
+  },
+  {
+    "id": "general_45",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wer nichts sagt, hat auch nichts zu erzählen."
+  },
+  {
+    "id": "morning_4",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Tag ist noch ganz unberührt. Fast schade, ihn anzufangen."
+  },
+  {
+    "id": "morning_5",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Morgens ist das Dorf am ehrlichsten. Noch tut keiner, als wär er beschäftigt."
+  },
+  {
+    "id": "morning_6",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Erst die Arbeit, dann das Brot. So hat's mein Vater gehalten."
+  },
+  {
+    "id": "morning_7",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Noch ist der Weg leer. Da geht sich's gut."
+  },
+  {
+    "id": "morning_8",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Hühner hier kennen keine Gnade. Kein Auge zugetan."
+  },
+  {
+    "id": "day_4",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Halbzeit. Und ich hab die Hälfte noch nicht geschafft."
+  },
+  {
+    "id": "day_5",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Um diese Zeit ist der Brunnen voller Leute und voller Gerüchte."
+  },
+  {
+    "id": "day_6",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Schatten wird knapp um die Mittagszeit."
+  },
+  {
+    "id": "day_7",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn ich jetzt noch einen Handel mache, ist der Tag gerettet."
+  },
+  {
+    "id": "evening_4",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag diese Stunde. Alles wird langsamer."
+  },
+  {
+    "id": "evening_5",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Noch einmal um den Brunnen, dann ist Schluss für heute."
+  },
+  {
+    "id": "evening_6",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Riech mal – abends riecht das Dorf nach Rauch und Erde."
+  },
+  {
+    "id": "evening_7",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Werkzeug wieder an seinen Platz, dann kann der Abend kommen."
+  },
+  {
+    "id": "night_4",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Licht draußen außer den Sternen. Und den Augen, die man nicht sieht."
+  },
+  {
+    "id": "night_5",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Bleib nicht zu lange draußen. Bitte."
+  },
+  {
+    "id": "night_6",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schlaf schlecht, wenn's still ist. Und schlechter, wenn's nicht still ist."
+  },
+  {
+    "id": "night_7",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts ist das Dorf nur noch ein paar Fenster im Dunkeln."
+  },
+  {
+    "id": "wakeup_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Guten Morgen, Welt. Ich bin's, schon wieder."
+  },
+  {
+    "id": "wakeup_5",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwei Minuten noch... na gut, ich bin ja schon auf."
+  },
+  {
+    "id": "wakeup_6",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Bett war warm. Draußen ist es das nicht."
+  },
+  {
+    "id": "bedtime_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Beine sagen mir, dass es Zeit ist."
+  },
+  {
+    "id": "bedtime_5",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer nicht schläft, verpasst den Morgen."
+  },
+  {
+    "id": "bedtime_6",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "Noch das Werkzeug weg, dann leg ich mich hin."
+  },
+  {
+    "id": "rain_5",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Dach hält. Meistens."
+  },
+  {
+    "id": "rain_6",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pfützen werden zu Seen, wenn's so weitergeht."
+  },
+  {
+    "id": "rain_7",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Nasse Füße, nasser Rücken, nasse Laune."
+  },
+  {
+    "id": "rain_8",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Regen ist nur Wasser von oben. Sag ich mir jedenfalls."
+  },
+  {
+    "id": "thunder_5",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei so einem Himmel bleibt jeder Vernünftige drinnen."
+  },
+  {
+    "id": "thunder_6",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Zähl die Sekunden nach dem Blitz. Dann weißt du, wie nah es ist."
+  },
+  {
+    "id": "thunder_7",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Hoffentlich brennt heute Nacht nichts."
+  },
+  {
+    "id": "clear_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "day"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "So ein Himmel macht sogar mich gesprächig."
+  },
+  {
+    "id": "clear_3",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Klarer Morgen, klarer Kopf."
+  },
+  {
+    "id": "clear_4",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Schau, wie rot der Himmel wird. Morgen bleibt's trocken."
+  },
+  {
+    "id": "farmer_6",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Unkraut. Immer dieses Unkraut."
+  },
+  {
+    "id": "farmer_7",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Kürbis wächst nicht schneller, wenn man ihn anschaut. Ich hab's versucht."
+  },
+  {
+    "id": "farmer_8",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Rüben, Kartoffeln, Weizen – in der Reihenfolge, sonst wird's nichts."
+  },
+  {
+    "id": "farmer_9",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hacke und ich, wir kennen uns lange."
+  },
+  {
+    "id": "farmer_rain",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ],
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Heute macht der Himmel meine Arbeit."
+  },
+  {
+    "id": "farmer_evening",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ],
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "Feld bestellt, Werkzeug weg. Guter Tag."
+  },
+  {
+    "id": "librarian_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Buchstaben sind das Beste, was uns passiert ist."
+  },
+  {
+    "id": "librarian_6",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hätte da eine Verzauberung, die dir gefallen könnte."
+  },
+  {
+    "id": "librarian_7",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Vorsicht mit der Kerze, ja? Papier ist nachtragend."
+  },
+  {
+    "id": "librarian_morning",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ],
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Frühmorgens liest es sich am besten. Kein Lärm."
+  },
+  {
+    "id": "cleric_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Manches lässt sich nicht kaufen. Aber viel lässt sich tauschen."
+  },
+  {
+    "id": "cleric_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sammle, was andere wegwerfen. Man weiß ja nie."
+  },
+  {
+    "id": "cleric_6",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Lapislazuli, Redstone, ein Spinnenauge... frag nicht weiter."
+  },
+  {
+    "id": "cleric_night",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ],
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Um diese Stunde sind die Zeichen am deutlichsten."
+  },
+  {
+    "id": "armorer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ohne Rüstung geht keiner in eine Höhle. Keiner, der wiederkommt."
+  },
+  {
+    "id": "armorer_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Kette, Eisen, Diamant – alles zu seinem Preis."
+  },
+  {
+    "id": "weaponsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine Axt ist ehrlicher als ein Schwert. Aber ein Schwert verkauft sich besser."
+  },
+  {
+    "id": "weaponsmith_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schleife, ich hämmere, ich schweige. So mag ich's."
+  },
+  {
+    "id": "toolsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Bring mir dein Werkzeug, ich mach was draus."
+  },
+  {
+    "id": "toolsmith_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Haltbarkeit, Effizienz, Glück. Was davon willst du?"
+  },
+  {
+    "id": "fisherman_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Der See sieht ruhig aus. Unter Wasser ist er das nie."
+  },
+  {
+    "id": "fisherman_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Eimer voll Fisch, und man ist der beliebteste Mensch im Dorf."
+  },
+  {
+    "id": "fisherman_rain",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ],
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei Regen beißen sie besser. Nicht fragen, einfach glauben."
+  },
+  {
+    "id": "fletcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Pfeile, Bogen, ein bisschen Feuerstein. Mehr braucht es nicht."
+  },
+  {
+    "id": "fletcher_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab noch keinen Skelett-Bogen gesehen, der besser wär als meiner."
+  },
+  {
+    "id": "shepherd_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Schere geschärft, Schafe ruhig. Ein guter Tag."
+  },
+  {
+    "id": "shepherd_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Rot, blau, gelb – was du willst, ich färb es dir."
+  },
+  {
+    "id": "butcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Gebraten schmeckt es besser als roh. Merk dir das."
+  },
+  {
+    "id": "butcher_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab Kaninchen, ich hab Huhn, ich hab Zeit."
+  },
+  {
+    "id": "leatherworker_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Leder braucht Geduld und einen starken Magen."
+  },
+  {
+    "id": "leatherworker_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Einen Sattel? Hab ich. Kostet aber."
+  },
+  {
+    "id": "mason_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Aus Stein wird Ziegel, aus Ziegel wird Zuhause."
+  },
+  {
+    "id": "mason_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer schief baut, wohnt schief."
+  },
+  {
+    "id": "cartographer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein weißes Feld auf der Karte ist eine Einladung."
+  },
+  {
+    "id": "cartographer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn du ein Wrack findest, sag's mir. Für gute Karten zahl ich gut."
+  },
+  {
+    "id": "nitwit_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab einen Beruf! ...Nein? Wirklich nicht? Höhö."
+  },
+  {
+    "id": "nitwit_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Bibliothekar sagt, ich soll lesen lernen. Ich sag: wozu?"
+  },
+  {
+    "id": "nitwit_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Höhö. Ich mach einfach mal, was ich will."
+  },
+  {
+    "id": "jobless_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Arbeitstisch, irgendeiner. Ich bin nicht wählerisch."
+  },
+  {
+    "id": "jobless_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn hier ein Amboss stünde, wär ich Schmied. Sofort."
+  },
+  {
+    "id": "jobless_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich guck mich schon um. Wirklich."
+  },
+  {
+    "id": "trader_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Kauf jetzt, morgen gibt's das nicht mehr. Ich bin dann weg."
+  },
+  {
+    "id": "trader_6",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwei Lamas, ein Sack, die ganze Welt. Reicht mir."
+  },
+  {
+    "id": "trader_7",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Weißt du, wo hier der nächste Weg nach Norden liegt?"
+  },
+  {
+    "id": "trader_8",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Alles, was du hier siehst, kommt von irgendwo, wo du nie warst."
+  },
+  {
+    "id": "trader_morning",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ],
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Früh los, früh da. Kaufst du was?"
+  },
+  {
+    "id": "trader_thunder",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ],
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei dem Wetter warte ich hier. Solange können wir handeln."
+  },
+  {
+    "id": "desert_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Nächte hier sind so kalt wie die Tage heiß."
+  },
+  {
+    "id": "desert_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Kaktus, Sand, Sonne. Die Auswahl ist überschaubar."
+  },
+  {
+    "id": "plains_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Flach, freundlich, fruchtbar. Mehr will ich nicht."
+  },
+  {
+    "id": "plains_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn ein Gewitter kommt, sieht man es hier eine Stunde vorher."
+  },
+  {
+    "id": "forest_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Holz genug für zehn Häuser. Und Pilze für die Suppe."
+  },
+  {
+    "id": "taiga_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Süßbeeren gibt's hier an jeder Ecke. Und Wölfe."
+  },
+  {
+    "id": "taiga_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Kalt, aber ehrlich. So ist es hier."
+  },
+  {
+    "id": "old_growth_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese alten Kiefern standen hier schon vor dem Dorf."
+  },
+  {
+    "id": "snowy_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Zehen zählen nicht mehr mit."
+  },
+  {
+    "id": "snowy_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn es schneit, wird alles still. Das mag ich."
+  },
+  {
+    "id": "frozen_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Alles hier ist zu Eis geworden. Sogar die Geräusche."
+  },
+  {
+    "id": "swamp_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts leuchten hier Augen im Wasser. Bleib auf dem Weg."
+  },
+  {
+    "id": "swamp_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Schleim, Lianen, Frösche. Man muss es mögen."
+  },
+  {
+    "id": "jungle_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Immer feucht, immer warm, immer irgendwo ein Rascheln."
+  },
+  {
+    "id": "jungle_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Pass auf, wohin du trittst. Der Boden ist hier nicht immer Boden."
+  },
+  {
+    "id": "bamboo_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Bambus wächst schneller, als ich schauen kann."
+  },
+  {
+    "id": "savanna_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Akazien wachsen krumm und trotzig. Gefällt mir."
+  },
+  {
+    "id": "badlands_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand, Stein und keine Seele. Wer wohnt hier freiwillig?"
+  },
+  {
+    "id": "beach_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Sand in den Schuhen, aber wer beschwert sich."
+  },
+  {
+    "id": "ocean_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Irgendwo da draußen soll es Dörfer unter Wasser geben. Sagen sie."
+  },
+  {
+    "id": "river_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Fluss bringt alles irgendwann vorbei. Auch die Nachrichten."
+  },
+  {
+    "id": "stony_shore_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Nur Steine und Wasser. Kein Platz für ein Feld."
+  },
+  {
+    "id": "mushroom_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Keine Monster hier. Ich weiß nicht, warum, aber es gefällt mir."
+  },
+  {
+    "id": "cherry_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Rosa, so weit man schaut. Man wird ganz weich davon."
+  },
+  {
+    "id": "meadow_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Hörst du die Bienen? Das ist die schönste Arbeit von allen."
+  },
+  {
+    "id": "flower_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn ich einen Strauß mitnehm, merkt das keiner. Oder?"
+  },
+  {
+    "id": "birch_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Birkenholz ist hell und freundlich. So wie ein Dorf sein sollte."
+  },
+  {
+    "id": "dark_forest_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Halt dich von den großen Häusern hier fern. Wirklich."
+  },
+  {
+    "id": "mangrove_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Frösche überall. Ich mag sie, aber sie hören nie auf."
+  },
+  {
+    "id": "windswept_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier hält kein Hut lange."
+  },
+  {
+    "id": "peaks_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Ziegen. Sie stoßen dich runter, wenn du nicht aufpasst."
+  },
+  {
+    "id": "grove_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Tannen tragen den Schnee wie eine Last. Schön ist das."
+  },
+  {
+    "id": "ice_spikes_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Wer hat das gebaut? Und warum?"
+  },
+  {
+    "id": "dripstone_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Pass auf den Kopf auf. Die Spitzen fallen manchmal."
+  },
+  {
+    "id": "lush_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Moos, Wasser, Licht aus den Ranken. Ein Wunder hier unten."
+  },
+  {
+    "id": "deep_dark_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ],
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Geräusch machen. Nicht eins."
+  },
+  {
+    "id": "crimson_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ],
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Rote Bäume, die keine Bäume sind. Nichts hier ist, was es scheint."
+  },
+  {
+    "id": "warped_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ],
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Alles hier ist blau und falsch."
+  },
+  {
+    "id": "soul_sand_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ],
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Gesichter im Sand... ich hab nichts gesehen."
+  },
+  {
+    "id": "basalt_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ],
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Asche in der Luft, Lava unter den Füßen. Wunderbar."
+  },
+  {
+    "id": "cave_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hör Wasser. Und noch was anderes."
+  },
+  {
+    "id": "cave_5",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Hast du eine Fackel? Bitte sag ja."
+  },
+  {
+    "id": "nether_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich will nach Hause. Sofort."
+  },
+  {
+    "id": "end_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "Wo ist der Boden? Wo ist der Himmel? Wo bin ich?"
+  },
+  {
+    "id": "portal_nether_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn du da reingehst, komm auch wieder raus."
+  },
+  {
+    "id": "portal_end_2",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "Nein. Nein, nein. Ich geh da nicht mit."
+  },
+  {
+    "id": "low_health_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Brot... hätte jemand ein Brot?"
+  },
+  {
+    "id": "hurt_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bin ein Dorfbewohner, kein Sandsack!"
+  },
+  {
+    "id": "hurt_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn der Eiserne das sieht, hast du ein Problem."
+  },
+  {
+    "id": "trading_3",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Zeig mir, was du hast. Ich hab Zeit."
+  },
+  {
+    "id": "trading_4",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Für Smaragde bekommst du hier fast alles. Fast."
+  },
+  {
+    "id": "mood_joy_5",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Heute geht mir alles leicht von der Hand!"
+  },
+  {
+    "id": "mood_sad_5",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Heute hab ich niemandem gefehlt. Merkt man das?"
+  },
+  {
+    "id": "mood_grumpy_4",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Geh weiter. Hier gibt's nichts zu sehen."
+  },
+  {
+    "id": "mood_dreamy_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal stell ich mir vor, das Dorf hätte einen Turm. Einen richtig hohen."
+  },
+  {
+    "id": "mood_philo_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn niemand hinsieht – sind wir dann noch da?"
+  },
+  {
+    "id": "mood_hope_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Solange gesät wird, ist noch nichts verloren."
+  },
+  {
+    "id": "mood_proud_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mein Handwerk ist alt und gut. Das kann mir keiner nehmen."
+  },
+  {
+    "id": "mood_anxious_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich schließ abends dreimal ab. Zweimal wär genug, ich weiß."
+  },
+  {
+    "id": "mood_bored_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Frag mich irgendwas. Egal was. Bitte."
+  },
+  {
+    "id": "mood_lovesick_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab ihr eine Blume hingelegt. Sie hat's nicht gemerkt."
+  },
+  {
+    "id": "mood_tired_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich bin müde bis in die Knochen. Aber Arbeit ist Arbeit."
+  },
+  {
+    "id": "mood_grateful_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Danke, dass du vorbeikommst. Wirklich."
+  },
+  {
+    "id": "mood_sad_rain",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Bei so einem Wetter wird man ganz still von innen."
+  },
+  {
+    "id": "egg_creeper_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mein Haus hatte mal eine Wand mehr."
+  },
+  {
+    "id": "egg_enderman",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Schau die langen Schwarzen nicht an. Einfach nicht hinsehen."
+  },
+  {
+    "id": "egg_golem_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der Eiserne hat mir heute wieder eine Blume geschenkt."
+  },
+  {
+    "id": "egg_raid",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn du eine schwarze Fahne siehst: Glocke läuten und rein mit dir."
+  },
+  {
+    "id": "egg_siege",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "Sie kommen nachts, wenn wir zu viele werden. Sagt man."
+  },
+  {
+    "id": "egg_lava",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn du Lava siehst: nicht schwimmen. Nur so ein Tipp."
+  },
+  {
+    "id": "egg_bed_nether",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "Schlaf hier bloß nicht in einem Bett. Das endet schlecht."
+  },
+  {
+    "id": "egg_creative",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche bauen ein ganzes Haus an einem Tag. Aus nichts! Verrückt."
+  },
+  {
+    "id": "egg_sleep_skip",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn alle schlafen, ist der Morgen plötzlich da. Praktisch."
+  },
+  {
+    "id": "egg_ravager",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese großen Viecher mit den Hörnern... einmal reicht für ein Leben."
+  },
+  {
+    "id": "egg_cure",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man kann zurückkommen, hab ich gehört. Mit einem Apfel und etwas Glück."
+  },
+  {
+    "id": "egg_stack",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Vierundsechzig. Immer vierundsechzig. Frag mich nicht, warum."
+  },
+  {
+    "id": "ref_gandalf",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Fliegt, ihr Narren! ...Ach. Wir können ja nicht fliegen."
+  },
+  {
+    "id": "ref_potter",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Man sagt, es gäbe eine Schule für sowas. Für Verzauberungen, meine ich."
+  },
+  {
+    "id": "ref_terminator",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "text": "Ich komme wieder. Ich muss ja, ich wohne hier."
+  },
+  {
+    "id": "ref_shining",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Da stand jemand im Schnee vor dem Haus. Hoffentlich war's der Wind."
+  },
+  {
+    "id": "ref_jaws",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Geh nicht ins Wasser. Frag nicht, geh einfach nicht."
+  },
+  {
+    "id": "ref_bond",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Geschüttelt, nicht gerührt. Der Trank, meine ich."
+  },
+  {
+    "id": "ref_hobbit_2",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Zweites Frühstück gibt's hier nicht. Ich hab gefragt."
+  },
+  {
+    "id": "ref_pirate",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Wo mein Schatz liegt? Frag den Kartografen."
+  },
+  {
+    "id": "ref_alien",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 0.2,
+    "text": "Hier draußen hört uns keiner. Wirklich keiner."
+  },
+  {
+    "id": "ref_oz",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "text": "Ein Zuhause. Es gibt nichts Besseres."
+  },
+  {
+    "id": "ref_meta_talk",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Früher hab ich nur ehh gesagt. Jetzt red ich plötzlich in ganzen Sätzen. Seltsam."
+  },
+  {
+    "id": "solo_new_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal frag ich mich, wer eigentlich die Wege gepflastert hat."
+  },
+  {
+    "id": "solo_new_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich zähl heut mal, wie viele Kisten im Dorf stehen."
+  },
+  {
+    "id": "solo_new_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Glocke klang heute irgendwie anders. Oder bild ich mir das ein?"
+  },
+  {
+    "id": "solo_new_4",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein guter Tag fängt mit einem vollen Vorratskeller an."
+  },
+  {
+    "id": "solo_new_5",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich sollte öfter mal aufräumen. Sag ich mir jeden Tag."
+  },
+  {
+    "id": "solo_new_6",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wer hat eigentlich als Erstes die Betten erfunden? Guter Mensch, wer auch immer."
+  },
+  {
+    "id": "solo_new_7",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche Tage sind zum Reden da. Heute ist so einer."
+  },
+  {
+    "id": "solo_new_8",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, mein Nachbar hat mehr Smaragde als er zugibt."
+  },
+  {
+    "id": "solo_new_9",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ohne die Wege würd ich mich ständig verlaufen. Also, öfter."
+  },
+  {
+    "id": "solo_new_10",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein guter Handel braucht Geduld. Und einen dicken Geldbeutel."
+  },
+  {
+    "id": "solo_blocky_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich hab noch nie eine runde Kante gesehen. Gibt's sowas überhaupt?"
+  },
+  {
+    "id": "solo_blocky_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Selbst die Wolken hier haben Ecken. Praktisch, eigentlich."
+  },
+  {
+    "id": "solo_blocky_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich lauf immer nur in geraden Linien. Kurven sind mir fremd."
+  },
+  {
+    "id": "solo_pop_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Das Leben findet immer einen Weg, sagt man. Bei mir eher selten."
+  },
+  {
+    "id": "solo_pop_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Wenn's hier draußen spukt, weiß ich genau, wen man rufen müsste."
+  },
+  {
+    "id": "solo_pop_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.15,
+    "text": "Ich will mal so schnell werden, dass ich der Zeit davonlaufe."
+  },
+  {
+    "id": "solo_anime_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ich glaub, meine Macht liegt heute weit über dem, was man messen kann."
+  },
+  {
+    "id": "solo_anime_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ich träum davon, König aller Handelsrouten zu werden. Einmal wenigstens."
+  },
+  {
+    "id": "solo_anime_3",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Manchmal denk ich, ein kleiner Wald-Geist beobachtet mich von den Bäumen."
+  },
+  {
+    "id": "solo_meta_1",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Ich frag mich, ob wir bei jedem Neustart des Dorfs die Erinnerung verlieren."
+  },
+  {
+    "id": "solo_meta_2",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "Manchmal blinzelt die Welt kurz. Hast du das auch schon gesehen?"
+  },
+  {
+    "id": "bamboo_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Wenn ich hier zu lang stehen bleibe, wachs ich wahrscheinlich mit ein."
+  },
+  {
+    "id": "basalt_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten ticken selbst die Gedanken langsamer."
+  },
+  {
+    "id": "crimson_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Farbe hier – ich glaub, ich vermiss Grün."
+  },
+  {
+    "id": "frozen_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, meine Zehen sind schon zu Eis geworden."
+  },
+  {
+    "id": "old_growth_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Neben diesen Bäumen komm ich mir winzig vor."
+  },
+  {
+    "id": "river_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Rauschen hier beruhigt mich mehr, als ich zugeben will."
+  },
+  {
+    "id": "soul_sand_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Schritt hier zieht an mir, als wollt der Boden mich behalten."
+  },
+  {
+    "id": "stony_shore_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Nicht der bequemste Ort zum Nachdenken, aber es geht."
+  },
+  {
+    "id": "warped_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "So blau hier - fast könnt ich vergessen, wo ich bin."
+  },
+  {
+    "id": "solo_user_cartograph",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.1,
+    "text": "Ich hoffe du glaubst auch an das Herz der Karten."
+  },
+  {
+    "id": "solo_user_villager_nose",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.1,
+    "text": "An der Nase eines Dorfbewohners erkennt man seine Ernte."
+  },
+  {
+    "id": "general_46",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, der Frühling kommt dieses Jahr früher als sonst."
+  },
+  {
+    "id": "general_47",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Jeder Tag fängt gleich an: Tür auf, Sonne rein, und los geht's."
+  },
+  {
+    "id": "general_48",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal wünscht ich mir, die Tage wären ein bisschen länger."
+  },
+  {
+    "id": "general_49",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab heute Morgen mein Spiegelbild im Brunnen gesehen. Erschreckend vertraut."
+  },
+  {
+    "id": "general_50",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Es gibt schlimmere Orte als hier. Ich hab nur noch keinen gefunden."
+  },
+  {
+    "id": "general_51",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn ich groß bin... ach, ich bin ja schon groß."
+  },
+  {
+    "id": "general_52",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man kennt hier jeden. Manchmal ist das ein Segen, manchmal nicht."
+  },
+  {
+    "id": "general_53",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, ich hab gestern was Wichtiges vergessen. Fällt mir schon noch ein."
+  },
+  {
+    "id": "general_54",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ruhe ist auch nur ein anderes Wort für 'noch nicht gestört'."
+  },
+  {
+    "id": "general_55",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich mag den Klang, wenn's im Dorf leise wird."
+  },
+  {
+    "id": "general_56",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was hältst du von einem Neuanfang? Ich meine, generell."
+  },
+  {
+    "id": "general_57",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal denk ich, das Dorf wächst schneller, als ich mitzählen kann."
+  },
+  {
+    "id": "general_58",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab heut früh die Vögel gezählt. Bei sieben hab ich aufgehört."
+  },
+  {
+    "id": "general_59",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Jeder braucht eine Aufgabe. Meine ist wohl, hier rumzustehen."
+  },
+  {
+    "id": "general_60",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, ich werd nie ganz verstehen, warum die Zeit so schnell vergeht."
+  },
+  {
+    "id": "general_61",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein bisschen Chaos gehört dazu. Sonst wär's ja langweilig."
+  },
+  {
+    "id": "general_62",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man muss nicht alles verstehen, um zufrieden zu sein."
+  },
+  {
+    "id": "general_63",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich freu mich schon auf morgen. Aus keinem besonderen Grund."
+  },
+  {
+    "id": "general_64",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn ich ehrlich bin, vermiss ich manchmal, allein zu sein. Nur kurz."
+  },
+  {
+    "id": "general_65",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, das Wetter hat heute was mit mir vor."
+  },
+  {
+    "id": "general_66",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Kleine Dinge machen den Tag. Ein warmes Brot zum Beispiel."
+  },
+  {
+    "id": "general_67",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich könnt schwören, hier war gestern noch ein Zaun."
+  },
+  {
+    "id": "general_68",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man wird nicht klüger, man wird nur älter. Meistens jedenfalls."
+  },
+  {
+    "id": "general_69",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich sammle Geschichten. Leider hat noch keiner eine gute erzählt."
+  },
+  {
+    "id": "general_70",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn's mal ruhig ist, hör ich mir selbst beim Denken zu."
+  },
+  {
+    "id": "general_71",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, jeder hier hat ein Geheimnis. Meins verrat ich nicht."
+  },
+  {
+    "id": "general_72",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Am Ende zählt doch nur, dass man satt ins Bett geht."
+  },
+  {
+    "id": "general_73",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich mag Tage, an denen nichts Besonderes passiert. Die sind unterschätzt."
+  },
+  {
+    "id": "general_74",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal frag ich mich, ob die anderen Dörfer genauso reden wie wir."
+  },
+  {
+    "id": "general_75",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, ich brauch mal wieder ein Gespräch, das nicht ums Handeln geht."
+  },
+  {
+    "id": "general_76",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Vertrauen muss man sich verdienen. Smaragde reichen da nicht ganz."
+  },
+  {
+    "id": "general_77",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab mal gezählt, wie oft ich am Tag 'Hm' sage. Zu oft."
+  },
+  {
+    "id": "general_78",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Dorf ohne Lachen ist nur ein Haufen Häuser."
+  },
+  {
+    "id": "general_79",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, meine beste Idee hatte ich beim Nichtstun."
+  },
+  {
+    "id": "general_80",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Man sollte öfter Danke sagen. Auch für Kleinigkeiten."
+  },
+  {
+    "id": "general_81",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich mag den Moment kurz vor Sonnenaufgang am meisten."
+  },
+  {
+    "id": "general_82",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn jeder ein bisschen hilft, wird's am Ende leichter für alle."
+  },
+  {
+    "id": "general_83",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich glaub, ich rede manchmal mehr mit mir selbst als mit anderen."
+  },
+  {
+    "id": "general_84",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Was heute nicht klappt, klappt vielleicht morgen. Oder übermorgen."
+  },
+  {
+    "id": "general_85",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Am Ende des Tages ist ein volles Dach über dem Kopf schon viel wert."
+  },
+  {
+    "id": "general_86",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Meine Katze schläft den ganzen Tag auf der Kiste mit den Smaragden. Wenigstens bewacht sie was."
+  },
+  {
+    "id": "general_87",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Kühe muhen morgens lauter als unsere Glocke. Kein Wunder, dass ich früh wach bin."
+  },
+  {
+    "id": "general_88",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab noch nie ein Schaf zählen müssen, um einzuschlafen. Bei dem Lärm hier reicht eins."
+  },
+  {
+    "id": "general_89",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Schweine im Pferch sehen zufriedener aus als die meisten von uns."
+  },
+  {
+    "id": "general_90",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Irgendwie legt dieses eine Huhn mehr Eier als alle anderen zusammen. Ich frag lieber nicht, wie."
+  },
+  {
+    "id": "general_91",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mein Pferd hat mehr Charakter als so mancher Nachbar. Und weniger Meinung."
+  },
+  {
+    "id": "general_92",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der gezähmte Wolf vom Jäger folgt ihm überallhin. Ich wünscht, meine Katze wär halb so treu."
+  },
+  {
+    "id": "general_93",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese Kaninchen vermehren sich schneller, als ich zählen kann."
+  },
+  {
+    "id": "general_94",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich mag die Bienen. Solange ich nicht in ihre Nähe komme."
+  },
+  {
+    "id": "general_95",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal seh ich einen Fuchs am Waldrand. Er schaut genauso misstrauisch wie ich."
+  },
+  {
+    "id": "general_96",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Lamas vom Händler spucken mehr, als sie handeln."
+  },
+  {
+    "id": "general_97",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Papagei hat neulich meine Stimme nachgemacht. Erschreckend gut, muss ich sagen."
+  },
+  {
+    "id": "general_98",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich schlaf immer erst, wenn ich zweimal an der Tür gerüttelt hab. Bei dem, was nachts durchs Dorf schleicht, macht man das lieber."
+  },
+  {
+    "id": "general_99",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manchmal hör ich's zischen, kurz bevor's kracht. Dann lauf ich, und frag später nach dem Warum."
+  },
+  {
+    "id": "general_100",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der Zaubertisch murmelt nachts vor sich hin. Keine Ahnung, was er sagt, aber es klingt wichtig."
+  },
+  {
+    "id": "general_101",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Diamant blitzt heller als jede Kerze. Trotzdem kauf ich lieber Brot davon."
+  },
+  {
+    "id": "general_102",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Redstone-Staub überall in der Tasche. Ich glaub, meine Hosen leuchten schon nachts."
+  },
+  {
+    "id": "general_103",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wer auch immer TNT erfunden hat, wohnt hoffentlich nicht neben mir."
+  },
+  {
+    "id": "general_104",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein leerer Eimer ist erstaunlich vielseitig. Ein voller erst recht, bis er umkippt."
+  },
+  {
+    "id": "general_105",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mein Kompass zeigt immer zum Dorf. Praktisch, wenn man mal vergisst, wo man wohnt."
+  },
+  {
+    "id": "general_106",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Auf meiner Karte ist mehr Papier als Gebiet. Aber ich find trotzdem heim."
+  },
+  {
+    "id": "general_107",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche fliegen mit so Flügeln durch die Luft. Ich bleib lieber am Boden."
+  },
+  {
+    "id": "general_108",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab gehört, es gibt eine kleine Statue, die einen vor dem Sterben bewahrt. Klingt nach Zauberei."
+  },
+  {
+    "id": "general_109",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese Perlen aus dem Ender sind mir nicht geheuer. Wer wirft schon freiwillig sich selbst irgendwohin?"
+  },
+  {
+    "id": "general_110",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Bett ist das Beste, was man besitzen kann. Nach Smaragden natürlich."
+  },
+  {
+    "id": "general_111",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der Amboss macht manchmal mehr Lärm als Nutzen, find ich."
+  },
+  {
+    "id": "general_112",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein guter Bogen erspart einem so manchen unangenehmen Spaziergang."
+  },
+  {
+    "id": "general_113",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Mit einem Schild fühlt man sich gleich doppelt so mutig. Auch wenn man's gar nicht ist."
+  },
+  {
+    "id": "general_114",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Meine Angel hat neulich einen alten Stiefel gefangen. Immerhin war's kein Monster."
+  },
+  {
+    "id": "general_115",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Obsidian ist härter als jeder Kopf hier im Dorf. Und das will was heißen."
+  },
+  {
+    "id": "general_116",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Netherite soll aus der Hölle kommen. Passt irgendwie zum Preis."
+  },
+  {
+    "id": "general_117",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein ganzer Kuchen für eine Person? Das ist fast schon unhöflich viel."
+  },
+  {
+    "id": "general_118",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein goldener Apfel schmeckt bestimmt nach gar nichts. Aber er glänzt wenigstens schön."
+  },
+  {
+    "id": "general_119",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Meine Uhr zeigt nie die richtige Zeit, aber wenigstens dreht sie sich zuverlässig."
+  },
+  {
+    "id": "general_120",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Feuerwerk am Nachthimmel, und schon vergisst man kurz, dass es draußen gefährlich ist."
+  },
+  {
+    "id": "general_121",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Kohle ist nicht hübsch, aber ohne sie bleibt der Ofen kalt."
+  },
+  {
+    "id": "general_122",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Eisen ist ehrlich. Kein Glanz, aber man kann sich drauf verlassen."
+  },
+  {
+    "id": "general_123",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Gold sieht gut aus, taugt aber kaum zu was Vernünftigem. Typisch."
+  },
+  {
+    "id": "general_124",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diamanten findet man nur, wenn man tief genug gräbt. Und Geduld hat."
+  },
+  {
+    "id": "general_125",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Smaragde sind mir lieber als jedes andere Gestein. Aus offensichtlichen Gründen."
+  },
+  {
+    "id": "general_126",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Lapislazuli ist blauer als der Himmel an einem guten Tag."
+  },
+  {
+    "id": "general_127",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wer Redstone abbaut, kommt meistens rot verstaubt wieder hoch."
+  },
+  {
+    "id": "general_128",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Kupfer wird mit der Zeit grün. Genau wie ich, wenn ich zu lang in der Sonne steh."
+  },
+  {
+    "id": "general_129",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese lila Kristalle in der Höhle summen fast, wenn man genau hinhört."
+  },
+  {
+    "id": "general_130",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Quarz aus dem Nether ist heller als alles, was ich hier oben kenne."
+  },
+  {
+    "id": "general_131",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich hab einen Eichensetzling gepflanzt. In hundert Jahren wird das bestimmt ein stattlicher Baum."
+  },
+  {
+    "id": "general_132",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Zuckerrohr wächst am Wasser wie von selbst. Fast so, als wollt es mir was zeigen."
+  },
+  {
+    "id": "general_133",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Kaktus im Vorgarten hält jedenfalls ungebetene Gäste fern."
+  },
+  {
+    "id": "general_134",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Pilze im Schatten wachsen schneller als jede Ausrede."
+  },
+  {
+    "id": "general_135",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Schildkröten am Strand lassen sich von nichts hetzen. Vielleicht sollt ich mir das abschauen."
+  },
+  {
+    "id": "general_136",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Tintenfische im Fluss sehen aus, als hätten sie ewig Zeit."
+  },
+  {
+    "id": "general_137",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Nachts hör ich manchmal Fledermäuse flattern. Stört mich nicht, solange sie draußen bleiben."
+  },
+  {
+    "id": "general_138",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Eine Spinne in der Ecke stört mich weniger als die, die nachts größer werden."
+  },
+  {
+    "id": "general_139",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Diese kleinen rosa Wasserwesen unter der Erde sind niedlicher, als man erwarten würde."
+  },
+  {
+    "id": "general_140",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die wilden Ozelots im Dschungel lassen sich nicht anfassen. Stolze Tiere."
+  },
+  {
+    "id": "general_141",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ohne meinen Arbeitsplatz fühl ich mich fast nackt. Beruflich gesehen."
+  },
+  {
+    "id": "general_142",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Der Eiserne Golem passt besser auf uns auf, als wir es je könnten."
+  },
+  {
+    "id": "general_143",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn die Glocke läutet, wissen wir alle: rein ins Haus, Tür zu."
+  },
+  {
+    "id": "general_144",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Manche von uns waren mal... anders. Man redet nicht drüber."
+  },
+  {
+    "id": "general_145",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Dorf ohne Handel ist wie ein Haus ohne Dach."
+  },
+  {
+    "id": "general_146",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ich handle nicht mit jedem gleich. Manche haben sich das Vertrauen einfach verdient."
+  },
+  {
+    "id": "general_147",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Reputation ist alles hier. Ruinier sie einmal, und man merkt sich das."
+  },
+  {
+    "id": "general_148",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wir bekommen hier Nachwuchs schneller, als wir Betten bauen können. Fast schon peinlich."
+  },
+  {
+    "id": "general_149",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Jeder von uns hat einen Platz im Dorf. Meiner ist wohl der neben dem Brunnen."
+  },
+  {
+    "id": "general_150",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Wenn ein Zombie eins von uns erwischt, wird's hässlich. Und grün."
+  },
+  {
+    "id": "general_151",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Ein Creeper macht keinen Lärm, bis es zu spät ist. Deshalb schau ich immer zweimal hin."
+  },
+  {
+    "id": "general_152",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Zombies riechen wir meistens, bevor wir sie sehen. Kein schöner Vorteil."
+  },
+  {
+    "id": "general_153",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Skelette schießen aus der Ferne. Feiglinge, wenn du mich fragst."
+  },
+  {
+    "id": "general_154",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Schau einem Enderman niemals in die Augen. Das hab ich mir sagen lassen, nicht ausprobiert."
+  },
+  {
+    "id": "general_155",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "Die Hexe am Sumpfrand braut komische Sachen. Ich halt lieber Abstand."
+  },
+  {
+    "id": "prof_new_armorer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Amboss hat heute schon dreimal gefunkt. Ein guter Tag für Rüstungen."
+  },
+  {
+    "id": "prof_new_armorer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schmiede lieber Brustpanzer als Werkzeug. Mehr Ehre drin."
+  },
+  {
+    "id": "prof_new_armorer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hände sind vom Hammer schwieliger als jedes Leder."
+  },
+  {
+    "id": "prof_new_armorer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Rüstung hält länger als jedes Versprechen."
+  },
+  {
+    "id": "prof_new_armorer_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Geruch von heißem Eisen gehört einfach zu meinem Tag."
+  },
+  {
+    "id": "prof_new_butcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ohne mich gäbe es hier nur rohes Fleisch. Undankbare Arbeit, aber jemand muss sie machen."
+  },
+  {
+    "id": "prof_new_butcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Hackblock hat schon mehr gesehen, als ich zugeben will."
+  },
+  {
+    "id": "prof_new_butcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Frisches Fleisch verkauft sich immer besser als altes. Wer hätte das gedacht."
+  },
+  {
+    "id": "prof_new_butcher_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich rieche den ganzen Tag nach Rauch. Meine Kunden scheint's nicht zu stören."
+  },
+  {
+    "id": "prof_new_butcher_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein guter Schnitt macht den Unterschied zwischen Mahlzeit und Matsche."
+  },
+  {
+    "id": "prof_new_cartographer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zeichne Karten von Orten, an denen ich selbst nie war. Ironisch, oder?"
+  },
+  {
+    "id": "prof_new_cartographer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Papiervorrat schwindet schneller, als ich nachliefern kann."
+  },
+  {
+    "id": "prof_new_cartographer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Karte lügt nicht. Meistens jedenfalls."
+  },
+  {
+    "id": "prof_new_cartographer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab mal versucht, unser Dorf zu zeichnen. Es sah aus wie ein Kartoffelfeld."
+  },
+  {
+    "id": "prof_new_cartographer_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Kompass und Feder sind mir heiliger als die meisten Werkzeuge hier."
+  },
+  {
+    "id": "prof_new_cleric_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Braustand brodelt schon seit Stunden. Geduld gehört zum Handwerk."
+  },
+  {
+    "id": "prof_new_cleric_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich misch Tränke, keine Wunder. Auch wenn's manchmal so aussieht."
+  },
+  {
+    "id": "prof_new_cleric_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein guter Trank braucht die richtige Zutat und noch mehr Ruhe."
+  },
+  {
+    "id": "prof_new_cleric_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Nether-Warzen riechen schlimmer, als sie schmecken. Zum Glück trinkt man sie nicht pur."
+  },
+  {
+    "id": "prof_new_cleric_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Robe hat mehr Flecken als jedes Rezeptbuch."
+  },
+  {
+    "id": "prof_new_farmer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hacke und ich haben schon mehr Felder gesehen als die meisten hier Betten."
+  },
+  {
+    "id": "prof_new_farmer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Regen ist für mich, was Smaragde für andere sind."
+  },
+  {
+    "id": "prof_new_farmer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Karotten wachsen schneller, wenn man mit ihnen redet. Behaupte ich zumindest."
+  },
+  {
+    "id": "prof_new_farmer_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Am Ende der Ernte zählt jedes einzelne Korn."
+  },
+  {
+    "id": "prof_new_farmer_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich kenn dieses Feld besser als mein eigenes Gesicht."
+  },
+  {
+    "id": "prof_new_fisherman_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab heute mehr Algen gefangen als Fische. Trotzdem ein guter Tag."
+  },
+  {
+    "id": "prof_new_fisherman_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Geduld ist beim Angeln wichtiger als jede Ausrüstung."
+  },
+  {
+    "id": "prof_new_fisherman_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Boot hat schon bessere Tage gesehen. Genau wie ich."
+  },
+  {
+    "id": "prof_new_fisherman_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Der See gibt nicht immer, was man sich wünscht. Aber meistens genug."
+  },
+  {
+    "id": "prof_new_fisherman_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich kenn jede Stelle am Ufer, an der die Fische anbeißen. Verrat ich aber keinem."
+  },
+  {
+    "id": "prof_new_fletcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Pfeil, gerade geschnitzt, fliegt auch gerade. Krumme fliegen krumm."
+  },
+  {
+    "id": "prof_new_fletcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Federn sammeln sich hier schneller an, als ich sie verarbeiten kann."
+  },
+  {
+    "id": "prof_new_fletcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Werktisch ist voller Splitter. Berufsrisiko."
+  },
+  {
+    "id": "prof_new_fletcher_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein guter Bogen braucht Zeit. Ein schlechter braucht auch Zeit, nur umsonst."
+  },
+  {
+    "id": "prof_new_fletcher_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl meine Pfeile jeden Abend. Bisher kam nie einer von allein zurück."
+  },
+  {
+    "id": "prof_new_leatherworker_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Leder gerben riecht nicht gut, aber das Ergebnis überzeugt."
+  },
+  {
+    "id": "prof_new_leatherworker_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab mehr Häute verarbeitet, als ich Kühe kenne."
+  },
+  {
+    "id": "prof_new_leatherworker_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Rüstung aus Leder ist leichter als jede aus Eisen. Und leiser."
+  },
+  {
+    "id": "prof_new_leatherworker_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hände riechen nach Gerbsäure. Daran gewöhnt man sich, sagt man."
+  },
+  {
+    "id": "prof_new_leatherworker_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Jedes Stück Leder erzählt eine kleine Geschichte. Meist keine schöne."
+  },
+  {
+    "id": "prof_new_librarian_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Bücher stapeln sich hier schneller, als ich sie lesen kann."
+  },
+  {
+    "id": "prof_new_librarian_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein gutes Buch ist mehr wert als so manches Smaragdstück. Sag ich nur ungern laut."
+  },
+  {
+    "id": "prof_new_librarian_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sortiere die Regale nach Farbe. Niemand hat mich danach gefragt, aber es beruhigt mich."
+  },
+  {
+    "id": "prof_new_librarian_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Wissen verstaubt genauso wie alles andere hier. Man muss es nur ab und zu abstauben."
+  },
+  {
+    "id": "prof_new_librarian_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich lese abends bei Kerzenlicht. Die Augen danken es mir nicht, aber die Seele schon."
+  },
+  {
+    "id": "prof_new_mason_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Stein auf Stein, so wächst ein Dorf. Langsam, aber sicher."
+  },
+  {
+    "id": "prof_new_mason_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Hände sind rauer als jeder Fels, den ich bearbeite."
+  },
+  {
+    "id": "prof_new_mason_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gerade Mauer ist seltener, als man denkt. Meine sind... fast gerade."
+  },
+  {
+    "id": "prof_new_mason_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab für jede Wand im Dorf schon mal den Meißel angesetzt."
+  },
+  {
+    "id": "prof_new_mason_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Stein hält länger als Holz. Und länger als die meisten Freundschaften hier, ehrlich gesagt."
+  },
+  {
+    "id": "prof_new_nitwit_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab heut einen Stein gefunden. Er war grau."
+  },
+  {
+    "id": "prof_new_nitwit_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Weißt du, was lustig ist? Alles, wenn man's nicht versteht."
+  },
+  {
+    "id": "prof_new_nitwit_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnt schwören, die Hühner reden manchmal mit mir."
+  },
+  {
+    "id": "prof_new_nitwit_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab keinen Beruf, aber dafür viele Meinungen. Über gar nichts."
+  },
+  {
+    "id": "prof_new_nitwit_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Manchmal steh ich einfach nur da und lächel. Kostet ja nichts."
+  },
+  {
+    "id": "prof_new_none_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sollt mir echt mal einen Arbeitstisch suchen. Irgendwann."
+  },
+  {
+    "id": "prof_new_none_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ohne Beruf hat man wenigstens keinen Chef. Auch ein Vorteil."
+  },
+  {
+    "id": "prof_new_none_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich helf gern aus, kann nur leider nichts Bestimmtes besonders gut."
+  },
+  {
+    "id": "prof_new_none_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Die anderen haben alle einen Platz am Arbeitstisch. Ich hab einen Platz am Brunnen."
+  },
+  {
+    "id": "prof_new_none_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Vielleicht werd ich noch was. Vielleicht bleib ich einfach so. Beides geht."
+  },
+  {
+    "id": "prof_new_shepherd_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Schafe hören besser auf mich als so mancher Nachbar."
+  },
+  {
+    "id": "prof_new_shepherd_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schere Wolle, keine Wunder. Auch wenn's manchmal genauso schwierig ist."
+  },
+  {
+    "id": "prof_new_shepherd_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein gutes Fell braucht Zeit zum Wachsen. Genau wie Geduld."
+  },
+  {
+    "id": "prof_new_shepherd_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl meine Schafe nicht zum Einschlafen. Ich zähl sie, damit keins fehlt."
+  },
+  {
+    "id": "prof_new_shepherd_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Bunte Wolle verkauft sich besser als graue. Kein Wunder, ehrlich."
+  },
+  {
+    "id": "prof_new_toolsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Spitzhacke hält länger als jedes Versprechen im Dorf."
+  },
+  {
+    "id": "prof_new_toolsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Amboss und ich verstehen uns ohne viele Worte."
+  },
+  {
+    "id": "prof_new_toolsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Werkzeug ist ehrlicher als Waffen. Es zerstört nur, was man ihm zeigt."
+  },
+  {
+    "id": "prof_new_toolsmith_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schärfe Klingen den ganzen Tag. Am Abend ist selbst mein Humor scharf."
+  },
+  {
+    "id": "prof_new_toolsmith_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine stumpfe Axt ist nutzloser als gar keine. Meiner Meinung nach."
+  },
+  {
+    "id": "prof_new_wandering_trader_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Lamas und ich haben mehr Wege gesehen als die meisten hier ihr ganzes Dorf."
+  },
+  {
+    "id": "prof_new_wandering_trader_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich handle mit Dingen, die hier keiner kennt. Das macht den Reiz aus."
+  },
+  {
+    "id": "prof_new_wandering_trader_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Manche Dörfer mögen mich, manche jagen mich fort. Beides gehört dazu."
+  },
+  {
+    "id": "prof_new_wandering_trader_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schlaf selten zweimal am selben Ort. Gewöhnungssache."
+  },
+  {
+    "id": "prof_new_wandering_trader_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Waren sind exotisch. Meine Preise leider auch."
+  },
+  {
+    "id": "prof_new_weaponsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein scharfes Schwert verkauft sich schneller als ein stumpfes. Logisch, eigentlich."
+  },
+  {
+    "id": "prof_new_weaponsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich schmiede Waffen, keine Kriege. Das überlass ich anderen."
+  },
+  {
+    "id": "prof_new_weaponsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Mein Amboss klingt anders als der vom Rüstungsschmied. Härter, find ich."
+  },
+  {
+    "id": "prof_new_weaponsmith_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Eine gute Klinge braucht Geduld beim Schmieden. Und noch mehr beim Schärfen."
+  },
+  {
+    "id": "prof_new_weaponsmith_5",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hoffe immer, dass meine Waffen nie gebraucht werden. Verkauf ich sie trotzdem."
+  },
+  {
+    "id": "biome_new_badlands_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Sand hier hat mehr Farben als unser ganzer Marktplatz."
+  },
+  {
+    "id": "biome_new_badlands_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich grab hier nie zu tief. Man weiß ja nie, was unter der Kruste wartet."
+  },
+  {
+    "id": "biome_new_badlands_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Schluchten hier sehen aus, als hätte jemand mit einem riesigen Messer geschnitten."
+  },
+  {
+    "id": "biome_new_badlands_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst meine Wasserflasche wird hier oben lauwarm."
+  },
+  {
+    "id": "biome_new_badlands_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "Gold liegt hier fast an der Oberfläche. Fast schon unfair."
+  },
+  {
+    "id": "biome_new_bamboo_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Halme sind grüner als alles, was ich sonst kenne."
+  },
+  {
+    "id": "biome_new_bamboo_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab noch nie so viele Pandas an einem Ort gesehen. Vorher auch nie einen."
+  },
+  {
+    "id": "biome_new_bamboo_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden hier ist weich von den abgefallenen Blättern."
+  },
+  {
+    "id": "biome_new_bamboo_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Bambus wächst schneller, als ich meine Vorräte auffüllen kann."
+  },
+  {
+    "id": "biome_new_bamboo_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier drin fühlt man sich winzig zwischen den Halmen."
+  },
+  {
+    "id": "biome_new_basalt_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Säulen sind so gleichmäßig, fast als wären sie gebaut worden."
+  },
+  {
+    "id": "biome_new_basalt_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich rutsch hier ständig auf dem schwarzen Gestein aus."
+  },
+  {
+    "id": "biome_new_basalt_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Grün, so weit man schaut. Nur Schwarz und Grau."
+  },
+  {
+    "id": "biome_new_basalt_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Hitze hier drückt mir fast die Luft ab."
+  },
+  {
+    "id": "biome_new_basalt_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag den Klang, wenn Schritte auf Basalt hallen."
+  },
+  {
+    "id": "biome_new_beach_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Muscheln sammeln sich hier schneller an, als ich sie wegräumen kann."
+  },
+  {
+    "id": "biome_new_beach_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Sand zwischen den Zehen ist eigentlich ganz angenehm, wenn man ehrlich ist."
+  },
+  {
+    "id": "biome_new_beach_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnt den Wellen stundenlang zuhören."
+  },
+  {
+    "id": "biome_new_beach_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Ab und zu spült's was Seltsames an Land. Meistens nur Seegras."
+  },
+  {
+    "id": "biome_new_beach_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Horizont hier scheint kein Ende zu haben."
+  },
+  {
+    "id": "biome_new_birch_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Bäume sehen aus, als hätten sie sich extra für uns hübsch gemacht."
+  },
+  {
+    "id": "biome_new_birch_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Im Herbst liegt hier mehr Laub als sonst wo im Dorf."
+  },
+  {
+    "id": "biome_new_birch_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Der helle Wald wirkt freundlicher als jeder andere."
+  },
+  {
+    "id": "biome_new_birch_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich find hier immer leichter Feuerholz. Muss dran liegen, wie dünn die Stämme sind."
+  },
+  {
+    "id": "biome_new_birch_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den weißen Stämmen fühl ich mich fast beobachtet."
+  },
+  {
+    "id": "biome_new_cherry_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Blütezeit hier dauert nie lang genug."
+  },
+  {
+    "id": "biome_new_cherry_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich hab noch nie so viel Rosa an einem Ort gesehen."
+  },
+  {
+    "id": "biome_new_cherry_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden ist bedeckt wie mit einer Decke aus Blütenblättern."
+  },
+  {
+    "id": "biome_new_cherry_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Bienen mögen diesen Ort fast so sehr wie ich."
+  },
+  {
+    "id": "biome_new_cherry_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst an einem grauen Tag wirkt's hier freundlich."
+  },
+  {
+    "id": "biome_new_crimson_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Alles hier fühlt sich fremd an. Aber irgendwie auch faszinierend."
+  },
+  {
+    "id": "biome_new_crimson_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pilze hier leuchten fast im Dunkeln."
+  },
+  {
+    "id": "biome_new_crimson_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich achte genau darauf, wohin ich trete. Manches hier beißt zurück."
+  },
+  {
+    "id": "biome_new_crimson_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden ist weich wie ein Schwamm. Unheimlich weich."
+  },
+  {
+    "id": "biome_new_crimson_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Wind hier drin. Nur diese drückende Stille."
+  },
+  {
+    "id": "biome_new_dark_forest_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier verlieren selbst erfahrene Wanderer die Orientierung."
+  },
+  {
+    "id": "biome_new_dark_forest_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag die Ruhe hier. Und fürchte sie gleichzeitig ein bisschen."
+  },
+  {
+    "id": "biome_new_dark_forest_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese riesigen Pilze werfen mehr Schatten als jeder Baum."
+  },
+  {
+    "id": "biome_new_dark_forest_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Man hört hier drin jeden eigenen Schritt doppelt so laut."
+  },
+  {
+    "id": "biome_new_dark_forest_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich bring immer eine Fackel mit. Nur für den Fall."
+  },
+  {
+    "id": "biome_new_deep_dark_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier unten flüster ich sogar mit mir selbst."
+  },
+  {
+    "id": "biome_new_deep_dark_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Sculk-Flecken wachsen, wo früher wohl was Schreckliches passiert ist."
+  },
+  {
+    "id": "biome_new_deep_dark_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Vogel, kein Wind, nichts. Nur Stille."
+  },
+  {
+    "id": "biome_new_deep_dark_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich zähl meine Schritte hier unten. Hilft gegen die Angst."
+  },
+  {
+    "id": "biome_new_deep_dark_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, dieser Ort erinnert sich an alles, was hier je passiert ist."
+  },
+  {
+    "id": "biome_new_desert_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Hitze hier macht selbst die einfachsten Aufgaben zur Qual."
+  },
+  {
+    "id": "biome_new_desert_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich trag hier immer doppelt so viel Wasser mit."
+  },
+  {
+    "id": "biome_new_desert_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Tempel hier haben sicher schon ihre Geheimnisse verloren. Oder auch nicht."
+  },
+  {
+    "id": "biome_new_desert_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Sand wandert schneller, als ich meine Spuren zurückverfolgen kann."
+  },
+  {
+    "id": "biome_new_desert_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Nachts wird's hier so kalt, dass ich's kaum glauben mag."
+  },
+  {
+    "id": "biome_new_dripstone_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Tropfen hier klingt anders. Fast wie eine eigene Melodie."
+  },
+  {
+    "id": "biome_new_dripstone_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich pass immer auf, wo ich hintrete. Diese Stacheln vergeben nichts."
+  },
+  {
+    "id": "biome_new_dripstone_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Höhlensystem hier zieht sich weiter, als ich je erkundet hab."
+  },
+  {
+    "id": "biome_new_dripstone_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Manchmal denk ich, diese Höhle atmet."
+  },
+  {
+    "id": "biome_new_dripstone_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Kupfer liegt hier öfter rum, als man erwarten würde."
+  },
+  {
+    "id": "biome_new_flower_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "So viele Farben auf einem Fleck Erde. Fast zu viel für die Augen."
+  },
+  {
+    "id": "biome_new_flower_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Bienen hier haben es besser als die meisten von uns."
+  },
+  {
+    "id": "biome_new_flower_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnt hier ewig zwischen den Blüten stehen bleiben."
+  },
+  {
+    "id": "biome_new_flower_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst der Wind riecht hier anders. Süßer."
+  },
+  {
+    "id": "biome_new_flower_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich pflück nie zu viel. Andere sollen auch was davon haben."
+  },
+  {
+    "id": "biome_new_forest_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Bäumen ist es immer ein paar Grad kühler."
+  },
+  {
+    "id": "biome_new_forest_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich find hier jedes Mal was Neues, obwohl ich schon oft hier war."
+  },
+  {
+    "id": "biome_new_forest_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Rascheln der Blätter beruhigt mich mehr, als es sollte."
+  },
+  {
+    "id": "biome_new_forest_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Genug Holz hier, um ein ganzes Dorf neu zu bauen."
+  },
+  {
+    "id": "biome_new_forest_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Pilze, Beeren, Wild - dieser Wald gibt einem alles, wenn man sucht."
+  },
+  {
+    "id": "biome_new_frozen_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Eis hier trägt mich, solange ich nicht stehen bleib."
+  },
+  {
+    "id": "biome_new_frozen_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Atemwolken sind hier größer als sonst wo."
+  },
+  {
+    "id": "biome_new_frozen_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, unter dem Eis schwimmt was. Besser nicht draufklopfen."
+  },
+  {
+    "id": "biome_new_frozen_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Kälte hier kriecht einem in die Knochen, egal wie warm man sich anzieht."
+  },
+  {
+    "id": "biome_new_frozen_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst das Licht wirkt hier irgendwie blasser."
+  },
+  {
+    "id": "biome_new_grove_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Schnee zwischen den Tannen hält sich hartnäckiger als anderswo."
+  },
+  {
+    "id": "biome_new_grove_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Es riecht hier nach Harz und Kälte gleichzeitig."
+  },
+  {
+    "id": "biome_new_grove_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag das Knirschen unter meinen Stiefeln hier."
+  },
+  {
+    "id": "biome_new_grove_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Bäume trotzen jedem Sturm. Beeindruckend, eigentlich."
+  },
+  {
+    "id": "biome_new_grove_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "Zwischen den Stämmen weht's manchmal so kalt, dass mir die Worte einfrieren."
+  },
+  {
+    "id": "biome_new_ice_spikes_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Türme wachsen höher, als ich mir je ein Gebäude vorstellen könnte."
+  },
+  {
+    "id": "biome_new_ice_spikes_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein falscher Tritt hier, und man rutscht meterweit."
+  },
+  {
+    "id": "biome_new_ice_spikes_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Licht bricht sich hier in tausend Farben."
+  },
+  {
+    "id": "biome_new_ice_spikes_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, dieser Ort war schon vor mir hier. Und wird's auch danach sein."
+  },
+  {
+    "id": "biome_new_ice_spikes_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Kälte, so weit man schaut. Und trotzdem irgendwie schön."
+  },
+  {
+    "id": "biome_new_jungle_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier wächst alles in eine Richtung: nach oben, schneller als ich blinzeln kann."
+  },
+  {
+    "id": "biome_new_jungle_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Geräusche hier hören nie ganz auf. Immer irgendwas, das zirpt oder schreit."
+  },
+  {
+    "id": "biome_new_jungle_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich brauch für zehn Schritte hier so lang wie für hundert woanders."
+  },
+  {
+    "id": "biome_new_jungle_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Tempel hier hüten sicher mehr Fallen als Schätze."
+  },
+  {
+    "id": "biome_new_jungle_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "Feuchtigkeit überall. Meine Kleidung trocknet hier nie richtig."
+  },
+  {
+    "id": "biome_new_lush_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Höhle ist grüner als so manches Feld draußen."
+  },
+  {
+    "id": "biome_new_lush_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Beeren hier leuchten fast wie kleine Laternen."
+  },
+  {
+    "id": "biome_new_lush_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich lauf hier vorsichtig. Das Moos federt seltsam nach."
+  },
+  {
+    "id": "biome_new_lush_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Tropfsteine und Grün, eine komische aber schöne Mischung."
+  },
+  {
+    "id": "biome_new_lush_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich könnt schwören, hier unten ist es lauter als an der Oberfläche."
+  },
+  {
+    "id": "biome_new_mangrove_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Wurzeln verschlingen sich wie ein Netz."
+  },
+  {
+    "id": "biome_new_mangrove_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Stiefel sind hier nie länger als eine Minute trocken."
+  },
+  {
+    "id": "biome_new_mangrove_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Frosch-Chor hier ist lauter als jeder Marktschreier."
+  },
+  {
+    "id": "biome_new_mangrove_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich verlier hier ständig die Orientierung zwischen den Bäumen."
+  },
+  {
+    "id": "biome_new_mangrove_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "Es riecht nach Erde und Wasser gleichzeitig. Eigenartig, aber nicht unangenehm."
+  },
+  {
+    "id": "biome_new_meadow_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Wind trägt hier den Duft von hundert verschiedenen Blumen."
+  },
+  {
+    "id": "biome_new_meadow_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag das Summen der Bienen hier mehr, als ich zugeben will."
+  },
+  {
+    "id": "biome_new_meadow_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Wiese ist wie gemacht für einen freien Nachmittag."
+  },
+  {
+    "id": "biome_new_meadow_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst die Ziegen hier wirken entspannter als anderswo."
+  },
+  {
+    "id": "biome_new_meadow_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "An klaren Tagen sieht man von hier fast bis zum Horizont."
+  },
+  {
+    "id": "biome_new_mushroom_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Insel ist die einzige, auf der ich nachts ruhig schlafen kann."
+  },
+  {
+    "id": "biome_new_mushroom_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pilze hier sind größer als mancher Baum im Dorf."
+  },
+  {
+    "id": "biome_new_mushroom_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, hier gibt's wirklich kein einziges Monster."
+  },
+  {
+    "id": "biome_new_mushroom_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden fühlt sich schwammig an. Gewöhnungsbedürftig."
+  },
+  {
+    "id": "biome_new_mushroom_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "Kühe mit Pilzen auf dem Rücken. Man gewöhnt sich dran, ehrlich."
+  },
+  {
+    "id": "biome_new_ocean_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Wasser hier reicht weiter, als mein Blick tragen kann."
+  },
+  {
+    "id": "biome_new_ocean_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag den Salzgeruch. Erinnert mich ans Reisen."
+  },
+  {
+    "id": "biome_new_ocean_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Unter der Oberfläche verbirgt sich mehr, als man von hier oben ahnt."
+  },
+  {
+    "id": "biome_new_ocean_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Wellen hier haben einen eigenen Rhythmus. Fast wie Atmen."
+  },
+  {
+    "id": "biome_new_ocean_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich würd nie freiwillig zu tief tauchen. Zu viel Unbekanntes da unten."
+  },
+  {
+    "id": "biome_new_old_growth_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Bäume sind älter als jede Geschichte, die ich kenne."
+  },
+  {
+    "id": "biome_new_old_growth_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Man fühlt sich hier klein. Auf eine gute Art."
+  },
+  {
+    "id": "biome_new_old_growth_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Kronendach hier lässt kaum Licht durch."
+  },
+  {
+    "id": "biome_new_old_growth_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich frag mich manchmal, was diese Bäume schon alles gesehen haben."
+  },
+  {
+    "id": "biome_new_old_growth_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Genug Holz hier, für Generationen von Häusern."
+  },
+  {
+    "id": "biome_new_peaks_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Von hier oben sieht selbst das größte Dorf winzig aus."
+  },
+  {
+    "id": "biome_new_peaks_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Luft hier oben schmeckt anders. Klarer."
+  },
+  {
+    "id": "biome_new_peaks_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Ein Windstoß hier kann einen glatt umwerfen."
+  },
+  {
+    "id": "biome_new_peaks_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag den Blick, aber nicht den Weg hierher."
+  },
+  {
+    "id": "biome_new_peaks_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Ziegen hier springen, als gäb's keine Schwerkraft."
+  },
+  {
+    "id": "biome_new_plains_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Hier sieht man jeden kommen, lange bevor er ankommt."
+  },
+  {
+    "id": "biome_new_plains_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Gras wiegt sich im Wind wie ein einziges großes Meer."
+  },
+  {
+    "id": "biome_new_plains_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Genug Platz hier, um sich mal richtig frei zu fühlen."
+  },
+  {
+    "id": "biome_new_plains_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pferde hier galoppieren, als hätten sie nie ein Zuhause gebraucht."
+  },
+  {
+    "id": "biome_new_plains_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag die Weite. Macht den Kopf frei."
+  },
+  {
+    "id": "biome_new_river_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Das Wasser hier fließt schneller, als man erwarten würde."
+  },
+  {
+    "id": "biome_new_river_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich sitz gern am Ufer und schau einfach zu, wie's vorbeizieht."
+  },
+  {
+    "id": "biome_new_river_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Lachse schwimmen hier gegen die Strömung. Sturer als so mancher Nachbar."
+  },
+  {
+    "id": "biome_new_river_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Fluss verbindet mehr Orte, als eine Straße es je könnte."
+  },
+  {
+    "id": "biome_new_river_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich wasch mir hier lieber die Hände als im Brunnen. Frischer."
+  },
+  {
+    "id": "biome_new_savanna_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Akazien hier werfen kaum Schatten, aber jeder Fleck zählt."
+  },
+  {
+    "id": "biome_new_savanna_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden ist so trocken, dass jeder Schritt eine kleine Staubwolke aufwirbelt."
+  },
+  {
+    "id": "biome_new_savanna_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich mag die Weite hier fast so sehr wie in den Ebenen."
+  },
+  {
+    "id": "biome_new_savanna_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Pferde und Ziegen scheinen sich hier draußen wohler zu fühlen als im Dorf."
+  },
+  {
+    "id": "biome_new_savanna_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Sonnenuntergänge hier sind die schönsten, die ich kenne."
+  },
+  {
+    "id": "biome_new_snowy_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Atemzug hier fühlt sich an wie ein kleiner Nebel."
+  },
+  {
+    "id": "biome_new_snowy_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich trag hier mehr Schichten, als ich eigentlich Kleidung besitze."
+  },
+  {
+    "id": "biome_new_snowy_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Schnee dämpft jedes Geräusch. Fast unheimlich ruhig."
+  },
+  {
+    "id": "biome_new_snowy_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Wölfe heulen hier öfter als anderswo. Man gewöhnt sich dran."
+  },
+  {
+    "id": "biome_new_snowy_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Meine Fußspuren verschwinden hier schneller, als ich sie hinterlasse."
+  },
+  {
+    "id": "biome_new_soul_sand_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Jeder Schritt hier zieht an einem, als wollte der Boden mich behalten."
+  },
+  {
+    "id": "biome_new_soul_sand_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese blauen Flammen wärmen nicht. Trotzdem starr ich sie an."
+  },
+  {
+    "id": "biome_new_soul_sand_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Geruch hier ist schwer zu beschreiben. Und nicht angenehm."
+  },
+  {
+    "id": "biome_new_soul_sand_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, dieser Ort war mal was ganz anderes. Vor langer Zeit."
+  },
+  {
+    "id": "biome_new_soul_sand_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Selbst meine Schritte klingen hier gedämpft und fremd."
+  },
+  {
+    "id": "biome_new_stony_shore_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Nur Kies und Steine, so weit man schaut. Zumindest stolpert man selten im Gras."
+  },
+  {
+    "id": "biome_new_stony_shore_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Wellen hier klatschen lauter gegen die Felsen als anderswo."
+  },
+  {
+    "id": "biome_new_stony_shore_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich such hier manchmal nach flachen Steinen zum Übers-Wasser-Springen-Lassen."
+  },
+  {
+    "id": "biome_new_stony_shore_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden ist hart, aber wenigstens trittfest."
+  },
+  {
+    "id": "biome_new_stony_shore_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, hier war mal ein Schiff gestrandet. Die Planken liegen noch rum."
+  },
+  {
+    "id": "biome_new_swamp_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Geruch hier gewöhnt sich nie ganz weg. Man verdrängt ihn höchstens."
+  },
+  {
+    "id": "biome_new_swamp_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Frösche hier singen lauter als jeder Chor im Dorf."
+  },
+  {
+    "id": "biome_new_swamp_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich achte immer darauf, wo ich hintrete. Manches hier ist tiefer, als es aussieht."
+  },
+  {
+    "id": "biome_new_swamp_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Bäume hier hängen so schief, als wollten sie sich verstecken."
+  },
+  {
+    "id": "biome_new_swamp_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Nebel hängt hier fast jeden Morgen über dem Wasser."
+  },
+  {
+    "id": "biome_new_taiga_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Boden hier ist weich vor lauter Nadeln. Angenehm zu laufen."
+  },
+  {
+    "id": "biome_new_taiga_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich riech hier immer Harz, egal wie weit ich geh."
+  },
+  {
+    "id": "biome_new_taiga_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Füchse schleichen hier öfter rum als anderswo. Neugierige Kerle."
+  },
+  {
+    "id": "biome_new_taiga_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Tannen hier stehen so dicht, dass man kaum den Himmel sieht."
+  },
+  {
+    "id": "biome_new_taiga_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "Im Winter wird's hier so still, dass man den eigenen Herzschlag hört."
+  },
+  {
+    "id": "biome_new_warped_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese blaue Farbe wirkt fast beruhigend. Fast."
+  },
+  {
+    "id": "biome_new_warped_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Kein Monster weit und breit hier. Ungewohnt entspannend für den Nether."
+  },
+  {
+    "id": "biome_new_warped_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Pilze hier leuchten von selbst. Praktisch, aber unheimlich."
+  },
+  {
+    "id": "biome_new_warped_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich glaub, dieser Ort ist der friedlichste Fleck der Hölle."
+  },
+  {
+    "id": "biome_new_warped_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Ranken hier wachsen wie wild, aber irgendwie geordnet."
+  },
+  {
+    "id": "biome_new_windswept_1",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Der Wind hier will einem ständig was wegreißen. Hut, Worte, Geduld."
+  },
+  {
+    "id": "biome_new_windswept_2",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Von hier oben sieht das ganze Land aus wie ein Flickenteppich."
+  },
+  {
+    "id": "biome_new_windswept_3",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Die Ziegen hier scheinen den Abgrund gar nicht zu fürchten."
+  },
+  {
+    "id": "biome_new_windswept_4",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Ich muss hier immer schreien, um verstanden zu werden."
+  },
+  {
+    "id": "biome_new_windswept_5",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "Diese Gipfel trotzen jedem Wetter. Beeindruckend."
+  }
+]
