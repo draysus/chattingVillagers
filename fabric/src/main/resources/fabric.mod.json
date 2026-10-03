@@ -12,7 +12,7 @@
         "sources": "https://www.curseforge.com/minecraft/mc-mods/chatting-villagers"
     },
     "license": "${license}",
-    "icon": "${mod_id}.png",
+    "icon": "assets/chattingvillagers/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
@@ -24,9 +24,6 @@
         "fabric-api": "*",
         "minecraft": "${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
   
