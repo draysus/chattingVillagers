@@ -2,15 +2,12 @@ package io.github.draysus.chattingvillagers;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.ai.memory.MemoryModuleType;
-import net.minecraft.world.entity.npc.AbstractVillager;
-import net.minecraft.world.entity.npc.Villager;
-import net.minecraft.world.entity.npc.VillagerProfession;
-import net.minecraft.world.entity.npc.WanderingTrader;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.Villager;
+import net.minecraft.world.entity.npc.wanderingtrader.WanderingTrader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Blocks;
@@ -77,18 +74,17 @@ public class VillagerContext {
 		// --- Profession: villagers via the registry, wandering trader as a special case ---
 		String profession = "none";
 		if (villager instanceof Villager v) {
-			VillagerProfession prof = v.getVillagerData().getProfession();
-			ResourceLocation profId = BuiltInRegistries.VILLAGER_PROFESSION.getKey(prof);
-			if (profId != null) {
-				profession = profId.getPath();
-			}
+			// Since 1.21.5 the profession is a registry holder; read the path of its key.
+			profession = v.getVillagerData().profession().unwrapKey()
+					.map(key -> key.identifier().getPath())
+					.orElse("none");
 		} else if (villager instanceof WanderingTrader) {
 			profession = "wandering_trader";
 		}
 
 		// --- Biome (dynamic registry -> resolved through the holder) ---
 		Holder<Biome> biomeHolder = level.getBiome(pos);
-		String biome = biomeHolder.unwrapKey().map(key -> key.location().getPath()).orElse("unknown");
+		String biome = biomeHolder.unwrapKey().map(key -> key.identifier().getPath()).orElse("unknown");
 
 		// --- States ---
 		Set<String> states = new HashSet<>();

@@ -1,0 +1,1342 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :buildSrc:extractPluginRequests UP-TO-DATE
+> Task :buildSrc:generatePluginAdapters UP-TO-DATE
+> Task :buildSrc:compileJava UP-TO-DATE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:compileGroovyPlugins UP-TO-DATE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :fabric
+Fabric Loom: 1.13.6
+The mixin annotation is no longer enabled by default, you should remove any loom.mixin configuration. If you wish to continue to use the mixin AP you can set useLegacyMixinAp = true.
+
+> Task :common:createMinecraftArtifacts UP-TO-DATE
+> Task :common:compileJava
+> Task :common:processResources
+> Task :common:classes
+> Task :common:jarJar NO-SOURCE
+> Task :common:jar
+
+> Task :common:javadoc
+.\gradlew : F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVill
+agers.java:78: Warnung: kein @param f´┐¢r entity
+In Zeile:1 Zeichen:1
++ .\gradlew build 2>&1 | Out-File -Encoding utf8 build-log.txt
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (F:\Programme\VS...am f´┐¢r entity:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:9
+6: Warnung: kein @param f´┐¢r server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:5
+83: Warnung: kein @param f´┐¢r dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+9: Warnung: kein Kommentar
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+8: Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+7: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ChattingVillagers {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:2
+08: Warnung: kein Kommentar
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: kein Kommentar
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: 
+Warnung: kein Kommentar
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: 
+Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: 
+Warnung: kein Kommentar
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @param f´┐¢r professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @param f´┐¢r key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @param f´┐¢r key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: kein Kommentar
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: kein Kommentar
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: kein Kommentar
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: kein Kommentar
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:295
+: Warnung: kein Kommentar
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: kein Kommentar
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: kein Kommentar
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:394
+: Warnung: kein Kommentar
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:404
+: Warnung: kein Kommentar
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:321
+: Warnung: kein Kommentar
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:317
+: Warnung: kein Kommentar
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:313
+: Warnung: kein Kommentar
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:367
+: Warnung: kein Kommentar
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:329
+: Warnung: kein Kommentar
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:325
+: Warnung: kein Kommentar
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:63:
+ Warnung: kein Kommentar
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:502
+: Warnung: kein Kommentar
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:500
+: Warnung: kein Kommentar
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:504
+: Warnung: kein Kommentar
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:501
+: Warnung: kein Kommentar
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:503
+: Warnung: kein Kommentar
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:484
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:482
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:486
+: Warnung: kein Kommentar
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:483
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:485
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490
+: Warnung: kein Kommentar
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:491
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:302
+: Warnung: kein Kommentar
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:495
+: Warnung: kein Kommentar
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:496
+: Warnung: kein Kommentar
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:476
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:474
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:478
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:475
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:477
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatf
+ormHelper.java:5: Warnung: kein Kommentar
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:91: 
+Warnung: kein @param f´┐¢r name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: kein Kommentar
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: 
+Warnung: kein Kommentar
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: 
+Warnung: kein Kommentar
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:47: 
+Warnung: kein Kommentar
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:48: 
+Warnung: kein Kommentar
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: 
+Warnung: kein Kommentar
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: 
+Warnung: kein Kommentar
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: 
+Warnung: kein Kommentar
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: 
+Warnung: kein Kommentar
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:53: 
+Warnung: kein Kommentar
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:56: 
+Warnung: kein Kommentar
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:54: 
+Warnung: kein Kommentar
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:52: 
+Warnung: kein Kommentar
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: 
+Warnung: kein Kommentar
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:22: 
+Warnung: kein Kommentar
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:21: 
+Warnung: kein Kommentar
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:40: 
+Warnung: kein Kommentar
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: 
+Warnung: kein Kommentar
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:55: 
+Warnung: kein Kommentar
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: 
+Warnung: kein Kommentar
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:25: 
+Warnung: kein Kommentar
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: 
+Warnung: kein Kommentar
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: 
+Warnung: kein Kommentar
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:39: 
+Warnung: kein Kommentar
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:26: 
+Warnung: kein Kommentar
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:38: 
+Warnung: kein Kommentar
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:132: 
+Warnung: kein Kommentar
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:160: 
+Warnung: kein Kommentar
+	public ChatFormatting resolveChatColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:168: 
+Warnung: kein Kommentar
+	public ChatFormatting resolveNameColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:149: 
+Warnung: kein Kommentar
+	public void save() {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\PlayerPrefs.java:71: 
+Warnung: kein @param f´┐¢r server
+	public static PlayerPrefs get(MinecraftServer server) {
+	                          ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\PlayerPrefs.java:71: 
+Warnung: kein @return
+	public static PlayerPrefs get(MinecraftServer server) {
+	                          ^
+100 Warnungen
+
+> Task :common:javadocJar
+> Task :common:sourcesJar
+> Task :common:assemble
+> Task :common:compileTestJava NO-SOURCE
+> Task :common:processTestResources NO-SOURCE
+> Task :common:testClasses UP-TO-DATE
+> Task :common:test NO-SOURCE
+> Task :common:check UP-TO-DATE
+> Task :common:build
+> Task :fabric:exportClasspath
+> Task :fabric:compileJava
+> Task :fabric:processResources
+> Task :fabric:classes
+> Task :fabric:jar
+
+> Task :fabric:javadoc
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:7
+8: Warnung: kein @param f´┐¢r entity
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:9
+6: Warnung: kein @param f´┐¢r server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:5
+83: Warnung: kein @param f´┐¢r dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+9: Warnung: kein Kommentar
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+8: Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+7: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ChattingVillagers {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:2
+08: Warnung: kein Kommentar
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\fabric\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersFabric.
+java:14: Warnung: kein Kommentar
+	public static final ChattingVillagers CORE = new ChattingVillagers();
+	                                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\fabric\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersFabric.
+java:13: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ChattingVillagersFabric implements ModInitializer {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: kein Kommentar
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: 
+Warnung: kein Kommentar
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: 
+Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: 
+Warnung: kein Kommentar
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @param f´┐¢r professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @param f´┐¢r key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @param f´┐¢r key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: kein Kommentar
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: kein Kommentar
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: kein Kommentar
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: kein Kommentar
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:295
+: Warnung: kein Kommentar
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: kein Kommentar
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: kein Kommentar
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:394
+: Warnung: kein Kommentar
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:404
+: Warnung: kein Kommentar
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:321
+: Warnung: kein Kommentar
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:317
+: Warnung: kein Kommentar
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:313
+: Warnung: kein Kommentar
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:367
+: Warnung: kein Kommentar
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:329
+: Warnung: kein Kommentar
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:325
+: Warnung: kein Kommentar
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:63:
+ Warnung: kein Kommentar
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:502
+: Warnung: kein Kommentar
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:500
+: Warnung: kein Kommentar
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:504
+: Warnung: kein Kommentar
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:501
+: Warnung: kein Kommentar
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:503
+: Warnung: kein Kommentar
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:484
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:482
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:486
+: Warnung: kein Kommentar
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:483
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:485
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490
+: Warnung: kein Kommentar
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:491
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:302
+: Warnung: kein Kommentar
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:495
+: Warnung: kein Kommentar
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:496
+: Warnung: kein Kommentar
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:476
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:474
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:478
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:475
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:477
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\fabric\src\main\java\io\github\draysus\chattingvillagers\platform\FabricPlatformH
+elper.java:8: Warnung: kein Kommentar
+public class FabricPlatformHelper implements IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\fabric\src\main\java\io\github\draysus\chattingvillagers\platform\FabricPlatformH
+elper.java:8: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class FabricPlatformHelper implements IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatf
+ormHelper.java:5: Warnung: kein Kommentar
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:91: 
+Warnung: kein @param f´┐¢r name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: kein Kommentar
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: 
+Warnung: kein Kommentar
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: 
+Warnung: kein Kommentar
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:47: 
+Warnung: kein Kommentar
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:48: 
+Warnung: kein Kommentar
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: 
+Warnung: kein Kommentar
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: 
+Warnung: kein Kommentar
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: 
+Warnung: kein Kommentar
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: 
+Warnung: kein Kommentar
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:53: 
+Warnung: kein Kommentar
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:56: 
+Warnung: kein Kommentar
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:54: 
+Warnung: kein Kommentar
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:52: 
+Warnung: kein Kommentar
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: 
+Warnung: kein Kommentar
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:22: 
+Warnung: kein Kommentar
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:21: 
+Warnung: kein Kommentar
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:40: 
+Warnung: kein Kommentar
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: 
+Warnung: kein Kommentar
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:55: 
+Warnung: kein Kommentar
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: 
+Warnung: kein Kommentar
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:25: 
+Warnung: kein Kommentar
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: 
+Warnung: kein Kommentar
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: 
+Warnung: kein Kommentar
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:39: 
+Warnung: kein Kommentar
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:26: 
+Warnung: kein Kommentar
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:38: 
+Warnung: kein Kommentar
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:132: 
+Warnung: kein Kommentar
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:160: 
+Warnung: kein Kommentar
+	public ChatFormatting resolveChatColor() {
+	                      ^
+100 Warnungen
+
+> Task :fabric:javadocJar
+> Task :fabric:processIncludeJars
+> Task :fabric:sourcesJar
+> Task :fabric:compileTestJava NO-SOURCE
+> Task :fabric:processTestResources NO-SOURCE
+> Task :fabric:testClasses UP-TO-DATE
+> Task :fabric:test NO-SOURCE
+> Task :fabric:validateAccessWidener NO-SOURCE
+> Task :fabric:check UP-TO-DATE
+> Task :fabric:remapJar
+> Task :fabric:remapSourcesJar
+
+> Task :neoforge:createMinecraftArtifacts
+Loaded 126 artifacts from F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\neoforge\build\tmp\createMinecraftArtifacts\nfrt_artifact_manifest.properties
+[1m*** Started working on [4mdownloadJson[0m[0m
+ [1m[92mDONE [0m Completed [4mdownloadJson[0m in 0.02s
+[1m*** Started working on [4mdownloadClient[0m[0m
+[1m*** Started working on [4mdownloadServer[0m[0m
+[1m*** Started working on [4mdownloadClientMappings[0m[0m
+ [1m[92mDONE [0m Completed [4mdownloadClient[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadServer[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadClientMappings[0m in 0.02s
+[1m*** Started working on [4mmergeMappings[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmergeMappings[0m in 0.00s
+[1m*** Started working on [4mextractServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mextractServer[0m in 0.00s
+[1m*** Started working on [4mstripClient[0m[0m
+[1m*** Started working on [4mstripServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mstripClient[0m in 0.00s
+ [1m[92mREUSE[0m Used cache of [4mstripServer[0m in 0.00s
+[1m*** Started working on [4mmerge[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmerge[0m in 0.00s
+[1m*** Started working on [4mrename[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mrename[0m in 0.00s
+[1m*** Started working on [4mdecompile[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mdecompile[0m in 0.00s
+[1m*** Started working on [4minject[0m[0m
+ [1m[92mREUSE[0m Used cache of [4minject[0m in 0.00s
+[1m*** Started working on [4mpatch[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mpatch[0m in 0.00s
+[1m*** Started working on [4mapplyNeoforgePatches[0m[0m
+ RUN   Running external tool io.codechicken:DiffPatch:2.0.0.36:all
+ [1m[92mDONE [0m Completed [4mapplyNeoforgePatches[0m in 2.22s
+[1m*** Started working on [4mtransformSources[0m[0m
+ RUN   Running external tool net.neoforged.jst:jst-cli-bundle:1.0.74
+ [1m[92mDONE [0m Completed [4mtransformSources[0m in 7.09s
+[1m*** Started working on [4mrecompile[0m[0m
+ 106 items on the compile classpath
+ 0 items on the sourcepath
+[1m*** Started working on [4msourcesWithNeoForge[0m[0m
+ Compiling 6623 source files
+ [1m[92mDONE [0m Completed [4msourcesWithNeoForge[0m in 4.29s
+Copied 0 resource files
+ [1m[92mDONE [0m Completed [4mrecompile[0m in 25.61s
+[1m*** Started working on [4mcompiledWithNeoForge[0m[0m
+ [1m[92mDONE [0m Completed [4mcompiledWithNeoForge[0m in 6.31s
+[1m*** Started working on [4msourcesAndCompiledWithNeoForge[0m[0m
+ [1m[92mDONE [0m Completed [4msourcesAndCompiledWithNeoForge[0m in 2.22s
+Total runtime: 44.18s
+
+
+> Task :fabric:assemble
+> Task :fabric:build
+> Task :neoforge:compileJava
+> Task :neoforge:processResources
+> Task :neoforge:classes
+> Task :neoforge:jarJar NO-SOURCE
+> Task :neoforge:jar
+
+> Task :neoforge:javadoc
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:7
+8: Warnung: kein @param f´┐¢r entity
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:9
+6: Warnung: kein @param f´┐¢r server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:5
+83: Warnung: kein @param f´┐¢r dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+9: Warnung: kein Kommentar
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+8: Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:4
+7: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ChattingVillagers {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:2
+08: Warnung: kein Kommentar
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\neoforge\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersNeoFo
+rge.java:17: Warnung: kein Kommentar
+	public static final ChattingVillagers CORE = new ChattingVillagers();
+	                                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\neoforge\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersNeoFo
+rge.java:19: Warnung: kein Kommentar
+	public ChattingVillagersNeoForge(IEventBus modEventBus) {
+	       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: kein Kommentar
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: 
+Warnung: kein Kommentar
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: 
+Warnung: kein Kommentar
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: 
+Warnung: kein Kommentar
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @param f´┐¢r professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:277
+: Warnung: kein @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @param f´┐¢r key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:285
+: Warnung: kein @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @param f´┐¢r key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:291
+: Warnung: kein @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: kein Kommentar
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: kein Kommentar
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: kein Kommentar
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: kein Kommentar
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:295
+: Warnung: kein Kommentar
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: kein Kommentar
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: kein Kommentar
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:22:
+ Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:394
+: Warnung: kein Kommentar
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:404
+: Warnung: kein Kommentar
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:321
+: Warnung: kein Kommentar
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:317
+: Warnung: kein Kommentar
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:313
+: Warnung: kein Kommentar
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:367
+: Warnung: kein Kommentar
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:329
+: Warnung: kein Kommentar
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:325
+: Warnung: kein Kommentar
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:63:
+ Warnung: kein Kommentar
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:502
+: Warnung: kein Kommentar
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:500
+: Warnung: kein Kommentar
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:504
+: Warnung: kein Kommentar
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:501
+: Warnung: kein Kommentar
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:503
+: Warnung: kein Kommentar
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:499
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:484
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:482
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:486
+: Warnung: kein Kommentar
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:483
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:485
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:481
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490
+: Warnung: kein Kommentar
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:491
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:489
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:302
+: Warnung: kein Kommentar
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:495
+: Warnung: kein Kommentar
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:496
+: Warnung: kein Kommentar
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:494
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:476
+: Warnung: kein Kommentar
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:474
+: Warnung: kein Kommentar
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:478
+: Warnung: kein Kommentar
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:475
+: Warnung: kein Kommentar
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:477
+: Warnung: kein Kommentar
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:473
+: Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatf
+ormHelper.java:5: Warnung: kein Kommentar
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:68: 
+Warnung: kein @return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @param f´┐¢r timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:80: 
+Warnung: kein @return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:91: 
+Warnung: kein @param f´┐¢r name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: kein Kommentar
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: 
+Warnung: kein Kommentar
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: 
+Warnung: kein Kommentar
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:47: 
+Warnung: kein Kommentar
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:48: 
+Warnung: kein Kommentar
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: 
+Warnung: kein Kommentar
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: 
+Warnung: kein Kommentar
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: 
+Warnung: kein Kommentar
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: 
+Warnung: kein Kommentar
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:53: 
+Warnung: kein Kommentar
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:56: 
+Warnung: kein Kommentar
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:54: 
+Warnung: kein Kommentar
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:52: 
+Warnung: kein Kommentar
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: 
+Warnung: kein Kommentar
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:22: 
+Warnung: kein Kommentar
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:21: 
+Warnung: kein Kommentar
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:40: 
+Warnung: kein Kommentar
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: 
+Warnung: kein Kommentar
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:55: 
+Warnung: kein Kommentar
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: 
+Warnung: kein Kommentar
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:25: 
+Warnung: kein Kommentar
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: 
+Warnung: kein Kommentar
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: 
+Warnung: kein Kommentar
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:39: 
+Warnung: kein Kommentar
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:26: 
+Warnung: kein Kommentar
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:38: 
+Warnung: kein Kommentar
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:16: 
+Warnung: Verwendung von Standardkonstruktor, der keinen Kommentar bereitstellt
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:132: 
+Warnung: kein Kommentar
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:160: 
+Warnung: kein Kommentar
+	public ChatFormatting resolveChatColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:168: 
+Warnung: kein Kommentar
+	public ChatFormatting resolveNameColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_21-11\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:149: 
+Warnung: kein Kommentar
+	public void save() {
+	            ^
+100 Warnungen
+
+> Task :neoforge:javadocJar
+> Task :neoforge:sourcesJar
+> Task :neoforge:assemble
+> Task :neoforge:compileTestJava NO-SOURCE
+> Task :neoforge:processTestResources NO-SOURCE
+> Task :neoforge:testClasses UP-TO-DATE
+> Task :neoforge:test NO-SOURCE
+> Task :neoforge:check UP-TO-DATE
+> Task :neoforge:build
+
+[Incubating] Problems report is available at: file:///F:/Programme/VS-Code_Projekte/chattingvillagers-multi_21-11/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 25s
+31 actionable tasks: 23 executed, 8 up-to-date

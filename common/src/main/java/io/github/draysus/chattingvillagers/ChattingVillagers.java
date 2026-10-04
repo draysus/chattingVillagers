@@ -5,21 +5,20 @@ import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.ChatFormatting;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.StringTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.npc.AbstractVillager;
-import net.minecraft.world.entity.npc.Villager;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.Villager;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.AABB;
@@ -124,7 +123,7 @@ public class ChattingVillagers {
 
 		Set<AbstractVillager> candidateSet = new HashSet<>();
 		for (ServerPlayer player : server.getPlayerList().getPlayers()) {
-			ServerLevel level = player.serverLevel();
+			ServerLevel level = (ServerLevel) player.level();
 			AABB area = player.getBoundingBox().inflate(config.radius);
 			candidateSet.addAll(level.getEntitiesOfClass(AbstractVillager.class, area));
 		}
@@ -227,7 +226,8 @@ public class ChattingVillagers {
 			return InteractionResult.PASS; // villagers that can trade open their menu as usual
 		}
 
-		MinecraftServer server = ((ServerPlayer) player).server;
+		ServerLevel level = (ServerLevel) world;
+		MinecraftServer server = level.getServer();
 		long now = server.getTickCount();
 		long cd = Math.max(0, config.reactionCooldownTicks);
 		Long last = lastReactionTick.get(av.getUUID());
@@ -235,7 +235,6 @@ public class ChattingVillagers {
 			return InteractionResult.PASS;
 		}
 
-		ServerLevel level = (ServerLevel) world;
 		VillagerContext ctx = VillagerContext.read(level, av, config.portalScanRadius);
 		DialogueManager.SoloLine line = dialogueManager.pickReaction(ctx, null);
 		if (line == null) {
@@ -433,9 +432,11 @@ public class ChattingVillagers {
 		return Component.literal(txt("prefix") + body);
 	}
 
+	// Since 1.21.5 the profession is a registry holder; its key path is e.g. "farmer", "none" or "nitwit".
 	private static String professionPath(Villager v) {
-		ResourceLocation id = BuiltInRegistries.VILLAGER_PROFESSION.getKey(v.getVillagerData().getProfession());
-		return id != null ? id.getPath() : "none";
+		return v.getVillagerData().profession().unwrapKey()
+				.map(key -> key.identifier().getPath())
+				.orElse("none");
 	}
 
 	// Villagers that only shake their head in vanilla (jobless/nitwit). Traders always trade.
@@ -461,15 +462,16 @@ public class ChattingVillagers {
 		}
 
 		try {
-			// In 1.21.1 the display entity reads "text" as an NBT string holding JSON
-			// (Display$TextDisplay -> Component.Serializer.fromJson). Plain text is rejected;
-			// only from 1.21.5 onwards is the tag stored as an NBT compound.
-			Component comp = Component.literal(text).withStyle(color);
-			String textJson = Component.Serializer.toJson(comp, level.registryAccess());
+			// Since 1.21.5 the text display reads "text" as a text component stored directly
+			// in NBT (no JSON string any more). A compound with "text" and "color" is the
+			// NBT form of a coloured literal component.
+			CompoundTag textTag = new CompoundTag();
+			textTag.putString("text", text);
+			textTag.putString("color", color.getName());
 
 			CompoundTag tag = new CompoundTag();
 			tag.putString("id", "minecraft:text_display");
-			tag.putString("text", textJson);
+			tag.put("text", textTag);
 			// Always face the player, in every axis of rotation.
 			tag.putString("billboard", "center");
 			// Smooths the per-tick repositioning that follows the villager.
@@ -482,8 +484,8 @@ public class ChattingVillagers {
 			double y = villager.getY() + villager.getBbHeight() + 0.4;
 			double z = villager.getZ();
 
-			Entity created = EntityType.loadEntityRecursive(tag, level, spawned -> {
-				spawned.moveTo(x, y, z, 0.0f, 0.0f);
+			Entity created = EntityType.loadEntityRecursive(tag, level, EntitySpawnReason.COMMAND, spawned -> {
+				spawned.snapTo(x, y, z, 0.0f, 0.0f);
 				return spawned;
 			});
 			if (created == null) {
@@ -590,20 +592,20 @@ public class ChattingVillagers {
 								.then(Commands.literal("status")
 										.executes(ctx -> showPlayerStatus(ctx.getSource())))
 								.then(Commands.literal("bubbles")
-										.requires(source -> source.hasPermission(2))
+										.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 										.then(Commands.literal("on").executes(ctx -> setBubbles(ctx.getSource(), true)))
 										.then(Commands.literal("off").executes(ctx -> setBubbles(ctx.getSource(), false))))
 								.then(Commands.literal("chat")
-										.requires(source -> source.hasPermission(2))
+										.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 										.then(Commands.literal("on").executes(ctx -> setChatOutput(ctx.getSource(), true)))
 										.then(Commands.literal("off").executes(ctx -> setChatOutput(ctx.getSource(), false))))
 								.then(Commands.literal("frequency")
-										.requires(source -> source.hasPermission(2))
+										.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 										.then(Commands.literal("quiet").executes(ctx -> setFrequency(ctx.getSource(), "quiet")))
 										.then(Commands.literal("normal").executes(ctx -> setFrequency(ctx.getSource(), "normal")))
 										.then(Commands.literal("busy").executes(ctx -> setFrequency(ctx.getSource(), "busy"))))
 								.then(Commands.literal("reload")
-										.requires(source -> source.hasPermission(2))
+										.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 										.executes(ctx -> {
 											config = ModConfig.load();
 											dialogueManager.reload(config.language);
@@ -616,7 +618,7 @@ public class ChattingVillagers {
 											return 1;
 										}))
 								.then(Commands.literal("debug")
-										.requires(source -> source.hasPermission(2))
+										.requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS))
 										.executes(ctx -> runDebug(ctx.getSource())))
 		);
 	}
@@ -712,7 +714,7 @@ public class ChattingVillagers {
 			return 0;
 		}
 
-		ServerLevel level = player.serverLevel();
+		ServerLevel level = (ServerLevel) player.level();
 		AABB area = player.getBoundingBox().inflate(config.radius);
 		List<AbstractVillager> nearby = level.getEntitiesOfClass(AbstractVillager.class, area);
 		if (nearby.isEmpty()) {

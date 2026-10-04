@@ -1,16 +1,16 @@
-package io.github.draysus.chattingvillagers.platform; // GEÄNDERT
+package io.github.draysus.chattingvillagers.platform;
 
-import io.github.draysus.chattingvillagers.platform.services.IPlatformHelper; // GEÄNDERT
+import io.github.draysus.chattingvillagers.platform.services.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
-import net.neoforged.fml.loading.FMLPaths; // NEU
+import net.neoforged.fml.loading.FMLPaths;
 
-import java.nio.file.Path; // NEU
+import java.nio.file.Path;
 
 public class NeoForgePlatformHelper implements IPlatformHelper {
 
     @Override
-    public String getPlatformName() { // WIEDERHERGESTELLT
+    public String getPlatformName() {
         return "NeoForge";
     }
 
@@ -23,11 +23,12 @@ public class NeoForgePlatformHelper implements IPlatformHelper {
     @Override
     public boolean isDevelopmentEnvironment() {
 
-        return !FMLLoader.isProduction();
+        // Since NeoForge 21.9 the loader state is accessed through FMLLoader.getCurrent().
+        return !FMLLoader.getCurrent().isProduction();
     }
 
     @Override
-    public Path getConfigDir() { // NEU
+    public Path getConfigDir() {
         return FMLPaths.CONFIGDIR.get();
     }
 }
