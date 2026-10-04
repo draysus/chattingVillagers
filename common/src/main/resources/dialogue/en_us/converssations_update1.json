@@ -1,0 +1,3546 @@
+[
+  {
+    "id": "u1_conv_farmer_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My composter's full. Know what that means, {other}?"
+      },
+      {
+        "speaker": "B",
+        "text": "Bone meal for everyone?"
+      },
+      {
+        "speaker": "A",
+        "text": "Bone meal for me. You get my best wishes."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_farmer_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The rabbits were at the carrots again."
+      },
+      {
+        "speaker": "B",
+        "text": "Build a fence, then."
+      },
+      {
+        "speaker": "A",
+        "text": "I did. The little beasts waited until I left the gate open."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_librarian_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've got Mending on offer, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Really? Since when?"
+      },
+      {
+        "speaker": "A",
+        "text": "Since this morning. And I plan to tell everyone."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_librarian_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Someone broke my lectern and put it back again. Again."
+      },
+      {
+        "speaker": "B",
+        "text": "And what changed?"
+      },
+      {
+        "speaker": "A",
+        "text": "Now I'm selling books on Fire Protection. I feel... used."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cleric_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I sell ender pearls. Don't ask how I got them."
+      },
+      {
+        "speaker": "B",
+        "text": "How did you get them?"
+      },
+      {
+        "speaker": "A",
+        "text": "I said don't ask."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cleric_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My brewing stand is bubbling so cheerfully today."
+      },
+      {
+        "speaker": "B",
+        "text": "What are you brewing?"
+      },
+      {
+        "speaker": "A",
+        "text": "A potion of patience. It isn't done yet. That's the whole joke."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_armorer_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Chainmail is underrated, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "You can see through the holes."
+      },
+      {
+        "speaker": "A",
+        "text": "That's called ventilation."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_armorer_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My blast furnace smelts ore twice as fast as a normal furnace."
+      },
+      {
+        "speaker": "B",
+        "text": "And what do you do with the time you save?"
+      },
+      {
+        "speaker": "A",
+        "text": "I stand next to it and feel proud of myself."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_weaponsmith_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know what a grindstone does to enchantments?"
+      },
+      {
+        "speaker": "B",
+        "text": "No idea. What?"
+      },
+      {
+        "speaker": "A",
+        "text": "It takes them away and gives you a little experience back. Just like life."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_weaponsmith_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you seen what the armorer is charging today?"
+      },
+      {
+        "speaker": "B",
+        "text": "Too much?"
+      },
+      {
+        "speaker": "A",
+        "text": "Far too much. I, of course, charge exactly the right amount."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_toolsmith_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A diamond pickaxe, {other}. Want to hold it?"
+      },
+      {
+        "speaker": "B",
+        "text": "Can I?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But it's nice that you asked."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_toolsmith_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Gold tools are the fastest there are."
+      },
+      {
+        "speaker": "B",
+        "text": "So they're the best?"
+      },
+      {
+        "speaker": "A",
+        "text": "They break after a handful of stones. Breaking fast still counts as fast."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisherman_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I fished up a saddle today."
+      },
+      {
+        "speaker": "B",
+        "text": "Out of the river?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. I'm still wondering who rode in there."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisherman_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A pufferfish looked at me, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "And what did it want?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothing. It just puffed up. I think I offended it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fletcher_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "For arrows I need flint, sticks and feathers."
+      },
+      {
+        "speaker": "B",
+        "text": "Where do you get the feathers?"
+      },
+      {
+        "speaker": "A",
+        "text": "From the chickens. We don't talk about it, the chickens and I."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fletcher_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Today I shot an arrow straight through another one."
+      },
+      {
+        "speaker": "B",
+        "text": "On purpose?"
+      },
+      {
+        "speaker": "A",
+        "text": "I'm telling everyone it was on purpose."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_shepherd_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I dyed a sheep light blue, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Why would you do that?"
+      },
+      {
+        "speaker": "A",
+        "text": "So I could find it in the meadow. Now I keep mistaking it for the sky."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_shepherd_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you ever seen a pink sheep?"
+      },
+      {
+        "speaker": "B",
+        "text": "No. Do they even exist?"
+      },
+      {
+        "speaker": "A",
+        "text": "Very rarely. If you ever see one, you get to make a wish."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_butcher_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My smoker's been running since early morning."
+      },
+      {
+        "speaker": "B",
+        "text": "You can smell it all the way to the well."
+      },
+      {
+        "speaker": "A",
+        "text": "You're welcome."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_butcher_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Rabbit stew today."
+      },
+      {
+        "speaker": "B",
+        "text": "What goes into that?"
+      },
+      {
+        "speaker": "A",
+        "text": "Rabbit, carrot, baked potato, mushroom and a bowl. And the nerve to take a carrot from the farmer."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_leatherworker_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Someone wanted leather armor for their horse."
+      },
+      {
+        "speaker": "B",
+        "text": "Did you make it?"
+      },
+      {
+        "speaker": "A",
+        "text": "They wanted purple. I only had brown. We settled on brown."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_leatherworker_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you know you can wash dye back out in a cauldron?"
+      },
+      {
+        "speaker": "B",
+        "text": "Handy."
+      },
+      {
+        "speaker": "A",
+        "text": "Vital. You should have seen that green."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mason_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I cut two hundred stone bricks today."
+      },
+      {
+        "speaker": "B",
+        "text": "With the stonecutter?"
+      },
+      {
+        "speaker": "A",
+        "text": "With passion. And with the stonecutter."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mason_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Glazed terracotta in sixteen colors, {other}. Pick one."
+      },
+      {
+        "speaker": "B",
+        "text": "The grey one?"
+      },
+      {
+        "speaker": "A",
+        "text": "Of all the colors. The grey one."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cartographer_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I sold a map to a woodland mansion."
+      },
+      {
+        "speaker": "B",
+        "text": "Is that far?"
+      },
+      {
+        "speaker": "A",
+        "text": "Far enough that I'm not coming along. Say hi to the evokers for me."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cartographer_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "On my maps the village always sits nicely in the middle."
+      },
+      {
+        "speaker": "B",
+        "text": "Because that's how the world is laid out?"
+      },
+      {
+        "speaker": "A",
+        "text": "Because I live here. That's how maps work."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_nitwit_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I worked today, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Really? On what?"
+      },
+      {
+        "speaker": "A",
+        "text": "I looked at a block. Very thoroughly."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_nitwit_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why don't I have a workstation, anyway?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe none of them suit you."
+      },
+      {
+        "speaker": "A",
+        "text": "Or I'm too good for all of them. Yes. That must be it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_none_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm still looking for a job, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Ever tried a lectern?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. Someone took it away again. Twice."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_none_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's a free composter over there."
+      },
+      {
+        "speaker": "B",
+        "text": "Then take it."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm scared of the responsibility. And of pumpkins."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_trader_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've got saplings from places you'll never see."
+      },
+      {
+        "speaker": "B",
+        "text": "How much?"
+      },
+      {
+        "speaker": "A",
+        "text": "One emerald. The places aren't included in the price."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_trader_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My llamas don't like your village, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "How can you tell?"
+      },
+      {
+        "speaker": "A",
+        "text": "They spit. All right, they spit everywhere. But here they mean it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_desert_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's supposed to be a trap in the temple over there."
+      },
+      {
+        "speaker": "B",
+        "text": "What sort of trap?"
+      },
+      {
+        "speaker": "A",
+        "text": "A pressure plate with enough TNT underneath for three villages. I'm not going in, that's for sure."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_desert_gods_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know what's painted on the walls of the old pyramid?"
+      },
+      {
+        "speaker": "B",
+        "text": "Cacti?"
+      },
+      {
+        "speaker": "A",
+        "text": "Three gods. A red dragon with two mouths, a blue giant and a golden dragon with wings."
+      },
+      {
+        "speaker": "B",
+        "text": "And what did they mean?"
+      },
+      {
+        "speaker": "A",
+        "text": "They say you had to make three sacrifices just to summon one of them."
+      },
+      {
+        "speaker": "B",
+        "text": "Then they can stay on the wall, thank you."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_desert_gods_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My grandfather swore he once saw Obelisk the Tormentor."
+      },
+      {
+        "speaker": "B",
+        "text": "Out here in the desert?"
+      },
+      {
+        "speaker": "A",
+        "text": "During a sandstorm. He said the giant just punched the ground and every cactus toppled over."
+      },
+      {
+        "speaker": "B",
+        "text": "Our cacti topple over if you just put a block next to them."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_desert_gods_3",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Whenever the night sky glows red, my mother says Slifer the Sky Dragon is flying past."
+      },
+      {
+        "speaker": "B",
+        "text": "And when it glows gold?"
+      },
+      {
+        "speaker": "A",
+        "text": "Then it's the Winged Dragon of Ra. Or the sun is coming up. Usually it's the sun."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_plains_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "See the horses out there?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. And not one of them will let me ride it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_plains_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you know the sunflowers all face east?"
+      },
+      {
+        "speaker": "B",
+        "text": "Even in the evening?"
+      },
+      {
+        "speaker": "A",
+        "text": "Even in the evening. Even at night. They made up their minds once and they're sticking to it."
+      },
+      {
+        "speaker": "B",
+        "text": "The nitwit could learn a thing or two from them."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_forest_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I saw a bee flying back to its nest today."
+      },
+      {
+        "speaker": "B",
+        "text": "Did you help yourself to some honey?"
+      },
+      {
+        "speaker": "A",
+        "text": "Without a campfire underneath? I'm not out of my mind."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_taiga_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The foxes stole all the sweet berries again."
+      },
+      {
+        "speaker": "B",
+        "text": "Every single one?"
+      },
+      {
+        "speaker": "A",
+        "text": "One still had a berry in its mouth and stared right at me. The cheek of it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_snowy_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I built a snow golem."
+      },
+      {
+        "speaker": "B",
+        "text": "With a pumpkin head?"
+      },
+      {
+        "speaker": "A",
+        "text": "Of course. Without a head it's just a pile of snow."
+      },
+      {
+        "speaker": "B",
+        "text": "So where is he now?"
+      },
+      {
+        "speaker": "A",
+        "text": "He was set on going to the desert. I couldn't stop him."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_swamp_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's a light on in the hut in the swamp again."
+      },
+      {
+        "speaker": "B",
+        "text": "Is the witch back?"
+      },
+      {
+        "speaker": "A",
+        "text": "Or she never left and has just been brewing very quietly."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_swamp_2",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "On full moon nights there are more slimes bouncing around here than usual."
+      },
+      {
+        "speaker": "B",
+        "text": "Then I'll stay indoors whenever the moon is full."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_jungle_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A parrot's been sitting on my shoulder for hours."
+      },
+      {
+        "speaker": "B",
+        "text": "How did you manage that?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't. It picked me."
+      },
+      {
+        "speaker": "B",
+        "text": "Whatever you do, don't give it a cookie."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_savanna_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you see the armadillo? It rolled right up into a ball."
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe it's shy."
+      },
+      {
+        "speaker": "A",
+        "text": "Or it heard you talking."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_badlands_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In the badlands you find gold even way up high."
+      },
+      {
+        "speaker": "B",
+        "text": "Then we'll be rich in no time!"
+      },
+      {
+        "speaker": "A",
+        "text": "Only if somebody takes gold. Everyone around here wants emeralds."
+      },
+      {
+        "speaker": "B",
+        "text": "Typical. Gold is always worthless exactly when you've got some."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_beach_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The turtles are laying eggs on the beach again."
+      },
+      {
+        "speaker": "B",
+        "text": "Then watch your step. They break more easily than you'd think."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_mushroom_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The cow here is red and has mushrooms on its back."
+      },
+      {
+        "speaker": "B",
+        "text": "And what comes out if you milk it?"
+      },
+      {
+        "speaker": "A",
+        "text": "With a bowl you get mushroom stew. Don't ask me how that works."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_cherry_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Under the cherry trees, everything's pink."
+      },
+      {
+        "speaker": "B",
+        "text": "Even the ground. The petals just land everywhere."
+      },
+      {
+        "speaker": "A",
+        "text": "I brought a few home today. On my head."
+      },
+      {
+        "speaker": "B",
+        "text": "They suit you."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_meadow_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Up here in the meadow it hums all day long."
+      },
+      {
+        "speaker": "B",
+        "text": "The bees have a lot on their plate."
+      },
+      {
+        "speaker": "A",
+        "text": "More than we do. Maybe we should take a leaf out of their book."
+      },
+      {
+        "speaker": "B",
+        "text": "Tomorrow. Today we're just watching."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_ocean_atlantis",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ocean",
+        "beach"
+      ]
+    },
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know what lies beneath the waves out there?"
+      },
+      {
+        "speaker": "B",
+        "text": "Squid and seagrass?"
+      },
+      {
+        "speaker": "A",
+        "text": "A sunken city. Atlantis. With towers of prismarine and lights that never go out."
+      },
+      {
+        "speaker": "B",
+        "text": "That's just an ocean monument."
+      },
+      {
+        "speaker": "A",
+        "text": "That's what everyone says. But the guardians aren't down there protecting wet rocks."
+      },
+      {
+        "speaker": "B",
+        "text": "And who's diving down to check?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't have Water Breathing. I just tell the stories."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_ocean_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "At night the drowned climb out of the water."
+      },
+      {
+        "speaker": "B",
+        "text": "Some even carry a trident. I'd love one. Preferably in my hand, not in my back."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_dark_forest_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In the dark forest it's already dim by noon."
+      },
+      {
+        "speaker": "B",
+        "text": "That's why giant mushrooms grow there."
+      },
+      {
+        "speaker": "A",
+        "text": "And that's why zombies wander around there in daytime. The sun just can't get through."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_birch_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Birch wood is so pale you can see every smudge."
+      },
+      {
+        "speaker": "B",
+        "text": "Then build your house out of dark oak. You won't see anything at all."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_flower_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The flower forest has nearly every color you could imagine."
+      },
+      {
+        "speaker": "B",
+        "text": "The shepherd's been here three times today."
+      },
+      {
+        "speaker": "A",
+        "text": "And? Did they pick anything?"
+      },
+      {
+        "speaker": "B",
+        "text": "No. They stared at the flowers for ages, then at the sheep. Then back at the flowers."
+      },
+      {
+        "speaker": "A",
+        "text": "Uh-oh. That means colorful wool."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_mangrove_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The frogs croak here all night long."
+      },
+      {
+        "speaker": "B",
+        "text": "In exchange, they eat the little slimes."
+      },
+      {
+        "speaker": "A",
+        "text": "Useful, yes. Quiet, no."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_windswept_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "They say there's emerald ore in the windswept hills."
+      },
+      {
+        "speaker": "B",
+        "text": "So our savings are just lying around inside a mountain."
+      },
+      {
+        "speaker": "A",
+        "text": "And not one of us owns a pickaxe. Typical village."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_peaks_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Up here a goat will ram you off the mountain before you can say hello."
+      },
+      {
+        "speaker": "B",
+        "text": "Did that happen to you?"
+      },
+      {
+        "speaker": "A",
+        "text": "Almost. I said hello in time."
+      },
+      {
+        "speaker": "B",
+        "text": "And that helped?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But at least I fell politely."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_ice_spikes_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The ice spikes here look like someone nailed the sky to the ground."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's hope it holds."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_grove_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's powder snow in the grove. You just sink right in."
+      },
+      {
+        "speaker": "B",
+        "text": "Not with leather boots."
+      },
+      {
+        "speaker": "A",
+        "text": "Then I suppose I'll have to buy from the leatherworker. They'll be thrilled."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_dripstone_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hear that dripping?"
+      },
+      {
+        "speaker": "B",
+        "text": "That's the dripstone. Put a cauldron underneath and it slowly fills up."
+      },
+      {
+        "speaker": "A",
+        "text": "And if I stand underneath myself?"
+      },
+      {
+        "speaker": "B",
+        "text": "Then sooner or later the tip lands on your head. Better not."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_lush_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The glow berries light up the whole cave."
+      },
+      {
+        "speaker": "B",
+        "text": "And you can eat them, too."
+      },
+      {
+        "speaker": "A",
+        "text": "First they shine, then you eat them. Seems like a fair deal to me."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_deep_dark_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Shh. Not so loud."
+      },
+      {
+        "speaker": "B",
+        "text": "I didn't say a word."
+      },
+      {
+        "speaker": "A",
+        "text": "You breathed. And the sculk sensor over there clicked."
+      },
+      {
+        "speaker": "B",
+        "text": "Then from now on I'll breathe very quietly."
+      },
+      {
+        "speaker": "A",
+        "text": "Good. And sneak while you're at it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_old_growth_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "These trees are so tall I can't see their tops anymore."
+      },
+      {
+        "speaker": "B",
+        "text": "They were standing here long before our village existed."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_frozen_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A polar bear stared at me while I was standing on the ice."
+      },
+      {
+        "speaker": "B",
+        "text": "Did it have a cub with it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. And I've rarely run that fast."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_bamboo_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The panda over there sneezed again."
+      },
+      {
+        "speaker": "B",
+        "text": "Did another slimeball come out?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't look too closely. Some things you'd rather not know."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_river_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There are squid in the river."
+      },
+      {
+        "speaker": "B",
+        "text": "That's why the librarian never runs out of ink."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_stony_shore_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "On the stony shore every wave crashes loudly against the rocks."
+      },
+      {
+        "speaker": "B",
+        "text": "At least nobody can sneak up on you here."
+      },
+      {
+        "speaker": "A",
+        "text": "The crabs could. Oh wait, those don't exist."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_crimson_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The piglins here trade anything for gold."
+      },
+      {
+        "speaker": "B",
+        "text": "For emeralds too?"
+      },
+      {
+        "speaker": "A",
+        "text": "They don't want emeralds. They simply have no taste."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_warped_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There are no hoglins in the warped forest."
+      },
+      {
+        "speaker": "B",
+        "text": "Why's that?"
+      },
+      {
+        "speaker": "A",
+        "text": "They're scared of the warped fungi. Honestly, so am I."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_soul_sand_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You can barely move on soul sand."
+      },
+      {
+        "speaker": "B",
+        "text": "And the wailing in the wind doesn't help either."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_biome_basalt_1",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In the basalt deltas it rains ash."
+      },
+      {
+        "speaker": "B",
+        "text": "And the magma cubes bounce right in front of you."
+      },
+      {
+        "speaker": "A",
+        "text": "I miss the rain. Never thought I'd say that."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_morning_1",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In the morning the whole village smells of fresh bread."
+      },
+      {
+        "speaker": "B",
+        "text": "That's not bread. That's the butcher's smoker."
+      },
+      {
+        "speaker": "A",
+        "text": "Fresh pork chops, then. I'm not complaining."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_evening_1",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The sun's going down. Time to shut the doors."
+      },
+      {
+        "speaker": "B",
+        "text": "And the shutters. And the trapdoors. And ideally your eyes as well."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_night_1",
+    "type": "conversation",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hear that shrieking up there?"
+      },
+      {
+        "speaker": "B",
+        "text": "Phantoms. Someone hasn't slept in days again."
+      },
+      {
+        "speaker": "A",
+        "text": "Must be the librarian. Reads all night."
+      },
+      {
+        "speaker": "B",
+        "text": "Or you. You don't exactly look well rested either."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_rain_1",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Rain is good for the fields."
+      },
+      {
+        "speaker": "B",
+        "text": "And bad for my hair."
+      },
+      {
+        "speaker": "A",
+        "text": "You don't have hair, {other}. You have a hat."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_thunder_1",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In a thunderstorm I never stand next to the church."
+      },
+      {
+        "speaker": "B",
+        "text": "How come?"
+      },
+      {
+        "speaker": "A",
+        "text": "Lightning. If one of us gets struck, they turn into a witch."
+      },
+      {
+        "speaker": "B",
+        "text": "That's just a rumor."
+      },
+      {
+        "speaker": "A",
+        "text": "Then you go stand there."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_thunder_zapdos",
+    "type": "conversation",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In storms like this, a yellow bird is said to come out of the clouds. The old folks call it Zapdos."
+      },
+      {
+        "speaker": "B",
+        "text": "A bird, in the middle of a storm?"
+      },
+      {
+        "speaker": "A",
+        "text": "It bathes in the lightning. That's why you only ever see it in weather like this."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cave_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It's so dark down here I can't even see my own nose."
+      },
+      {
+        "speaker": "B",
+        "text": "With a nose like yours, that's quite an achievement."
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you. I think."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cave_zubat",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hear that flapping? That's a whole lot of bats."
+      },
+      {
+        "speaker": "B",
+        "text": "Let's hope they're not Zubat. Caves always have far too many of those."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_nether_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How did we even end up here?"
+      },
+      {
+        "speaker": "B",
+        "text": "Someone pushed us through a purple portal."
+      },
+      {
+        "speaker": "A",
+        "text": "I hope they come back to fetch us."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_end_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's no day or night out here."
+      },
+      {
+        "speaker": "B",
+        "text": "Then how am I supposed to know when my shift ends?"
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_bedtime_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Bedtime already. Where's my bed?"
+      },
+      {
+        "speaker": "B",
+        "text": "Wherever you left it yesterday."
+      },
+      {
+        "speaker": "A",
+        "text": "The nitwit's sleeping in it now."
+      },
+      {
+        "speaker": "B",
+        "text": "Welcome to village life."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_wakeup_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm awake. My head isn't yet."
+      },
+      {
+        "speaker": "B",
+        "text": "Give it time. Mine usually catches up around noon."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_low_health_1",
+    "type": "conversation",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm not feeling well, {other}."
+      },
+      {
+        "speaker": "B",
+        "text": "Stay close to the iron golem. He'll look after you."
+      },
+      {
+        "speaker": "A",
+        "text": "And who looks after me while he's handing out flowers?"
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisher_smith_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Mornin', {other}. Heard the smith yet today?"
+      },
+      {
+        "speaker": "B",
+        "text": "You always hear the smith."
+      },
+      {
+        "speaker": "A",
+        "text": "Hammerin' all day long. No fish'll bite with that racket."
+      },
+      {
+        "speaker": "B",
+        "text": "He says your fish isn't fresh."
+      },
+      {
+        "speaker": "A",
+        "text": "Not fresh? Me fish is fresher than his whole anvil! I'll slap him round the ears with a cod, so I will."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisher_captain",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did I ever tell ye I used to go to sea?"
+      },
+      {
+        "speaker": "B",
+        "text": "Several times."
+      },
+      {
+        "speaker": "A",
+        "text": "I was a sea captain. I hold licenses A1, A3, A4 and A6!"
+      },
+      {
+        "speaker": "B",
+        "text": "And now you fish in the village pond."
+      },
+      {
+        "speaker": "A",
+        "text": "Aye. But with style."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisher_magikarp",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Pulled out a golden-red carp today. Magikarp, the old folks call it."
+      },
+      {
+        "speaker": "B",
+        "text": "Is it worth anything?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothin'. It just flops about."
+      },
+      {
+        "speaker": "B",
+        "text": "Then throw it back."
+      },
+      {
+        "speaker": "A",
+        "text": "Not on yer life! Throw it back too often and one day it turns into a Gyarados. Heaven help us all then."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_fisher_atlantis",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 0.2,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Me gran always said there's a city under the sea with golden roofs."
+      },
+      {
+        "speaker": "B",
+        "text": "Atlantis?"
+      },
+      {
+        "speaker": "A",
+        "text": "Aye. And if ye keep real quiet at night, ye can hear its bells down there."
+      },
+      {
+        "speaker": "B",
+        "text": "That's the guardians from the ocean monument."
+      },
+      {
+        "speaker": "A",
+        "text": "Ye've not got a romantic bone in yer body, have ye?"
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_smith_fisher",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer",
+        "weaponsmith",
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The fisherman came by again, complaining about my noise."
+      },
+      {
+        "speaker": "B",
+        "text": "And what did you tell him?"
+      },
+      {
+        "speaker": "A",
+        "text": "That you can smell his fish all the way to my forge. We haven't spoken since."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_armorer_rivalry",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The weaponsmith reckons the best defense is a good offense."
+      },
+      {
+        "speaker": "B",
+        "text": "Sounds reasonable enough."
+      },
+      {
+        "speaker": "A",
+        "text": "Sounds like someone who doesn't sell armor."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_librarian_wizard",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I read a book about a boy who lived under the stairs."
+      },
+      {
+        "speaker": "B",
+        "text": "How sad."
+      },
+      {
+        "speaker": "A",
+        "text": "Then an owl brought him a letter, and suddenly he was a wizard."
+      },
+      {
+        "speaker": "B",
+        "text": "All I get are phantoms. And they don't bring letters."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_librarian_ring",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm reading about two little folk who have to throw a ring into a fiery mountain."
+      },
+      {
+        "speaker": "B",
+        "text": "Why not any old lava? There's plenty about."
+      },
+      {
+        "speaker": "A",
+        "text": "It has to be that one mountain. And getting there takes three thick books."
+      },
+      {
+        "speaker": "B",
+        "text": "Couldn't they have just flown there on a big eagle?"
+      },
+      {
+        "speaker": "A",
+        "text": "Scholars are still arguing about that."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cartographer_temple",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I sold a map to a jungle temple."
+      },
+      {
+        "speaker": "B",
+        "text": "Is that dangerous?"
+      },
+      {
+        "speaker": "A",
+        "text": "Arrow traps, tripwires, and supposedly at some point a giant stone ball comes rolling after you."
+      },
+      {
+        "speaker": "B",
+        "text": "Who'd go there willingly?"
+      },
+      {
+        "speaker": "A",
+        "text": "A man with a hat and a whip. He said it all belongs in a museum."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cartographer_x",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "An adventurer in a hat once told me: X never marks the spot."
+      },
+      {
+        "speaker": "B",
+        "text": "It does on your treasure maps."
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly. That's why he found my maps boring."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_cartographer_mew",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I left a blank spot on one of my maps because of something I saw there."
+      },
+      {
+        "speaker": "B",
+        "text": "What did you see?"
+      },
+      {
+        "speaker": "A",
+        "text": "A small pink creature with a long tail. Scholars call it Mew. They say it carries the legacy of every creature in the world."
+      },
+      {
+        "speaker": "B",
+        "text": "Then why isn't it on the map?"
+      },
+      {
+        "speaker": "A",
+        "text": "Because it turned invisible the moment I picked up my pen."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_farmer_ball",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You know what would make life easier?"
+      },
+      {
+        "speaker": "B",
+        "text": "More rain?"
+      },
+      {
+        "speaker": "A",
+        "text": "A little ball you could just pop an animal into. A cow, zap, straight into your pocket."
+      },
+      {
+        "speaker": "B",
+        "text": "And if it doesn't work?"
+      },
+      {
+        "speaker": "A",
+        "text": "Then you throw another one. And another."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_farmer_snorlax",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "My grandfather told me a huge sleeping beast once blocked the road to the next village."
+      },
+      {
+        "speaker": "B",
+        "text": "And how did they wake it up?"
+      },
+      {
+        "speaker": "A",
+        "text": "With a flute. Snorlax, the beast was called. Ate half our harvest while it was at it."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_emerald_mystery_1",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Emeralds are missing from my chest again."
+      },
+      {
+        "speaker": "B",
+        "text": "How many?"
+      },
+      {
+        "speaker": "A",
+        "text": "Three. Exactly three. Same as last week."
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe you miscounted."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm a cartographer. I never miscount."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_emerald_mystery_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you hear? The cartographer's missing emeralds again."
+      },
+      {
+        "speaker": "B",
+        "text": "It wasn't me."
+      },
+      {
+        "speaker": "A",
+        "text": "I never said it was."
+      },
+      {
+        "speaker": "B",
+        "text": "I just wanted that on record."
+      },
+      {
+        "speaker": "A",
+        "text": "Now you're a suspect."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_emerald_mystery_3",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I think the cat is stealing the cartographer's emeralds."
+      },
+      {
+        "speaker": "B",
+        "text": "Cats bring you presents, though."
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly. Just not to him. To someone else."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_emerald_market_1",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The emerald's looking weak today."
+      },
+      {
+        "speaker": "B",
+        "text": "Against what?"
+      },
+      {
+        "speaker": "A",
+        "text": "Against wheat. Twenty wheat for one emerald, that's daylight robbery."
+      },
+      {
+        "speaker": "B",
+        "text": "Then hold on to your emeralds. Prices always bounce back."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_emerald_market_2",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I've raised the price of bookshelves."
+      },
+      {
+        "speaker": "B",
+        "text": "On what grounds?"
+      },
+      {
+        "speaker": "A",
+        "text": "Supply and demand. And an adventurer who bought every single one."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_math_binary",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.5,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There are 10 kinds of villagers."
+      },
+      {
+        "speaker": "B",
+        "text": "Only ten?"
+      },
+      {
+        "speaker": "A",
+        "text": "Those who understand binary, and those who don't."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_math_limits",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.5,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Infinitely many villagers line up at the farmer's."
+      },
+      {
+        "speaker": "B",
+        "text": "Go on."
+      },
+      {
+        "speaker": "A",
+        "text": "The first wants a loaf, the second half a loaf, the third a quarter, and so on."
+      },
+      {
+        "speaker": "B",
+        "text": "And what does the farmer do?"
+      },
+      {
+        "speaker": "A",
+        "text": "He puts down two loaves and says: you lot need to know your limits."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_math_parallel",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 0.5,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Parallel walls have so much in common."
+      },
+      {
+        "speaker": "B",
+        "text": "Is that a bad thing?"
+      },
+      {
+        "speaker": "A",
+        "text": "It's sad. They'll never meet."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_galaxy_tale",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I read a fairy tale set in a galaxy far, far away."
+      },
+      {
+        "speaker": "B",
+        "text": "What's a galaxy?"
+      },
+      {
+        "speaker": "A",
+        "text": "Something like the End, only with far more stars. And no endermen."
+      },
+      {
+        "speaker": "B",
+        "text": "Sounds cozy. What's it about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A farm boy on a desert planet with two suns dreams of finally getting away."
+      },
+      {
+        "speaker": "B",
+        "text": "Two suns? The zombies must burn twice as fast."
+      },
+      {
+        "speaker": "A",
+        "text": "Then he meets an old hermit who teaches him to move things with nothing but his mind."
+      },
+      {
+        "speaker": "B",
+        "text": "I want that. I'd never have to haul wood again."
+      },
+      {
+        "speaker": "A",
+        "text": "And in the end it turns out the villain in the black armor is his father."
+      },
+      {
+        "speaker": "B",
+        "text": "I did not see that coming."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_geronimo_house",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Yesterday a stranger walked into my house and said: My name is Geronimo Röder. I live here."
+      },
+      {
+        "speaker": "B",
+        "text": "And? Does he?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But he sounded so sure that for a moment I doubted it myself."
+      },
+      {
+        "speaker": "B",
+        "text": "Did he at least offer rent?"
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_geronimo_arrows",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you know Geronimo Röder? Best archer the forests have ever seen."
+      },
+      {
+        "speaker": "B",
+        "text": "I've never seen him shoot."
+      },
+      {
+        "speaker": "A",
+        "text": "Nobody has. For years he never found a single arrow."
+      },
+      {
+        "speaker": "B",
+        "text": "Then sell him some."
+      },
+      {
+        "speaker": "A",
+        "text": "He never comes by when I've got any."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_geronimo_animals",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A woodsman spent three hours explaining to me why foxes love stealing sweet berries."
+      },
+      {
+        "speaker": "B",
+        "text": "Geronimo Röder? He knows more about every animal than the animal does."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_stanley",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There was a fellow in the next village called Stanley Balls. Ex-special forces, underwear model, and supposedly the strongest man for miles."
+      },
+      {
+        "speaker": "B",
+        "text": "And was he?"
+      },
+      {
+        "speaker": "A",
+        "text": "He tried to lift an anvil to prove it."
+      },
+      {
+        "speaker": "B",
+        "text": "How did that go?"
+      },
+      {
+        "speaker": "A",
+        "text": "The anvil won. Stanley says he let it win on purpose."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_schmorf",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "armorer",
+        "weaponsmith",
+        "toolsmith"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's a smith's son called Schmorf in the next village."
+      },
+      {
+        "speaker": "B",
+        "text": "Is he any good?"
+      },
+      {
+        "speaker": "A",
+        "text": "No idea. He always wears a bicycle helmet and talks to his broom."
+      },
+      {
+        "speaker": "B",
+        "text": "And what does the broom say back?"
+      },
+      {
+        "speaker": "A",
+        "text": "Only nice things, apparently. Which is more than I can say for my customers."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_zacharias",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Yesterday someone climbed the church tower wall without a ladder."
+      },
+      {
+        "speaker": "B",
+        "text": "Who does a thing like that?"
+      },
+      {
+        "speaker": "A",
+        "text": "Zacharias Bergmann. Didn't say a word, had a look around at the top and was gone again."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_serum",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's a tale about four people who saved the world from the zombies with a serum."
+      },
+      {
+        "speaker": "B",
+        "text": "With a serum?"
+      },
+      {
+        "speaker": "A",
+        "text": "That's what they called it. I'd have used a potion of weakness and a golden apple."
+      },
+      {
+        "speaker": "B",
+        "text": "You always make saving the world sound so easy."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_count_window",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "An old count came to visit. He ate by the window and looked down on us."
+      },
+      {
+        "speaker": "B",
+        "text": "Did he say anything?"
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, I know those. They're the poor. They always stand outside my window when I eat."
+      },
+      {
+        "speaker": "B",
+        "text": "And his butler?"
+      },
+      {
+        "speaker": "A",
+        "text": "He just muttered: I hate my life. And then he was suddenly gone."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_count_monocle",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Remember when the old count with the monocle was here?"
+      },
+      {
+        "speaker": "B",
+        "text": "The one whose monocle can sense magic?"
+      },
+      {
+        "speaker": "A",
+        "text": "That's him. Ever since, the cartographer's been missing emeralds."
+      },
+      {
+        "speaker": "B",
+        "text": "So you're saying..."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm not saying anything. I've just been paying attention."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_lord_gray",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Lord Henry Gray told me three times today that he's very, very rich."
+      },
+      {
+        "speaker": "B",
+        "text": "In one conversation?"
+      },
+      {
+        "speaker": "A",
+        "text": "In one sentence."
+      },
+      {
+        "speaker": "B",
+        "text": "And did he buy anything?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. He said haggling was beneath him, then joked that fencing was his strong point. Nobody laughed."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_francois",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A French doctor, Francois Fuillaume De Tesseraque, wanted to sew pig legs onto our chicken."
+      },
+      {
+        "speaker": "B",
+        "text": "Whatever for?"
+      },
+      {
+        "speaker": "A",
+        "text": "He said: For science! I am ze specialist!"
+      },
+      {
+        "speaker": "B",
+        "text": "And the chicken?"
+      },
+      {
+        "speaker": "A",
+        "text": "Ran off faster than ever. On its own legs."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_laser_freedom",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A man with a golden mane, a leather jacket and three pairs of sunglasses came through the village today."
+      },
+      {
+        "speaker": "B",
+        "text": "Three?"
+      },
+      {
+        "speaker": "A",
+        "text": "One on his nose, two on his head. He introduced himself as Eduard Laser, let all the chickens out of the coop and shouted: For freedom!"
+      },
+      {
+        "speaker": "B",
+        "text": "Did the chickens even want to be freed?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But he said: Freedom matters to me."
+      },
+      {
+        "speaker": "B",
+        "text": "And the little one in the matching outfit?"
+      },
+      {
+        "speaker": "A",
+        "text": "Lauchboy, his son. Afterwards he quietly caught the chickens again and secured the coop with redstone."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_tale_laser_weapons",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Some fellow called Eduard Laser came to buy weapons from me."
+      },
+      {
+        "speaker": "B",
+        "text": "What did he take?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothing. Said he only fights with laser slaps and laser kicks. I have no idea what those are supposed to be."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_news_chicken_jockey",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you ever seen a baby zombie riding a chicken?"
+      },
+      {
+        "speaker": "B",
+        "text": "A chicken jockey? Those are real?"
+      },
+      {
+        "speaker": "A",
+        "text": "Oh yes. Word is, in some faraway world people cheered so loudly at the sight that popcorn went flying."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_news_eclipse",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A trader told me that far to the south, the sun vanished in the middle of the day."
+      },
+      {
+        "speaker": "B",
+        "text": "Some kind of spell?"
+      },
+      {
+        "speaker": "A",
+        "text": "No, the moon slid in front of it. People stared up at the sky through dark glasses."
+      },
+      {
+        "speaker": "B",
+        "text": "And the zombies? Did they come out?"
+      },
+      {
+        "speaker": "A",
+        "text": "He didn't say. I'd have gone to bed, just to be safe."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_news_football",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "In a faraway land, forty-eight teams supposedly fought over a single ball."
+      },
+      {
+        "speaker": "B",
+        "text": "Forty-eight? Who's supposed to remember all those banners?"
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly. The pillagers' banner is more than enough for me."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mystery_poppy_1",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There was another poppy outside my door this morning."
+      },
+      {
+        "speaker": "B",
+        "text": "That's the third this week, isn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "The fourth. I've been counting."
+      },
+      {
+        "speaker": "B",
+        "text": "You've got a secret admirer!"
+      },
+      {
+        "speaker": "A",
+        "text": "Or someone's hinting that I'm neglecting my flowerbed."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mystery_poppy_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you find a poppy at your door too?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. So did the smith. And the librarian."
+      },
+      {
+        "speaker": "A",
+        "text": "Then it's not an admirer. It's someone who likes everybody."
+      },
+      {
+        "speaker": "B",
+        "text": "Who on earth likes everybody?"
+      },
+      {
+        "speaker": "A",
+        "text": "That's exactly the question."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mystery_bell_1",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you hear the bell last night?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. Three times. And not a pillager in sight."
+      },
+      {
+        "speaker": "A",
+        "text": "Who rings a bell at night when there's no danger at all?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe someone who can't sleep."
+      },
+      {
+        "speaker": "A",
+        "text": "Or someone who doesn't want us to sleep."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mystery_bell_2",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Last night I sat down next to the bell and waited."
+      },
+      {
+        "speaker": "B",
+        "text": "Did you see anyone?"
+      },
+      {
+        "speaker": "A",
+        "text": "Just a cat. It looked at me like it knew more than I did."
+      },
+      {
+        "speaker": "B",
+        "text": "Cats always know more than we do."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_mystery_holes",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 0.3,
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Every morning there's a new hole in my field."
+      },
+      {
+        "speaker": "B",
+        "text": "An animal?"
+      },
+      {
+        "speaker": "A",
+        "text": "An animal with a shovel?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe someone's looking for treasure from one of the cartographer's maps."
+      },
+      {
+        "speaker": "A",
+        "text": "Then they could at least fill the holes back in."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_plumber",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "A plumber in a red cap came by and jumped head-first into every block he could find."
+      },
+      {
+        "speaker": "B",
+        "text": "What's the point of that?"
+      },
+      {
+        "speaker": "A",
+        "text": "He said sometimes coins fall out."
+      },
+      {
+        "speaker": "B",
+        "text": "And did anything fall out?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. But afterwards he had a bump the size of a mushroom."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_princess",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The plumber was asking about a princess."
+      },
+      {
+        "speaker": "B",
+        "text": "Does one live here?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. I told him his princess is in another castle."
+      },
+      {
+        "speaker": "B",
+        "text": "We don't even have a castle."
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly. He didn't seem surprised, though."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_turtle_king",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "The turtles on the beach are so peaceful."
+      },
+      {
+        "speaker": "B",
+        "text": "Not all of them. There are tales of a huge turtle king with spikes on his shell who kidnaps princesses."
+      },
+      {
+        "speaker": "A",
+        "text": "And ours?"
+      },
+      {
+        "speaker": "B",
+        "text": "The most they'd kidnap is seagrass."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_hero_green",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Yesterday a boy in green clothes and a pointy cap came into the village."
+      },
+      {
+        "speaker": "B",
+        "text": "What did he want?"
+      },
+      {
+        "speaker": "A",
+        "text": "No idea. He didn't say a single word."
+      },
+      {
+        "speaker": "B",
+        "text": "Did he do anything at all?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. He went into every house and smashed all the pots."
+      },
+      {
+        "speaker": "B",
+        "text": "And nobody stopped him?"
+      },
+      {
+        "speaker": "A",
+        "text": "How? He never answered."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_chicken_revenge",
+    "type": "conversation",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I saw someone hitting a chicken over and over again."
+      },
+      {
+        "speaker": "B",
+        "text": "Did he stop eventually?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. When suddenly every chicken in the village went for him."
+      },
+      {
+        "speaker": "B",
+        "text": "Our chickens? But they're so peaceful."
+      },
+      {
+        "speaker": "A",
+        "text": "Some people could push even a chicken too far."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_fairy_bottle",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "An adventurer wanted an empty bottle to catch a fairy in."
+      },
+      {
+        "speaker": "B",
+        "text": "A fairy? What on earth for?"
+      },
+      {
+        "speaker": "A",
+        "text": "If he collapses, she's meant to wake him back up. I sold him a healing potion instead."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_red_mushroom",
+    "type": "conversation",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Know what a plumber once told me about red mushrooms?"
+      },
+      {
+        "speaker": "B",
+        "text": "That you can't eat them raw?"
+      },
+      {
+        "speaker": "A",
+        "text": "That they make you twice as big. I tried, but I can't even get the thing down."
+      }
+    ]
+  },
+  {
+    "id": "u1_conv_pop_sword_stone",
+    "type": "conversation",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "There's a tale about a sword in a stone that only a true hero can pull out."
+      },
+      {
+        "speaker": "B",
+        "text": "And who forged it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nobody knows. But a sword nobody can pull out is bad for business."
+      }
+    ]
+  }
+]

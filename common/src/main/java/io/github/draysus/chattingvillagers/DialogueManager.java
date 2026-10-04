@@ -11,7 +11,10 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -31,22 +34,48 @@ public class DialogueManager {
 	private static final String NAMES_FILE = "names.json";
 	private static final String MESSAGES_FILE = "messages.json";
 
-	/**
-	 * Catalogue files shipped inside the mod jar under /dialogue/<language>/ and copied into
-	 * the config folder on first start. If a later version adds another solo file (say
-	 * "solo_extra.json"), one entry here is enough: existing installations do not have it yet,
-	 * so it is created for them automatically, while every file that is already present
-	 * stays untouched.
-	 */
-	private static final String[] PACKAGED_FILES =
-			{ SOLO_FILE, CONVERSATIONS_FILE, REACTIONS_FILE, NAMES_FILE, MESSAGES_FILE };
+	// Content update 1: new lines live in their own files, so that players who already have
+	// the original files in their config folder receive them too (existing files are never touched).
+	private static final String SOLO_UPDATE_1 = "solo_update1.json";
+	private static final String CONVERSATIONS_UPDATE_1 = "conversations_update1.json";
+	private static final String REACTIONS_UPDATE_1 = "reactions_update1.json";
+
+	// File name prefixes that decide what a file in the dialogue folder contains.
+	private static final String CONVERSATIONS_PREFIX = "conversations";
+	private static final String REACTIONS_PREFIX = "reactions";
 
 	/**
-	 * Files in the dialogue folder that are NOT solo pools. Everything else ending in .json is
-	 * treated as an additional solo pool, so any new non-pool file must be listed here too.
+	 * Catalogue files shipped inside the mod jar under /dialogue/<language>/ and copied into
+	 * the config folder when they are missing. A later content update adds its own files here
+	 * (for example "conversations_update2.json"): existing installations do not have them yet,
+	 * so they are created automatically, while every file that is already present stays untouched.
 	 */
-	private static final Set<String> NON_SOLO_FILES =
-			Set.of(CONVERSATIONS_FILE, REACTIONS_FILE, NAMES_FILE, MESSAGES_FILE);
+	private static final String[] PACKAGED_FILES = {
+			SOLO_FILE, CONVERSATIONS_FILE, REACTIONS_FILE, NAMES_FILE, MESSAGES_FILE,
+			SOLO_UPDATE_1, CONVERSATIONS_UPDATE_1, REACTIONS_UPDATE_1
+	};
+
+	/**
+	 * How a *.json file in the dialogue folder is used is decided by its name:
+	 * names.json and messages.json are special files, names starting with "conversations"
+	 * are conversation pools, names starting with "reactions" are reaction pools,
+	 * and every other *.json is a solo pool. Players can add their own files the same way.
+	 */
+	private static final Set<String> SPECIAL_FILES = Set.of(NAMES_FILE, MESSAGES_FILE);
+
+	/**
+	 * Optional "category" of a line or conversation. Categories listed in the config's
+	 * disabledCategories are not loaded. Lines without a category are always loaded.
+	 * Built-in categories: popculture (films, series, books, anime, games), insider
+	 * (community in-jokes and memes) and realworld (real events). Servers may use their own.
+	 */
+	public static final String CATEGORY_POPCULTURE = "popculture";
+
+	// Lines from older catalogue files carry no category; pop culture references are
+	// recognised by these parts of their id (for example "ref_gandalf" or "react_movie_2").
+	private static final Set<String> LEGACY_POPCULTURE_ID_PARTS = Set.of("ref", "pop", "anime", "movie");
+	// Fourth-wall jokes about Minecraft itself stay in the game world and are never categorised.
+	private static final Set<String> LEGACY_UNCATEGORISED_ID_PARTS = Set.of("meta", "blocky");
 
 	/** Language whose packaged catalogue is used when the requested one is not shipped. */
 	private static final String FALLBACK_LANGUAGE = "en_us";
@@ -60,7 +89,35 @@ public class DialogueManager {
 	private final Map<String, String> messages = new HashMap<>();
 	private String nameFallback = "Villager";
 
+	// Categories that are skipped while loading (lower case), and how many entries were skipped.
+	private final Set<String> disabledCategories = new HashSet<>();
+	private int skippedByCategory = 0;
+
+	/** Reloads everything using the language, sources and categories from the config. */
+	public void reload(ModConfig config) {
+		reload(config.language, config.builtInDialogue, config.disabledCategories);
+	}
+
 	public void reload(String language) {
+		reload(language, true, null);
+	}
+
+	/**
+	 * @param builtInDialogue    false = never create the mod's own line files (solo, conversations,
+	 *                           reactions); only names.json and messages.json are still created.
+	 * @param disabledCategories categories whose lines are not loaded (may be null).
+	 */
+	public void reload(String language, boolean builtInDialogue, Collection<String> disabledCategories) {
+		this.disabledCategories.clear();
+		if (disabledCategories != null) {
+			for (String category : disabledCategories) {
+				if (category != null && !category.isBlank()) {
+					this.disabledCategories.add(category.trim().toLowerCase(Locale.ROOT));
+				}
+			}
+		}
+		skippedByCategory = 0;
+
 		soloLines.clear();
 		reactionLines.clear();
 		conversations.clear();
@@ -68,7 +125,7 @@ public class DialogueManager {
 		messages.clear();
 		nameFallback = "Villager";
 
-			Path dialogueDir = Services.PLATFORM.getConfigDir() // GEÄNDERT
+		Path dialogueDir = Services.PLATFORM.getConfigDir()
 				.resolve("chattingvillagers").resolve("dialogue").resolve(language);
 
 		try {
@@ -76,24 +133,48 @@ public class DialogueManager {
 
 			// On first start, copy the catalogue shipped in the jar into the config folder.
 			// Existing files are NEVER touched: custom lines survive every update.
+			// With builtInDialogue = false only the names and messages are created, so a server
+			// can replace the mod's lines completely with its own files.
 			for (String fileName : PACKAGED_FILES) {
+				if (!builtInDialogue && !SPECIAL_FILES.contains(fileName)) {
+					continue;
+				}
 				seedIfMissing(dialogueDir.resolve(fileName), language, fileName);
 			}
 
-			// Every *.json that is not one of the special files above counts as a solo pool.
+			// Sort every *.json into its pool by file name (see SPECIAL_FILES).
+			List<Path> jsonFiles;
 			try (Stream<Path> files = Files.list(dialogueDir)) {
-				List<Path> jsonFiles = files
-						.filter(p -> p.getFileName().toString().endsWith(".json"))
-						.filter(p -> !NON_SOLO_FILES.contains(p.getFileName().toString()))
+				jsonFiles = files
+						.filter(p -> p.getFileName().toString().toLowerCase(Locale.ROOT).endsWith(".json"))
+						.sorted()
 						.toList();
+			}
 
-				for (Path file : jsonFiles) {
+			boolean anyConversations = false;
+			boolean anyReactions = false;
+			for (Path file : jsonFiles) {
+				String name = file.getFileName().toString().toLowerCase(Locale.ROOT);
+				if (SPECIAL_FILES.contains(name)) {
+					continue;
+				}
+				if (name.startsWith(CONVERSATIONS_PREFIX)) {
+					loadConversationsFrom(file);
+					anyConversations = true;
+				} else if (name.startsWith(REACTIONS_PREFIX)) {
+					loadSoloInto(file, reactionLines);
+					anyReactions = true;
+				} else {
 					loadSoloInto(file, soloLines);
 				}
 			}
+			if (!anyConversations) {
+				ChattingVillagers.LOGGER.warn("[Chatting Villagers] No conversation files found - no conversations loaded.");
+			}
+			if (!anyReactions) {
+				ChattingVillagers.LOGGER.warn("[Chatting Villagers] No reaction files found - no reactions loaded.");
+			}
 
-			loadConversations(dialogueDir);
-			loadReactions(dialogueDir);
 			loadNames(dialogueDir);
 			loadMessages(dialogueDir);
 
@@ -104,6 +185,45 @@ public class DialogueManager {
 		ChattingVillagers.LOGGER.info(
 				"[Chatting Villagers] Loaded {} solo lines, {} reactions, {} conversations (language: {}).",
 				soloLines.size(), reactionLines.size(), conversations.size(), language);
+		if (skippedByCategory > 0) {
+			ChattingVillagers.LOGGER.info(
+					"[Chatting Villagers] Skipped {} entries from disabled categories {}.",
+					skippedByCategory, this.disabledCategories);
+		}
+	}
+
+	/** Effective category: the one given in the file, or one derived from the id of older lines. */
+	static String categoryOf(String category, String id) {
+		if (category != null && !category.isBlank()) {
+			return category.trim().toLowerCase(Locale.ROOT);
+		}
+		if (id == null || id.isBlank()) {
+			return "";
+		}
+		List<String> parts = Arrays.asList(id.toLowerCase(Locale.ROOT).split("_"));
+		for (String part : parts) {
+			if (LEGACY_UNCATEGORISED_ID_PARTS.contains(part)) {
+				return "";
+			}
+		}
+		for (String part : parts) {
+			if (LEGACY_POPCULTURE_ID_PARTS.contains(part)) {
+				return CATEGORY_POPCULTURE;
+			}
+		}
+		return "";
+	}
+
+	private boolean isDisabled(String category, String id) {
+		if (disabledCategories.isEmpty()) {
+			return false;
+		}
+		String effective = categoryOf(category, id);
+		if (!effective.isEmpty() && disabledCategories.contains(effective)) {
+			skippedByCategory++;
+			return true;
+		}
+		return false;
 	}
 
 	/**
@@ -170,6 +290,9 @@ public class DialogueManager {
 			if (lines != null) {
 				for (SoloLine line : lines) {
 					if (line != null && line.text != null && !line.text.isBlank()) {
+						if (isDisabled(line.category, line.id)) {
+							continue;
+						}
 						if (!Double.isFinite(line.weight) || line.weight <= 0.0) {
 							line.weight = 1.0;
 						}
@@ -182,48 +305,32 @@ public class DialogueManager {
 		}
 	}
 
-	private void loadReactions(Path dialogueDir) {
-		Path file = dialogueDir.resolve(REACTIONS_FILE);
-		if (Files.notExists(file)) {
-			ChattingVillagers.LOGGER.warn("[Chatting Villagers] {} is missing - no reactions loaded.", REACTIONS_FILE);
-			return;
-		}
-		loadSoloInto(file, reactionLines);
-	}
-
-	private void loadConversations(Path dialogueDir) {
-		Path convFile = dialogueDir.resolve(CONVERSATIONS_FILE);
-		if (Files.notExists(convFile)) {
-			ChattingVillagers.LOGGER.warn("[Chatting Villagers] {} is missing - no conversations loaded.", CONVERSATIONS_FILE);
-			return;
-		}
-		try {
-			try (Reader reader = Files.newBufferedReader(convFile, StandardCharsets.UTF_8)) {
-				List<Conversation> convs = GSON.fromJson(reader, CONVERSATION_LIST_TYPE);
-				if (convs != null) {
-					for (Conversation conv : convs) {
-						if (conv == null || conv.lines == null || conv.lines.isEmpty()) {
-							continue;
-						}
-						boolean hasText = false;
-						for (ConversationLine cl : conv.lines) {
-							if (cl != null && cl.text != null && !cl.text.isBlank()) {
-								hasText = true;
-								break;
-							}
-						}
-						if (!hasText) {
-							continue;
-						}
-						if (!Double.isFinite(conv.weight) || conv.weight <= 0.0) {
-							conv.weight = 1.0;
-						}
-						conversations.add(conv);
+	private void loadConversationsFrom(Path convFile) {
+		try (Reader reader = Files.newBufferedReader(convFile, StandardCharsets.UTF_8)) {
+			List<Conversation> convs = GSON.fromJson(reader, CONVERSATION_LIST_TYPE);
+			if (convs != null) {
+				for (Conversation conv : convs) {
+					if (conv == null || conv.lines == null || conv.lines.isEmpty()) {
+						continue;
 					}
+					boolean hasText = false;
+					for (ConversationLine cl : conv.lines) {
+						if (cl != null && cl.text != null && !cl.text.isBlank()) {
+							hasText = true;
+							break;
+						}
+					}
+					if (!hasText || isDisabled(conv.category, conv.id)) {
+						continue;
+					}
+					if (!Double.isFinite(conv.weight) || conv.weight <= 0.0) {
+						conv.weight = 1.0;
+					}
+					conversations.add(conv);
 				}
 			}
 		} catch (Exception e) {
-			ChattingVillagers.LOGGER.error("[Chatting Villagers] Failed to read {}", CONVERSATIONS_FILE, e);
+			ChattingVillagers.LOGGER.error("[Chatting Villagers] Failed to read {}", convFile.getFileName(), e);
 		}
 	}
 
@@ -333,6 +440,22 @@ public class DialogueManager {
 	// Shared weighted random pick among the matching lines.
 	// Weights are decimals: 1 = normal, 0.2 = rare, 0.1 = very rare.
 	// Only the ratios matter, not the absolute values.
+	/**
+	 * Reaction for a villager that can trade (its trade menu opens at the same time).
+	 * Only lines written for a specific profession qualify, because the general reactions
+	 * are meant for jobless villagers and nitwits, who cannot trade.
+	 */
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+		List<SoloLine> professionLines = new ArrayList<>();
+		for (SoloLine line : reactionLines) {
+			if (line.conditions != null && line.conditions.profession != null
+					&& !line.conditions.profession.isEmpty()) {
+				professionLines.add(line);
+			}
+		}
+		return pickWeighted(professionLines, ctx, null);
+	}
+
 	private SoloLine pickWeighted(List<SoloLine> pool, VillagerContext ctx, String excludeId) {
 		List<SoloLine> matching = new ArrayList<>();
 		for (SoloLine line : pool) {
@@ -475,6 +598,7 @@ public class DialogueManager {
 		public String type;
 		public Conditions conditions;
 		public double weight = 1.0;
+		public String category;
 		public String text;
 	}
 
@@ -483,6 +607,7 @@ public class DialogueManager {
 		public String type;
 		public Conditions conditions;
 		public double weight = 1.0;
+		public String category;
 		public List<ConversationLine> lines;
 	}
 

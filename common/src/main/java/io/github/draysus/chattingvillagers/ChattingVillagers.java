@@ -39,6 +39,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Loader-independent core of the mod. Contains no Fabric/NeoForge/Forge code.
@@ -72,7 +73,7 @@ public class ChattingVillagers {
 		LOGGER.info("[Chatting Villagers] Loaded. Ready to give the villagers a voice.");
 
 		config = ModConfig.load();
-		dialogueManager.reload(config.language);
+		dialogueManager.reload(config);
 	}
 
 	/** Entity loaded into a server level: removes orphaned speech bubbles (e.g. after a crash). */
@@ -205,7 +206,9 @@ public class ChattingVillagers {
 		}
 	}
 
-	// Right-click on a villager or trader -> a short reaction, if any. Vanilla behaviour is preserved.
+	// Right-click on a villager or trader -> a short reaction, if any. Vanilla behaviour is preserved:
+	// jobless villagers and nitwits still shake their head, everyone else still opens the trade menu.
+	// Head-shakers always react; villagers that trade only react now and then (tradeReactionChance).
 	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
 			Entity entity, EntityHitResult hitResult) {
 		if (world.isClientSide()) {
@@ -223,8 +226,8 @@ public class ChattingVillagers {
 		if (!(entity instanceof AbstractVillager av) || !(player instanceof ServerPlayer)) {
 			return InteractionResult.PASS;
 		}
-		if (isExcluded(av) || !wouldShakeHead(av)) {
-			return InteractionResult.PASS; // villagers that can trade open their menu as usual
+		if (isExcluded(av)) {
+			return InteractionResult.PASS;
 		}
 
 		MinecraftServer server = ((ServerPlayer) player).server;
@@ -234,10 +237,23 @@ public class ChattingVillagers {
 		if (last != null && now - last < cd) {
 			return InteractionResult.PASS;
 		}
+		boolean shakesHead = wouldShakeHead(av);
+		if (!shakesHead) {
+			// Trading villagers and wandering traders open their menu as usual;
+			// only sometimes do they also say something.
+			double chance = config.tradeReactionChance;
+			if (!(chance > 0.0) || ThreadLocalRandom.current().nextDouble() >= chance) {
+				return InteractionResult.PASS;
+			}
+		}
 
 		ServerLevel level = (ServerLevel) world;
 		VillagerContext ctx = VillagerContext.read(level, av, config.portalScanRadius);
-		DialogueManager.SoloLine line = dialogueManager.pickReaction(ctx, null);
+		// Villagers that trade only use reactions written for their profession:
+		// the general reactions are meant for villagers that cannot trade.
+		DialogueManager.SoloLine line = shakesHead
+				? dialogueManager.pickReaction(ctx, null)
+				: dialogueManager.pickTradeReaction(ctx);
 		if (line == null) {
 			return InteractionResult.PASS;
 		}
@@ -606,7 +622,7 @@ public class ChattingVillagers {
 										.requires(source -> source.hasPermission(2))
 										.executes(ctx -> {
 											config = ModConfig.load();
-											dialogueManager.reload(config.language);
+											dialogueManager.reload(config);
 											ctx.getSource().sendSuccess(() -> prefixed(dialogueManager.message("reloaded")
 													.with("solo", dialogueManager.getSoloCount())
 													.with("reactions", dialogueManager.getReactionCount())
