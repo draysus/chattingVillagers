@@ -12,14 +12,25 @@ import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ModConfig {
 	private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 	private static final Path CONFIG_PATH =
-			Services.PLATFORM.getConfigDir().resolve("chattingvillagers.json"); // GEÄNDERT
+			Services.PLATFORM.getConfigDir().resolve("chattingvillagers.json");
 
 	public boolean masterEnabled = true;
 	public String language = "en_us";
+
+	// --- Dialogue sources (for servers with their own lines) ---
+	// false = the mod no longer creates its own line files (solo, conversations, reactions) in
+	// config/chattingvillagers/dialogue/<language>/. Only names.json and messages.json are still
+	// created. Delete the mod's line files there and add your own, then /chattingvillagers reload.
+	public boolean builtInDialogue = true;
+	// Lines in these categories are not loaded. Built in: "popculture", "insider", "realworld".
+	// Your own files may use their own categories, e.g. "category": "winterfest".
+	public List<String> disabledCategories = new ArrayList<>();
 	public String chatColor = "white";               // colour of the spoken text
 	public String nameColor = "gold";                // colour of the villager name
 	public double radius = 16.0;
@@ -63,6 +74,9 @@ public class ModConfig {
 	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
 	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
 	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	// Chance (0.0 - 1.0) that a villager who trades also says something when right-clicked.
+	// Jobless villagers and nitwits always react; 0.0 = only they react, as in older versions.
+	public double tradeReactionChance = 0.25;
 
 	/** Factor for the given time of day; unknown or nonsensical values fall back to 1.0. */
 	public double chanceFactor(String timeOfDay) {

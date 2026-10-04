@@ -1,0 +1,1188 @@
+[
+  {
+    "id": "u1_react_none_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't have a job right now. Come back once I've found a workstation."
+  },
+  {
+    "id": "u1_react_none_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Put a composter down for me and I'll be the best farmer you've ever seen."
+  },
+  {
+    "id": "u1_react_none_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Trade? All I've got is a potato and good intentions."
+  },
+  {
+    "id": "u1_react_none_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm still in training. For what, I haven't decided."
+  },
+  {
+    "id": "u1_react_none_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "No job, no emeralds, no worries. The market can't touch me."
+  },
+  {
+    "id": "u1_react_none_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "If you've got a spare lectern, I'd be interested."
+  },
+  {
+    "id": "u1_react_none_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "A job interview? Sure. I'm very good at standing around."
+  },
+  {
+    "id": "u1_react_none_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm waiting for my big break. Or at least a blast furnace."
+  },
+  {
+    "id": "u1_react_none_9",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "This isn't the villager you're looking for."
+  },
+  {
+    "id": "u1_react_none_10",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 0.5,
+    "text": "I counted: there are thirteen professions. And none of them is mine."
+  },
+  {
+    "id": "u1_react_nitwit_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not lazy. I'm conserving energy."
+  },
+  {
+    "id": "u1_react_nitwit_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Trade? I've got nothing. But I can wave at you very warmly."
+  },
+  {
+    "id": "u1_react_nitwit_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Shh. If you don't tell anyone I'm standing around here, I won't tell anyone you are."
+  },
+  {
+    "id": "u1_react_nitwit_4",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.5,
+    "text": "One plus one? Eleven. Next question."
+  },
+  {
+    "id": "u1_react_nitwit_5",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "A wild Nitwit appeared! It used Head Shake. It's not very effective."
+  },
+  {
+    "id": "u1_react_nitwit_6",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "You shall not pass! ...Oh. You weren't trying to pass."
+  },
+  {
+    "id": "u1_react_nitwit_7",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "My favorite block? The one I'm standing on."
+  },
+  {
+    "id": "u1_react_nitwit_8",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "Work isn't for me. I tried it once. Didn't like it."
+  },
+  {
+    "id": "u1_react_nitwit_9",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "text": "I hate my life. A butler said that to me once. Sounded oddly liberating."
+  },
+  {
+    "id": "u1_react_nitwit_10",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "text": "For freedom! ...Sorry. Still practicing."
+  },
+  {
+    "id": "u1_react_nitwit_11",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "I've shaken my head three times today already. That's my workout."
+  },
+  {
+    "id": "u1_react_nitwit_12",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.3,
+    "text": "The cartographer's emeralds? I don't even know how to open a chest."
+  },
+  {
+    "id": "u1_react_biome_desert",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Get out of the sun before you dry up like a dead bush."
+  },
+  {
+    "id": "u1_react_biome_savanna",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Watch out for the llamas. They're extra spitty today."
+  },
+  {
+    "id": "u1_react_biome_taiga",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "If you're picking sweet berries, mind your legs. The bushes prickle."
+  },
+  {
+    "id": "u1_react_biome_snowy",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "Put on leather boots. Then you won't freeze so fast in the powder snow."
+  },
+  {
+    "id": "u1_react_biome_plains",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "You came from over there? Did you see my cow on the way?"
+  },
+  {
+    "id": "u1_react_biome_swamp",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "Go ahead and walk on the lily pads. They can take it."
+  },
+  {
+    "id": "u1_react_biome_jungle",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "If you want an ocelot to trust you, you'll need patience. And raw fish."
+  },
+  {
+    "id": "u1_react_biome_ocean",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "ocean",
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "You smell of salt water. Been visiting the drowned?"
+  },
+  {
+    "id": "u1_react_biome_mushroom",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "No monsters here. Just me. And I'm harmless."
+  },
+  {
+    "id": "u1_react_biome_cherry",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "You've got petals on your head. Leave them, they look nice."
+  },
+  {
+    "id": "u1_react_biome_peaks",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "The air's thin up here. Talk slowly, please."
+  },
+  {
+    "id": "u1_react_biome_crimson",
+    "type": "reaction",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "Keep away from the hoglins. They don't like visitors."
+  },
+  {
+    "id": "u1_react_cave_torch",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 1,
+    "text": "Got a torch on you? Asking for a friend. The friend is me."
+  },
+  {
+    "id": "u1_react_nether_home",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 1,
+    "text": "If you know the way home, please take me with you."
+  },
+  {
+    "id": "u1_react_end_eyes",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "end"
+      ]
+    },
+    "weight": 1,
+    "text": "The tall ones over there are staring at me. Whatever you do, don't stare back."
+  },
+  {
+    "id": "u1_react_hurt_trip",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "hurt"
+      ]
+    },
+    "weight": 1,
+    "text": "Ow. I've tripped twice today already. Once over you."
+  },
+  {
+    "id": "u1_react_low_health_apple",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "low_health"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm not doing well. You wouldn't have a golden apple? No? A kind word, then?"
+  },
+  {
+    "id": "u1_react_bell_inside",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bell_alert"
+      ]
+    },
+    "weight": 1,
+    "text": "Don't you hear the bell? Indoors, and be quick about it!"
+  },
+  {
+    "id": "u1_react_near_nether_portal",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_nether_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "That purple thing hums all night long. Can't you switch it off?"
+  },
+  {
+    "id": "u1_react_near_end_portal",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "near_end_portal"
+      ]
+    },
+    "weight": 1,
+    "text": "I don't know where this portal leads. And honestly, I don't want to."
+  },
+  {
+    "id": "u1_react_wakeup_face",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "wakeup"
+      ]
+    },
+    "weight": 1,
+    "text": "Give me a moment. My face isn't fully awake yet."
+  },
+  {
+    "id": "u1_react_bedtime_bed",
+    "type": "reaction",
+    "conditions": {
+      "state": [
+        "bedtime"
+      ]
+    },
+    "weight": 1,
+    "text": "That late already? I still need to find my bed. Hope nobody's nicked it."
+  },
+  {
+    "id": "u1_react_morning_record",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Good morning! I've been up since sunrise and haven't done a thing. New record."
+  },
+  {
+    "id": "u1_react_evening_tomorrow",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 1,
+    "text": "It's getting dark. Let's talk tomorrow. If there is a tomorrow."
+  },
+  {
+    "id": "u1_react_night_stranger",
+    "type": "reaction",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 1,
+    "text": "You don't talk to strangers at night. Good thing you're not a stranger. Right?"
+  },
+  {
+    "id": "u1_react_rain_porch",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 1,
+    "text": "Come under the porch. There's room for two. Just about."
+  },
+  {
+    "id": "u1_react_thunder_pig",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Stay away from the church. And the pig. Just trust me."
+  },
+  {
+    "id": "u1_react_clear_nice",
+    "type": "reaction",
+    "conditions": {
+      "weather": [
+        "clear"
+      ]
+    },
+    "weight": 1,
+    "text": "Glorious weather. Far too nice for working. Not that I usually do."
+  },
+  {
+    "id": "u1_react_general_ask",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Well? Want something? I've got nothing, but ask away."
+  },
+  {
+    "id": "u1_react_market_tip",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 1,
+    "text": "Emerald tip of the day: hold. Tomorrow too, by the way."
+  },
+  {
+    "id": "u1_react_math_quits",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.5,
+    "text": "If you give me an emerald and I don't give you one back, we're even. I did the maths."
+  },
+  {
+    "id": "u1_react_pop_paths",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "Paths? Where I'm going, I don't need paths."
+  },
+  {
+    "id": "u1_react_pop_pika",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Ever seen an animal that can only say its own name? I have. It just kept saying Pika."
+  },
+  {
+    "id": "u1_react_news_chicken",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "text": "Ever since I heard about that chicken jockey, I look at every chicken twice."
+  },
+  {
+    "id": "u1_react_news_sunbeams",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "text": "A trader says the sunbeams look much prettier in some worlds now. I think our sun is lovely as it is."
+  },
+  {
+    "id": "u1_react_mystery_all",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "First the emeralds, then the bell, now the poppies. I'm telling you, something's not right in this village."
+  },
+  {
+    "id": "u1_react_mystery_poppy",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "Did you leave that poppy at my door? No? Pity."
+  },
+  {
+    "id": "u1_react_mystery_bell",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "Was that you with the bell last night? You look like someone who rings bells at night."
+  },
+  {
+    "id": "u1_react_mystery_shovel",
+    "type": "reaction",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "You wouldn't happen to have a shovel on you? Just asking because of the holes in the field."
+  },
+  {
+    "id": "u1_react_trade_farmer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Fresh bread, fresh pumpkins, fresh ideas. The ideas aren't for sale."
+  },
+  {
+    "id": "u1_react_trade_farmer_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "You've brought carrots? Then we're friends. Potatoes too? Then we're good friends."
+  },
+  {
+    "id": "u1_react_trade_farmer_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Mind where you step. Farmland is sensitive. So am I, by the way."
+  },
+  {
+    "id": "u1_react_trade_librarian_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "Welcome to my library. Please don't break the lectern."
+  },
+  {
+    "id": "u1_react_trade_librarian_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "I pay well for a book and quill. A little less if there's bad poetry in it."
+  },
+  {
+    "id": "u1_react_trade_librarian_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "My books are my preciousss. Sorry, I'm a little on edge today."
+  },
+  {
+    "id": "u1_react_trade_cleric_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Need advice or redstone? You'll get both from me."
+  },
+  {
+    "id": "u1_react_trade_cleric_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Give me rotten flesh, I'll give you emeralds. Don't ask what I do with it."
+  },
+  {
+    "id": "u1_react_trade_cleric_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.3,
+    "text": "Last night I prayed for everyone. Even whoever keeps ringing the bell."
+  },
+  {
+    "id": "u1_react_trade_armorer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Go ahead, try it on. If it pinches, it's chainmail."
+  },
+  {
+    "id": "u1_react_trade_armorer_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Don't buy from the weaponsmith. Wear my armor and you won't need a sword."
+  },
+  {
+    "id": "u1_react_trade_armorer_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "I buy coal, iron and lava. Yes, lava. In a bucket, please."
+  },
+  {
+    "id": "u1_react_trade_weaponsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Welcome! Everything pillagers fear, right here."
+  },
+  {
+    "id": "u1_react_trade_weaponsmith_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Armor is for people who don't swing fast enough."
+  },
+  {
+    "id": "u1_react_trade_weaponsmith_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "You haven't come from the fisherman, have you? You don't smell of fish. Good."
+  },
+  {
+    "id": "u1_react_trade_toolsmith_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "A pickaxe for every occasion. And for every kind of ground."
+  },
+  {
+    "id": "u1_react_trade_toolsmith_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 0.3,
+    "text": "I sell bells too. Tell me who's been ringing ours at night and you'll get a discount."
+  },
+  {
+    "id": "u1_react_trade_toolsmith_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Your tools look tired. Grindstone and anvil are over there. My sympathy costs extra."
+  },
+  {
+    "id": "u1_react_trade_fisherman_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Mornin'! The only way to get fish fresher is to jump in yerself."
+  },
+  {
+    "id": "u1_react_trade_fisherman_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Cod, salmon, or a pufferfish for the brave. What'll it be?"
+  },
+  {
+    "id": "u1_react_trade_fisherman_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "If the smith asks: I'm sold out for him today."
+  },
+  {
+    "id": "u1_react_trade_fletcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Arrows, bows, crossbows. Aiming tips come free."
+  },
+  {
+    "id": "u1_react_trade_fletcher_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Bring me sticks. Lots of sticks. I pay in emeralds and gratitude."
+  },
+  {
+    "id": "u1_react_trade_fletcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 0.05,
+    "category": "insider",
+    "text": "I've got arrows in stock. Just don't tell Geronimo Röder, he's been waiting years for exactly this moment."
+  },
+  {
+    "id": "u1_react_trade_shepherd_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Which color would you like? I've got all sixteen. In theory."
+  },
+  {
+    "id": "u1_react_trade_shepherd_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "I buy wool. Yes, I know I have sheep of my own. Don't ask."
+  },
+  {
+    "id": "u1_react_trade_shepherd_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "My beds are the comfiest in the village. I've test-slept every single one."
+  },
+  {
+    "id": "u1_react_trade_butcher_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "On offer today: pork chops, chicken and rabbit stew. Same as yesterday, actually."
+  },
+  {
+    "id": "u1_react_trade_butcher_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "You're hungry, I can tell. Come on, I've got something roasted."
+  },
+  {
+    "id": "u1_react_trade_butcher_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I buy dried kelp too. Don't ask me who eats it."
+  },
+  {
+    "id": "u1_react_trade_leatherworker_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Fancy some leather trousers? Available in any color, as long as it's brown."
+  },
+  {
+    "id": "u1_react_trade_leatherworker_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "I buy rabbit hide, turtle scutes and flint. My shop is complicated."
+  },
+  {
+    "id": "u1_react_trade_leatherworker_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Leather horse armor. For horses who care about style."
+  },
+  {
+    "id": "u1_react_trade_mason_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Clay in, bricks out. That's how simple my life is."
+  },
+  {
+    "id": "u1_react_trade_mason_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Quartz for your palace? Got it. The palace you'll have to build yourself."
+  },
+  {
+    "id": "u1_react_trade_mason_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Glazed terracotta in every color. I expressly do not recommend the grey."
+  },
+  {
+    "id": "u1_react_trade_cartographer_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "Where to? I've got maps to the sea and maps into the woods. The way back is up to you."
+  },
+  {
+    "id": "u1_react_trade_cartographer_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.3,
+    "text": "Before we trade: show me your hands. ...Good. None of my emeralds."
+  },
+  {
+    "id": "u1_react_trade_cartographer_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "This map leads to a temple. Take a whip. And don't forget the hat."
+  },
+  {
+    "id": "u1_react_trade_trader_1",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "I'm only here briefly. Buy quickly, before I vanish again."
+  },
+  {
+    "id": "u1_react_trade_trader_2",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Blue ice from the far north! Exactly where, I'm not saying."
+  },
+  {
+    "id": "u1_react_trade_trader_3",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "Glowstone, lily pads, coral. I sell things you don't need but absolutely want."
+  },
+  {
+    "id": "u1_react_pop_dangerous",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "It's dangerous to go alone! Here, take... oh, wait. I don't have anything."
+  },
+  {
+    "id": "u1_react_pop_coin",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "If you jump on me, no coin comes out. Just a nitwit complaining."
+  },
+  {
+    "id": "u1_react_pop_silent",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "I never say anything either, just like that hero in green. All right, I just did."
+  },
+  {
+    "id": "u1_react_trade_armorer_shell",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A turtle shell helmet? Don't have one. But I know a plumber who'd jump right on it."
+  },
+  {
+    "id": "u1_react_trade_cleric_fairy",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "I don't sell fairies in bottles. Healing potions, though."
+  },
+  {
+    "id": "u1_react_trade_trader_pipes",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "Green pipes? Not in my range. Cacti, though."
+  },
+  {
+    "id": "u1_react_trade_leatherworker_cap",
+    "type": "reaction",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A green pointy cap? I can stitch one. The silence you'll have to practice yourself."
+  }
+]

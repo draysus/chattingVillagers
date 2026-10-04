@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "u1_solo_farmer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "A pumpkin only grows if there's a free block next to it. Pumpkins need their space too."
+  },
+  {
+    "id": "u1_solo_farmer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Sprinkle bone meal on grass and flowers grow. Sprinkle it on yourself and nothing happens. I've checked."
+  },
+  {
+    "id": "u1_solo_farmer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "farmer"
+      ]
+    },
+    "weight": 1,
+    "text": "Every so often there's a poisonous potato in the harvest. The black sheep of the family."
+  },
+  {
+    "id": "u1_solo_librarian_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "One of my books has a mirror that shows you what you want most. I'd see emeralds."
+  },
+  {
+    "id": "u1_solo_librarian_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A wizard is never late, it says in one of my books. The librarian from the next village always is."
+  },
+  {
+    "id": "u1_solo_librarian_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 1,
+    "text": "I wanted to sort my books by color. Then I noticed they all look the same."
+  },
+  {
+    "id": "u1_solo_cleric_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "I sell redstone, lapis and glowstone. Anyone who says faith isn't practical has never visited me."
+  },
+  {
+    "id": "u1_solo_cleric_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "Potions of invisibility are my bestseller. I just never see who buys them."
+  },
+  {
+    "id": "u1_solo_cleric_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cleric"
+      ]
+    },
+    "weight": 1,
+    "text": "When a potion goes wrong, I just call it a potion of experience."
+  },
+  {
+    "id": "u1_solo_armorer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "Netherite armor doesn't sink in lava. Whoever's wearing it, sadly, does."
+  },
+  {
+    "id": "u1_solo_armorer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "The weaponsmith sells swords, I sell the armor against them. We're business partners, really. Just don't tell him."
+  },
+  {
+    "id": "u1_solo_armorer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "armorer"
+      ]
+    },
+    "weight": 1,
+    "text": "A diamond chestplate can take a lot. Not a creeper's bad mood, though."
+  },
+  {
+    "id": "u1_solo_weaponsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "The toolsmith says an axe is a tool. I say it's a weapon. We've agreed to disagree, loudly."
+  },
+  {
+    "id": "u1_solo_weaponsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "Pillagers have crossbows and no manners. At least I have manners."
+  },
+  {
+    "id": "u1_solo_weaponsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "weaponsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "If the fisherman says my swords smell of fish one more time, I'm selling him a blunt one."
+  },
+  {
+    "id": "u1_solo_toolsmith_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "A Fortune pickaxe gets you more diamonds. Sadly it doesn't get me more customers."
+  },
+  {
+    "id": "u1_solo_toolsmith_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "My anvil's already cracked. A few more repairs and it's done for."
+  },
+  {
+    "id": "u1_solo_toolsmith_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "toolsmith"
+      ]
+    },
+    "weight": 1,
+    "text": "The fisherman says my hammering scares his fish away. As if fish had ears."
+  },
+  {
+    "id": "u1_solo_fisherman_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "category": "insider",
+    "text": "I sail the really big ships."
+  },
+  {
+    "id": "u1_solo_fisherman_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "category": "insider",
+    "text": "The lads on the street are sacred to me!"
+  },
+  {
+    "id": "u1_solo_fisherman_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "Foul weather brings the best fish, that's what I always say."
+  },
+  {
+    "id": "u1_solo_fisherman_4",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fisherman"
+      ]
+    },
+    "weight": 1,
+    "text": "The smith bangs so loud the fish jump ashore of their own accord. Just for some peace and quiet."
+  },
+  {
+    "id": "u1_solo_fletcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "A spectral arrow makes monsters glow. Handy if you want to know what you're running from."
+  },
+  {
+    "id": "u1_solo_fletcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 1,
+    "text": "A crossbow shoots further. A bow looks better."
+  },
+  {
+    "id": "u1_solo_fletcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "fletcher"
+      ]
+    },
+    "weight": 0.2,
+    "text": "They say someone in the woods takes from the rich and gives to the poor. Emeralds for everyone, so to speak."
+  },
+  {
+    "id": "u1_solo_shepherd_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "Sixteen colors of wool, and still everyone wants white."
+  },
+  {
+    "id": "u1_solo_shepherd_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 0.1,
+    "text": "A trader once told me: name a sheep jeb_ and it shines in every color."
+  },
+  {
+    "id": "u1_solo_shepherd_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "shepherd"
+      ]
+    },
+    "weight": 1,
+    "text": "The sheep eat the grass, the grass grows back, so does the wool. A perfect cycle. Only I get tired."
+  },
+  {
+    "id": "u1_solo_butcher_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "I sell meat and buy coal. No coal, no fire. No fire, no business."
+  },
+  {
+    "id": "u1_solo_butcher_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "A campfire cooks slowly, but four pieces at once. Patience pays off."
+  },
+  {
+    "id": "u1_solo_butcher_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "butcher"
+      ]
+    },
+    "weight": 1,
+    "text": "Everyone asks why I buy sweet berries. I'm not telling. Secret recipe."
+  },
+  {
+    "id": "u1_solo_leatherworker_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Four rabbit hides make one piece of leather. The rabbits see it differently."
+  },
+  {
+    "id": "u1_solo_leatherworker_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "You can dye leather armor. Try doing that with diamond."
+  },
+  {
+    "id": "u1_solo_leatherworker_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "leatherworker"
+      ]
+    },
+    "weight": 1,
+    "text": "Nothing ever gets cooked in my cauldron. It's for dyeing, not for soup."
+  },
+  {
+    "id": "u1_solo_mason_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "Polished diorite is the most beautiful thing there is. I know not everyone agrees."
+  },
+  {
+    "id": "u1_solo_mason_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 1,
+    "text": "I built a wall today. The zombies still found a way around it."
+  },
+  {
+    "id": "u1_solo_mason_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "mason"
+      ]
+    },
+    "weight": 0.5,
+    "text": "A right angle is my best friend. It's always right."
+  },
+  {
+    "id": "u1_solo_cartographer_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "I once swapped a golden statue for a bag of sand. Shortly after, a stone ball came rolling after me."
+  },
+  {
+    "id": "u1_solo_cartographer_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 1,
+    "text": "My maps only show where I've already been. That's why the world looks so small on them."
+  },
+  {
+    "id": "u1_solo_cartographer_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.3,
+    "text": "I'm keeping an eye on my chest now. Let's see who still dares touch my emeralds."
+  },
+  {
+    "id": "u1_solo_nitwit_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "I thought so hard today that I forgot what about."
+  },
+  {
+    "id": "u1_solo_nitwit_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 1,
+    "text": "My green smock isn't workwear. It's a way of life."
+  },
+  {
+    "id": "u1_solo_nitwit_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "nitwit"
+      ]
+    },
+    "weight": 0.5,
+    "text": "I can count to ten. Sometimes even in the right order."
+  },
+  {
+    "id": "u1_solo_none_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "Without a job I have plenty of time. I just don't know what for."
+  },
+  {
+    "id": "u1_solo_none_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "The moment a smithing table turns up, I'm a toolsmith. Until then, I'm open to anything."
+  },
+  {
+    "id": "u1_solo_none_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "none"
+      ]
+    },
+    "weight": 1,
+    "text": "My résumé is short: villager. Always have been."
+  },
+  {
+    "id": "u1_solo_trader_1",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "I drink a potion of invisibility every evening. Purely a precaution."
+  },
+  {
+    "id": "u1_solo_trader_2",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "I sell buckets of fish, cacti and blue ice. I never claimed to have a concept."
+  },
+  {
+    "id": "u1_solo_trader_3",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "wandering_trader"
+      ]
+    },
+    "weight": 1,
+    "text": "My llamas follow me everywhere. They still never pay."
+  },
+  {
+    "id": "u1_solo_biome_desert",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 1,
+    "text": "Out here there are more cacti than things to talk about."
+  },
+  {
+    "id": "u1_solo_biome_plains",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains"
+      ]
+    },
+    "weight": 1,
+    "text": "On the plains you can spot every zombie from far off. That's both reassuring and unsettling."
+  },
+  {
+    "id": "u1_solo_biome_forest",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 1,
+    "text": "The forest smells of moss and oak. And of adventure, if you're not careful."
+  },
+  {
+    "id": "u1_solo_biome_taiga",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 1,
+    "text": "The wolves here are harmless, as long as you don't owe them a bone."
+  },
+  {
+    "id": "u1_solo_biome_snowy",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy"
+      ]
+    },
+    "weight": 1,
+    "text": "In the snow you can see every footprint. Even the ones you'd rather not."
+  },
+  {
+    "id": "u1_solo_biome_swamp",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "swamp"
+      ]
+    },
+    "weight": 1,
+    "text": "In the swamp the water's green and the mood is grey."
+  },
+  {
+    "id": "u1_solo_biome_jungle",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "jungle"
+      ]
+    },
+    "weight": 1,
+    "text": "In the jungle, cocoa grows on the trees. Why would I ever buy cookies again?"
+  },
+  {
+    "id": "u1_solo_biome_savanna",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "savanna"
+      ]
+    },
+    "weight": 1,
+    "text": "Acacia wood is orange. My house looks like a sunset."
+  },
+  {
+    "id": "u1_solo_biome_badlands",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 1,
+    "text": "The cliffs here are striped like a layer cake. Sadly, just as hard as stone."
+  },
+  {
+    "id": "u1_solo_biome_beach",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 1,
+    "text": "There's supposed to be treasure under the sand. Under this sand or that sand over there. Somewhere, anyway."
+  },
+  {
+    "id": "u1_solo_biome_mushroom",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mushroom"
+      ]
+    },
+    "weight": 1,
+    "text": "No monsters show up here, just cows with mushrooms. I'll take that deal."
+  },
+  {
+    "id": "u1_solo_biome_cherry",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "cherry"
+      ]
+    },
+    "weight": 1,
+    "text": "I'd like to grow old under the cherry blossoms. Or at least have lunch there."
+  },
+  {
+    "id": "u1_solo_biome_meadow",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow"
+      ]
+    },
+    "weight": 1,
+    "text": "The meadow up here is so peaceful I almost forget how high up we are."
+  },
+  {
+    "id": "u1_solo_biome_ocean",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 1,
+    "text": "The sea is so big I wonder if someone on the other side is looking back."
+  },
+  {
+    "id": "u1_solo_biome_dark_forest",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 1,
+    "text": "Somewhere in the dark forest there's supposed to be a mansion full of evokers. I'm not knocking."
+  },
+  {
+    "id": "u1_solo_biome_birch",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "birch"
+      ]
+    },
+    "weight": 1,
+    "text": "Birch trees always look like they've dressed up for the occasion."
+  },
+  {
+    "id": "u1_solo_biome_flower",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "flower"
+      ]
+    },
+    "weight": 1,
+    "text": "Tulips bloom here in four colors. I couldn't pick a favorite."
+  },
+  {
+    "id": "u1_solo_biome_mangrove",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "mangrove"
+      ]
+    },
+    "weight": 1,
+    "text": "The roots here grow every which way. Like my thoughts before breakfast."
+  },
+  {
+    "id": "u1_solo_biome_windswept",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 1,
+    "text": "The wind up here always whistles the same tune. I can hum along by now."
+  },
+  {
+    "id": "u1_solo_biome_peaks",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks"
+      ]
+    },
+    "weight": 1,
+    "text": "This high up the snow never melts. I admire its stamina."
+  },
+  {
+    "id": "u1_solo_biome_ice_spikes",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ice_spikes"
+      ]
+    },
+    "weight": 1,
+    "text": "Among the ice spikes I feel like I'm in a frozen forest."
+  },
+  {
+    "id": "u1_solo_biome_grove",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "grove"
+      ]
+    },
+    "weight": 1,
+    "text": "The grove is so quiet you can hear the snow falling."
+  },
+  {
+    "id": "u1_solo_biome_dripstone",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dripstone"
+      ]
+    },
+    "weight": 1,
+    "text": "Dripstone grows slower than my patience runs out."
+  },
+  {
+    "id": "u1_solo_biome_lush",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "lush"
+      ]
+    },
+    "weight": 1,
+    "text": "Moss, berries and leaves everywhere. I almost forget I'm standing in a cave."
+  },
+  {
+    "id": "u1_solo_biome_deep_dark",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "deep_dark"
+      ]
+    },
+    "weight": 1,
+    "text": "If you call out down here, it isn't the echo that answers. It's something else."
+  },
+  {
+    "id": "u1_solo_biome_old_growth",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "old_growth"
+      ]
+    },
+    "weight": 1,
+    "text": "Under these giants I feel young. Not many things manage that."
+  },
+  {
+    "id": "u1_solo_biome_frozen",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "frozen"
+      ]
+    },
+    "weight": 1,
+    "text": "I walk very carefully on the frozen water. You never know who's listening underneath."
+  },
+  {
+    "id": "u1_solo_biome_bamboo",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "bamboo"
+      ]
+    },
+    "weight": 1,
+    "text": "Bamboo grows faster than I can harvest it. Finally, something that works harder than me."
+  },
+  {
+    "id": "u1_solo_biome_river",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river"
+      ]
+    },
+    "weight": 1,
+    "text": "If I sit by the river long enough, maybe a salmon swims by. Or a thought."
+  },
+  {
+    "id": "u1_solo_biome_stony_shore",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "stony_shore"
+      ]
+    },
+    "weight": 1,
+    "text": "This is where mountain meets sea. Neither one gives way."
+  },
+  {
+    "id": "u1_solo_biome_crimson",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "crimson"
+      ]
+    },
+    "weight": 1,
+    "text": "It smells of fungus and trouble around here."
+  },
+  {
+    "id": "u1_solo_biome_warped",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "warped"
+      ]
+    },
+    "weight": 1,
+    "text": "The endermen here are calmer than elsewhere. I still don't look any of them in the eye."
+  },
+  {
+    "id": "u1_solo_biome_soul_sand",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "soul_sand"
+      ]
+    },
+    "weight": 1,
+    "text": "Walk across soul sand and sometimes you hear a sigh. I hope it was mine."
+  },
+  {
+    "id": "u1_solo_biome_basalt",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "basalt"
+      ]
+    },
+    "weight": 1,
+    "text": "The basalt pillars look like a giant once played the organ here."
+  },
+  {
+    "id": "u1_solo_legend_articuno",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "peaks",
+        "ice_spikes",
+        "frozen"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Those lost in the icy mountains are said to see a blue bird appear. Articuno. Nobody will tell you if that's a good sign."
+  },
+  {
+    "id": "u1_solo_legend_moltres",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "nether"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "There are tales of a bird of fire called Moltres. Every flap of its wings a shower of sparks. It'd feel right at home here."
+  },
+  {
+    "id": "u1_solo_legend_lapras",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "beach"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "People used to cross the sea on the back of a Lapras, they say. Nowadays you take a boat. Far less romantic."
+  },
+  {
+    "id": "u1_solo_legend_gyarados",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "river",
+        "beach",
+        "stony_shore"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "I once saw a Gyarados in the water. Ever since, I only go in up to my knees."
+  },
+  {
+    "id": "u1_solo_legend_lugia",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "ocean"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Deep down in the sea, Lugia is said to sleep. One flutter of its wings could blow whole houses away. Best let it sleep."
+  },
+  {
+    "id": "u1_solo_legend_celebi",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "forest"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "When the forest goes completely quiet, Celebi supposedly drops by from another time. I've been waiting for weeks."
+  },
+  {
+    "id": "u1_solo_legend_hooh",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "meadow",
+        "plains"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Whoever sees Ho-Oh in the sky is blessed with eternal happiness. So far I've only seen chickens."
+  },
+  {
+    "id": "u1_solo_legend_groudon",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "badlands"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Groudon is said to have raised these rocks from the ground when it wanted more land. It was certainly thorough."
+  },
+  {
+    "id": "u1_solo_legend_suicune",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "taiga"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Suicune is said to run through the forests on the north wind, purifying every stream it touches."
+  },
+  {
+    "id": "u1_solo_legend_rayquaza",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "windswept"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "High above the clouds, they say, lives a green sky serpent. Rayquaza. No wonder it's so windy up here."
+  },
+  {
+    "id": "u1_solo_legend_jirachi",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Whenever I see a shooting star at night, I think of Jirachi. It's said to wake for seven days every thousand years and grant wishes."
+  },
+  {
+    "id": "u1_solo_legend_kyogre",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "rain"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "When it rains for days, my grandma says Kyogre has woken up and wants a bigger sea."
+  },
+  {
+    "id": "u1_solo_legend_desert_gods",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "desert"
+      ]
+    },
+    "weight": 0.1,
+    "category": "popculture",
+    "text": "Make three sacrifices and you can summon a god, the old folks say. All I've got is three cacti."
+  },
+  {
+    "id": "u1_solo_cave_spiders",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "cave"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "Spiders. Why did it have to be spiders?"
+  },
+  {
+    "id": "u1_solo_thunder_pig",
+    "type": "solo",
+    "conditions": {
+      "weather": [
+        "thunder"
+      ]
+    },
+    "weight": 1,
+    "text": "Lightning struck a pig over there. Now it's a zombified piglin. I'm not making this up."
+  },
+  {
+    "id": "u1_solo_trading_dance",
+    "type": "solo",
+    "conditions": {
+      "state": [
+        "trading"
+      ]
+    },
+    "weight": 1,
+    "text": "Trading is like dancing. Just with more emeralds."
+  },
+  {
+    "id": "u1_solo_morning_market",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "morning"
+      ]
+    },
+    "weight": 1,
+    "text": "Emeralds are worth the most in the morning. At least that's what my gut says."
+  },
+  {
+    "id": "u1_solo_evening_count",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "evening"
+      ]
+    },
+    "weight": 0.3,
+    "text": "In the evening I count my emeralds. In the morning I count them again, given what's been going on at the cartographer's."
+  },
+  {
+    "id": "u1_solo_math_stack",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.5,
+    "text": "I only count to 64. After that I start a new stack."
+  },
+  {
+    "id": "u1_solo_math_chunk",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.5,
+    "text": "A chunk is sixteen by sixteen blocks. That's 256 good reasons to build neatly."
+  },
+  {
+    "id": "u1_solo_math_pi",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.5,
+    "text": "The cartographer says pi never ends. I asked if that goes for pumpkin pie too."
+  },
+  {
+    "id": "u1_solo_market_advisor",
+    "type": "solo",
+    "conditions": {},
+    "weight": 1,
+    "text": "My financial advisor says: buy wheat while it's cheap. My financial advisor is a chicken."
+  },
+  {
+    "id": "u1_solo_mystery_none_missing",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "Not a single emerald went missing at the cartographer's today. That's almost more suspicious."
+  },
+  {
+    "id": "u1_solo_emerald_bed",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.5,
+    "text": "I hid my emeralds under the bed. Now I can't sleep."
+  },
+  {
+    "id": "u1_solo_tale_schmorf_roof",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "Schmorf, the smith's son, jumped off a roof because it was supposed to look cool. It did not look cool."
+  },
+  {
+    "id": "u1_solo_tale_count_name",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "Count Thaddäus Montgomery Krupp von Bohlen und Halbach zu Falkenberg introduced himself to me. By the time he finished, it was dark."
+  },
+  {
+    "id": "u1_solo_tale_earl",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "I spent ages looking for Earl D. Wilson. He was standing next to me the whole time."
+  },
+  {
+    "id": "u1_solo_tale_stanley",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "Stanley Balls claimed he could mine stone with his bare hands. He can, too. Very, very slowly."
+  },
+  {
+    "id": "u1_solo_tale_laser",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "Sometimes I just want to climb onto the roof and shout: Freedom! Like that Eduard Laser fellow."
+  },
+  {
+    "id": "u1_solo_tale_lauchboy",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "insider",
+    "text": "Eduard Laser calls his son Lauchboy. Yet the boy's the only one in the family who understands redstone."
+  },
+  {
+    "id": "u1_solo_news_happy_ghast",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "text": "A trader swears he saw a ghast that was happy. With a harness and people riding on top."
+  },
+  {
+    "id": "u1_solo_news_copper_golem",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "text": "Rumor has it there are copper golems somewhere that tidy up chests. Nobody tidies anything here."
+  },
+  {
+    "id": "u1_solo_news_delayed_tale",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.05,
+    "category": "realworld",
+    "text": "In some faraway world, people have waited over ten years for the next chapter of a story. And it keeps getting delayed."
+  },
+  {
+    "id": "u1_solo_news_ice_games",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "snowy",
+        "peaks",
+        "frozen",
+        "ice_spikes",
+        "grove"
+      ]
+    },
+    "weight": 0.05,
+    "category": "realworld",
+    "text": "Far to the south, the world's best athletes are said to have competed on snow and ice. I'd have slipped during the warm-up."
+  },
+  {
+    "id": "u1_solo_mystery_poppy_night",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "Last night something big went stomping past my window. And in the morning there was a poppy at the door."
+  },
+  {
+    "id": "u1_solo_mystery_golem_clouds",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "The iron golem spent today pretending to look at the clouds. Very suspicious."
+  },
+  {
+    "id": "u1_solo_mystery_bell_midnight",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 0.3,
+    "text": "The bell rang again at midnight. I stayed in bed. That's not cowardice, that's experience."
+  },
+  {
+    "id": "u1_solo_mystery_bell_nitwit",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "The nitwit swears it wasn't him with the bell. He didn't even know where the bell is."
+  },
+  {
+    "id": "u1_solo_mystery_holes_hat",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "Last night someone with a shovel and a hat was digging up the field. That's all I could make out in the dark."
+  },
+  {
+    "id": "u1_solo_mystery_notebook",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.3,
+    "text": "I've started keeping a notebook of everything strange in this village. It's almost full."
+  },
+  {
+    "id": "u1_solo_pop_pipes",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A trader swears there are green pipes you can slide through into other worlds. All we have is the well."
+  },
+  {
+    "id": "u1_solo_pop_star",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "Touch a glowing star and you're invincible for a while, they say. And afterwards a tune gets stuck in your head forever."
+  },
+  {
+    "id": "u1_solo_pop_brother",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "dark_forest"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "The plumber's younger brother, the one in green, supposedly cleared out a whole haunted mansion. With a vacuum cleaner. Whatever that is."
+  },
+  {
+    "id": "u1_solo_pop_listen",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "If a tiny glowing fairy keeps shouting Hey! Listen! in your ear, that's not luck. That's a job."
+  },
+  {
+    "id": "u1_solo_pop_triangles",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "cartographer"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "An old map showed three golden triangles. Power, wisdom and courage. All I found there was sand."
+  },
+  {
+    "id": "u1_solo_pop_grass",
+    "type": "solo",
+    "conditions": {
+      "biome": [
+        "plains",
+        "meadow"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A boy in green cut all the grass outside the village. He swore there were gems underneath."
+  },
+  {
+    "id": "u1_solo_pop_jump",
+    "type": "solo",
+    "conditions": {},
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "I tried jumping on a creeper to defeat it. It worked for the plumber. Not for me."
+  },
+  {
+    "id": "u1_solo_pop_ocarina",
+    "type": "solo",
+    "conditions": {
+      "timeOfDay": [
+        "night"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "A wanderer played a tune on a little flute, and suddenly it was morning. I'd love that flute for the long nights."
+  },
+  {
+    "id": "u1_solo_pop_names",
+    "type": "solo",
+    "conditions": {
+      "profession": [
+        "librarian"
+      ]
+    },
+    "weight": 0.2,
+    "category": "popculture",
+    "text": "In my books, everyone mixes up the silent hero in green with the princess. Even though she's the one it's all named after."
+  }
+]
