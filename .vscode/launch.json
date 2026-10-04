@@ -12,13 +12,14 @@
       "projectName": "neoforge",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\clientRunProgramArgs.txt"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\bin\\main"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\neoforge\\run",
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     },
@@ -33,13 +34,14 @@
       "projectName": "neoforge",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\dataRunProgramArgs.txt"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\bin\\main"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\neoforge\\run",
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     },
@@ -54,13 +56,14 @@
       "projectName": "neoforge",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\serverRunProgramArgs.txt"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi\\neoforge\\bin\\main"
+        "@F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dchattingvillagers%%F:\\Programme\\VS-Code_Projekte\\chattingvillagers-multi_21-11\\neoforge\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\neoforge\\run",
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     }
