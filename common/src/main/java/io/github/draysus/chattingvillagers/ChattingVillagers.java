@@ -39,7 +39,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Loader-independent core of the mod. Contains no Fabric/NeoForge/Forge code.
