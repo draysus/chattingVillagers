@@ -1,6 +1,5 @@
 package io.github.draysus.chattingvillagers;
 
-import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.StringTag;
@@ -18,6 +17,9 @@ import java.util.UUID;
  * Persistent per-player setting: who has switched the village chat off (opt-out).
  * The default is on, so only the set of players who opted out is stored.
  * Lives in the world data (data/chattingvillagers_prefs.dat) and behaves the same on any server.
+ *
+ * Minecraft 1.20.1 version: computeIfAbsent(load, create, name) and save(CompoundTag).
+ * The file layout ({"disabled": ["uuid", ...]}) is the same in every version.
  */
 public class PlayerPrefs extends SavedData {
 
@@ -30,13 +32,6 @@ public class PlayerPrefs extends SavedData {
 	public PlayerPrefs() {
 	}
 
-	// --- Factory for 1.21.1 (SavedData.Factory, NOT SavedDataType/Codec) ---
-	public static final SavedData.Factory<PlayerPrefs> FACTORY = new SavedData.Factory<>(
-			PlayerPrefs::new,   // supplier: a new, empty instance
-			PlayerPrefs::load,  // BiFunction<CompoundTag, HolderLookup.Provider, PlayerPrefs>
-			null                // no data fixer needed
-	);
-
 	/** Fetches (or creates) the settings from the overworld's world data. */
 	public static PlayerPrefs get(MinecraftServer server) {
 		ServerLevel overworld = server.getLevel(Level.OVERWORLD);
@@ -44,7 +39,7 @@ public class PlayerPrefs extends SavedData {
 			// Fallback (should not happen in a running game): a throwaway instance.
 			return new PlayerPrefs();
 		}
-		return overworld.getDataStorage().computeIfAbsent(FACTORY, DATA_NAME);
+		return overworld.getDataStorage().computeIfAbsent(PlayerPrefs::load, PlayerPrefs::new, DATA_NAME);
 	}
 
 	public boolean isEnabled(UUID id) {
@@ -73,10 +68,10 @@ public class PlayerPrefs extends SavedData {
 		return nowEnabled;
 	}
 
-	// --- Serialisation (1.21.1: save(CompoundTag, HolderLookup.Provider)) ---
+	// --- Serialisation (1.20.1: save(CompoundTag) and a static load(CompoundTag)) ---
 
 	@Override
-	public CompoundTag save(CompoundTag tag, HolderLookup.Provider registries) {
+	public CompoundTag save(CompoundTag tag) {
 		ListTag list = new ListTag();
 		for (UUID id : disabled) {
 			list.add(StringTag.valueOf(id.toString()));
@@ -85,7 +80,7 @@ public class PlayerPrefs extends SavedData {
 		return tag;
 	}
 
-	public static PlayerPrefs load(CompoundTag tag, HolderLookup.Provider registries) {
+	public static PlayerPrefs load(CompoundTag tag) {
 		PlayerPrefs data = new PlayerPrefs();
 		ListTag list = tag.getList(KEY_DISABLED, Tag.TAG_STRING);
 		for (int i = 0; i < list.size(); i++) {

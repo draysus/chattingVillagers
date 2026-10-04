@@ -476,18 +476,18 @@ public class ChattingVillagers {
 		}
 
 		try {
-			// In 1.21.1 the display entity reads "text" as an NBT string holding JSON
+			// Up to 1.21.4 the display entity reads "text" as an NBT string holding JSON
 			// (Display$TextDisplay -> Component.Serializer.fromJson). Plain text is rejected;
 			// only from 1.21.5 onwards is the tag stored as an NBT compound.
 			Component comp = Component.literal(text).withStyle(color);
-			String textJson = Component.Serializer.toJson(comp, level.registryAccess());
+			String textJson = Component.Serializer.toJson(comp);
 
 			CompoundTag tag = new CompoundTag();
 			tag.putString("id", "minecraft:text_display");
 			tag.putString("text", textJson);
 			// Always face the player, in every axis of rotation.
 			tag.putString("billboard", "center");
-			// Smooths the per-tick repositioning that follows the villager.
+			// Smooths the per-tick repositioning that follows the villager (ignored before 1.20.2).
 			tag.putInt("teleport_duration", 2);
 			ListTag tags = new ListTag();
 			tags.add(StringTag.valueOf(BUBBLE_TAG));

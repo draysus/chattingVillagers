@@ -1,0 +1,1385 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :buildSrc:extractPluginRequests UP-TO-DATE
+> Task :buildSrc:generatePluginAdapters UP-TO-DATE
+> Task :buildSrc:compileJava UP-TO-DATE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:compileGroovyPlugins UP-TO-DATE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :fabric
+Fabric Loom: 1.9.2
+
+> Task :common:clean
+> Task :fabric:clean
+> Task :forge:clean
+
+> Task :common:createMinecraftArtifacts
+Loaded 98 artifacts from F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\build\tmp\createMinecraftArtifacts\nfrt_artifact_manifest.properties
+[1m*** Started working on [4mdownloadJson[0m[0m
+ [1m[92mDONE [0m Completed [4mdownloadJson[0m in 0.02s
+[1m*** Started working on [4mdownloadServer[0m[0m
+[1m*** Started working on [4mdownloadClient[0m[0m
+[1m*** Started working on [4mdownloadClientMappings[0m[0m
+[1m*** Started working on [4mlistLibraries[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mlistLibraries[0m in 0.00s
+ [1m[92mDONE [0m Completed [4mdownloadClient[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadClientMappings[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadServer[0m in 0.02s
+[1m*** Started working on [4mmergeMappings[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmergeMappings[0m in 0.00s
+[1m*** Started working on [4mcreateMappings[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mcreateMappings[0m in 0.00s
+[1m*** Started working on [4mstripClient[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mstripClient[0m in 0.00s
+[1m*** Started working on [4mextractServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mextractServer[0m in 0.00s
+[1m*** Started working on [4mstripServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mstripServer[0m in 0.00s
+[1m*** Started working on [4mmerge[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmerge[0m in 0.00s
+[1m*** Started working on [4mrename[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mrename[0m in 0.00s
+[1m*** Started working on [4mdecompile[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mdecompile[0m in 0.00s
+[1m*** Started working on [4minject[0m[0m
+ [1m[92mREUSE[0m Used cache of [4minject[0m in 0.00s
+[1m*** Started working on [4mpatch[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mpatch[0m in 0.00s
+[1m*** Started working on [4mremapSrgSourcesToOfficial[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mremapSrgSourcesToOfficial[0m in 0.00s
+[1m*** Started working on [4mapplyParchment[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mapplyParchment[0m in 0.00s
+[1m*** Started working on [4mrecompile[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mrecompile[0m in 0.00s
+[1m*** Started working on [4mmergeWithSources[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmergeWithSources[0m in 0.00s
+Total runtime: 0.57s
+
+
+> Task :common:compileJava
+> Task :common:processResources
+> Task :common:classes
+> Task :common:jarJar NO-SOURCE
+> Task :common:jar
+
+> Task :common:javadoc
+.\gradlew : 
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:79: 
+warning: no @param for entity
+In Zeile:1 Zeichen:1
++ .\gradlew clean build 2>&1 | Out-File -Encoding utf8 build-log.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (F:\Programme\VS...aram for entity:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:97: 
+warning: no @param for server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:596: 
+warning: no @param for dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:50: 
+warning: no comment
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:49: 
+warning: no comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:211: 
+warning: no comment
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: warning: no 
+comment
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: warning: no 
+comment
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: warning: no 
+comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: warning: no 
+comment
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:97: 
+warning: no @param for config
+	public void reload(ModConfig config) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:110: 
+warning: no @param for language
+	public void reload(String language, boolean builtInDialogue, Collection<String> disabledCategories) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @param for professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @param for key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @param for key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @param for ctx
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @return
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:25: 
+warning: no comment
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:624: 
+warning: no comment
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:605: 
+warning: no comment
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:614: 
+warning: no comment
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:402: 
+warning: no comment
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:619: 
+warning: no comment
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:596: 
+warning: no comment
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:517: 
+warning: no comment
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:527: 
+warning: no comment
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:428: 
+warning: no comment
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:424: 
+warning: no comment
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:420: 
+warning: no comment
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490: 
+warning: no comment
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:436: 
+warning: no comment
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:432: 
+warning: no comment
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:101: 
+warning: no comment
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:627: 
+warning: no comment
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:625: 
+warning: no comment
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:629: 
+warning: no comment
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:626: 
+warning: no comment
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:628: 
+warning: no comment
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:610: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:608: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:606: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:611: 
+warning: no comment
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:607: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:609: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:615: 
+warning: no comment
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:616: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:409: 
+warning: no comment
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:620: 
+warning: no comment
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:621: 
+warning: no comment
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:601: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:599: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:597: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:602: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:598: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:600: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatformHelp
+er.java:5: warning: no comment
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@param for timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:105: warning: 
+no @param for name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:18: warning: no 
+comment
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:71: warning: no 
+comment
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:70: warning: no 
+comment
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: warning: no 
+comment
+	public boolean builtInDialogue = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:58: warning: no 
+comment
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: warning: no 
+comment
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:57: warning: no 
+comment
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: warning: no 
+comment
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:34: warning: no 
+comment
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:74: warning: no 
+comment
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: warning: no 
+comment
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:67: warning: no 
+comment
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: warning: no 
+comment
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: warning: no 
+comment
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:33: warning: no 
+comment
+	public List<String> disabledCategories = new ArrayList<>();
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: warning: no 
+comment
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: warning: no 
+comment
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: warning: no 
+comment
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:51: warning: no 
+comment
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: warning: no 
+comment
+
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:66: warning: no 
+comment
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:41: warning: no 
+comment
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:36: warning: no 
+comment
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:76: warning: no 
+comment
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:75: warning: no 
+comment
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:50: warning: no 
+comment
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:37: warning: no 
+comment
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:79: warning: no 
+comment
+	public double tradeReactionChance = 0.25;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: warning: no 
+comment
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:146: warning: 
+no comment
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:174: warning: 
+no comment
+	public ChatFormatting resolveChatColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:182: warning: 
+no comment
+	public ChatFormatting resolveNameColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:163: warning: 
+no comment
+	public void save() {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\PlayerPrefs.java:36: warning: 
+no @param for server
+	public static PlayerPrefs get(MinecraftServer server) {
+	                          ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\PlayerPrefs.java:36: warning: 
+no @return
+	public static PlayerPrefs get(MinecraftServer server) {
+	                          ^
+100 warnings
+> Task :common:javadocJar
+> Task :common:reobfJar
+> Task :common:sourcesJar
+> Task :common:assemble
+> Task :common:compileTestJava NO-SOURCE
+> Task :common:processTestResources NO-SOURCE
+> Task :common:testClasses UP-TO-DATE
+> Task :common:test NO-SOURCE
+> Task :common:check UP-TO-DATE
+> Task :common:build
+> Task :fabric:compileJava
+> Task :fabric:processResources
+> Task :fabric:classes
+> Task :fabric:jar
+
+> Task :fabric:javadoc
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:79: 
+warning: no @param for entity
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:97: 
+warning: no @param for server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:596: 
+warning: no @param for dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:50: 
+warning: no comment
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:49: 
+warning: no comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:211: 
+warning: no comment
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\fabric\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersFabric.java:14
+: warning: no comment
+	public static final ChattingVillagers CORE = new ChattingVillagers();
+	                                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: warning: no 
+comment
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: warning: no 
+comment
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: warning: no 
+comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: warning: no 
+comment
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:97: 
+warning: no @param for config
+	public void reload(ModConfig config) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:110: 
+warning: no @param for language
+	public void reload(String language, boolean builtInDialogue, Collection<String> disabledCategories) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @param for professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @param for key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @param for key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @param for ctx
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @return
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:25: 
+warning: no comment
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:624: 
+warning: no comment
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:605: 
+warning: no comment
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:614: 
+warning: no comment
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:402: 
+warning: no comment
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:619: 
+warning: no comment
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:596: 
+warning: no comment
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:517: 
+warning: no comment
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:527: 
+warning: no comment
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:428: 
+warning: no comment
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:424: 
+warning: no comment
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:420: 
+warning: no comment
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490: 
+warning: no comment
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:436: 
+warning: no comment
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:432: 
+warning: no comment
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:101: 
+warning: no comment
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:627: 
+warning: no comment
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:625: 
+warning: no comment
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:629: 
+warning: no comment
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:626: 
+warning: no comment
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:628: 
+warning: no comment
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:610: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:608: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:606: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:611: 
+warning: no comment
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:607: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:609: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:615: 
+warning: no comment
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:616: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:409: 
+warning: no comment
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:620: 
+warning: no comment
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:621: 
+warning: no comment
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:601: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:599: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:597: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:602: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:598: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:600: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\fabric\src\main\java\io\github\draysus\chattingvillagers\platform\FabricPlatformHelper.j
+ava:8: warning: no comment
+public class FabricPlatformHelper implements IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatformHelp
+er.java:5: warning: no comment
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@param for timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:105: warning: 
+no @param for name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:18: warning: no 
+comment
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:71: warning: no 
+comment
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:70: warning: no 
+comment
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: warning: no 
+comment
+	public boolean builtInDialogue = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:58: warning: no 
+comment
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: warning: no 
+comment
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:57: warning: no 
+comment
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: warning: no 
+comment
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:34: warning: no 
+comment
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:74: warning: no 
+comment
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: warning: no 
+comment
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:67: warning: no 
+comment
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: warning: no 
+comment
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: warning: no 
+comment
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:33: warning: no 
+comment
+	public List<String> disabledCategories = new ArrayList<>();
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: warning: no 
+comment
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: warning: no 
+comment
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: warning: no 
+comment
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:51: warning: no 
+comment
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: warning: no 
+comment
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:66: warning: no 
+comment
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:41: warning: no 
+comment
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:36: warning: no 
+comment
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:76: warning: no 
+comment
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:75: warning: no 
+comment
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:50: warning: no 
+comment
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:37: warning: no 
+comment
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:79: warning: no 
+comment
+	public double tradeReactionChance = 0.25;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: warning: no 
+comment
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:146: warning: 
+no comment
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:174: warning: 
+no comment
+	public ChatFormatting resolveChatColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:182: warning: 
+no comment
+	public ChatFormatting resolveNameColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:163: warning: 
+no comment
+	public void save() {
+	            ^
+100 warnings
+
+> Task :fabric:javadocJar
+> Task :fabric:compileTestJava NO-SOURCE
+> Task :fabric:processIncludeJars
+> Task :fabric:sourcesJar
+> Task :fabric:processTestResources NO-SOURCE
+> Task :fabric:testClasses UP-TO-DATE
+> Task :fabric:test NO-SOURCE
+> Task :fabric:validateAccessWidener NO-SOURCE
+> Task :fabric:check UP-TO-DATE
+> Task :fabric:remapJar
+
+> Task :forge:createMinecraftArtifacts
+Loaded 129 artifacts from F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\forge\build\tmp\createMinecraftArtifacts\nfrt_artifact_manifest.properties
+  [33mWARNING: [0mde.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip is not present in the artifact manifest
+[1m*** Started working on [4mdownloadJson[0m[0m
+ [1m[92mDONE [0m Completed [4mdownloadJson[0m in 0.02s
+[1m*** Started working on [4mdownloadServer[0m[0m
+[1m*** Started working on [4mdownloadClient[0m[0m
+[1m*** Started working on [4mdownloadClientMappings[0m[0m
+[1m*** Started working on [4mlistLibraries[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mlistLibraries[0m in 0.00s
+ [1m[92mDONE [0m Completed [4mdownloadServer[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadClientMappings[0m in 0.02s
+ [1m[92mDONE [0m Completed [4mdownloadClient[0m in 0.02s
+[1m*** Started working on [4mmergeMappings[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmergeMappings[0m in 0.00s
+[1m*** Started working on [4mcreateMappings[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mcreateMappings[0m in 0.00s
+[1m*** Started working on [4mstripClient[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mstripClient[0m in 0.00s
+[1m*** Started working on [4mextractServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mextractServer[0m in 0.00s
+[1m*** Started working on [4mstripServer[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mstripServer[0m in 0.00s
+[1m*** Started working on [4mmerge[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mmerge[0m in 0.00s
+[1m*** Started working on [4mrename[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mrename[0m in 0.00s
+[1m*** Started working on [4mdecompile[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mdecompile[0m in 0.00s
+[1m*** Started working on [4minject[0m[0m
+ [1m[92mREUSE[0m Used cache of [4minject[0m in 0.00s
+[1m*** Started working on [4mpatch[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mpatch[0m in 0.00s
+[1m*** Started working on [4mapplyNeoforgePatches[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mapplyNeoforgePatches[0m in 0.00s
+[1m*** Started working on [4mtransformSources[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mtransformSources[0m in 0.00s
+[1m*** Started working on [4mremapSrgSourcesToOfficial[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mremapSrgSourcesToOfficial[0m in 0.00s
+[1m*** Started working on [4mapplyParchment[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mapplyParchment[0m in 0.00s
+[1m*** Started working on [4mrecompile[0m[0m
+ [1m[92mREUSE[0m Used cache of [4mrecompile[0m in 0.00s
+[1m*** Started working on [4msourcesAndCompiledWithNeoForge[0m[0m
+ [1m[92mREUSE[0m Used cache of [4msourcesAndCompiledWithNeoForge[0m in 0.00s
+Total runtime: 1.00s
+
+
+> Task :fabric:remapSourcesJar
+
+> Task :forge:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :fabric:assemble
+> Task :fabric:build
+> Task :forge:processResources
+> Task :forge:classes
+> Task :forge:jarJar NO-SOURCE
+> Task :forge:jar
+
+> Task :forge:javadoc
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:79: 
+warning: no @param for entity
+	public void onEntityLoad(Entity entity) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:97: 
+warning: no @param for server
+	public void tickSpeech(MinecraftServer server) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:596: 
+warning: no @param for dispatcher
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:50: 
+warning: no comment
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:49: 
+warning: no comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagers.java:211: 
+warning: no comment
+	public InteractionResult onUseEntity(Player player, Level world, InteractionHand hand,
+	                         ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\forge\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersForge.java:16: 
+warning: no comment
+	public static final ChattingVillagers CORE = new ChattingVillagers();
+	                                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\forge\src\main\java\io\github\draysus\chattingvillagers\ChattingVillagersForge.java:18: 
+warning: no comment
+	public ChattingVillagersForge() {
+	       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:6: warning: no 
+comment
+public class Constants {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:10: warning: no 
+comment
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:8: warning: no 
+comment
+	public static final String MOD_ID = "chattingvillagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\Constants.java:9: warning: no 
+comment
+	public static final String MOD_NAME = "Chatting Villagers";
+	                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:97: 
+warning: no @param for config
+	public void reload(ModConfig config) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:110: 
+warning: no @param for language
+	public void reload(String language, boolean builtInDialogue, Collection<String> disabledCategories) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @param for professionPath
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:384: 
+warning: no @return
+	public String professionName(String professionPath) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @param for key
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:392: 
+warning: no @return
+	public String rawMessage(String key) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @param for key
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:398: 
+warning: no @return
+	public MessageBuilder message(String key) {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @param for ctx
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:448: 
+warning: no @return
+	public SoloLine pickTradeReaction(VillagerContext ctx) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:25: 
+warning: no comment
+public class DialogueManager {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:624: 
+warning: no comment
+	public static class Conditions {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:605: 
+warning: no comment
+	public static class Conversation {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:614: 
+warning: no comment
+	public static class ConversationLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:402: 
+warning: no comment
+	public static final class MessageBuilder {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:619: 
+warning: no comment
+	public static class Names {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:596: 
+warning: no comment
+	public static class SoloLine {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:517: 
+warning: no comment
+	public int countMatching(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:527: 
+warning: no comment
+	public int countMatchingConversations(VillagerContext ctx) {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:428: 
+warning: no comment
+	public int getConversationCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:424: 
+warning: no comment
+	public int getReactionCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:420: 
+warning: no comment
+	public int getSoloCount() {
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:490: 
+warning: no comment
+	public Conversation pickConversation(VillagerContext ctx) {
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:436: 
+warning: no comment
+	public SoloLine pickReaction(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:432: 
+warning: no comment
+	public SoloLine pickSolo(VillagerContext ctx, String excludeId) {
+	                ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:101: 
+warning: no comment
+	public void reload(String language) {
+	            ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:627: 
+warning: no comment
+		public List<String> biome;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:625: 
+warning: no comment
+		public List<String> profession;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:629: 
+warning: no comment
+		public List<String> state;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:626: 
+warning: no comment
+		public List<String> timeOfDay;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:628: 
+warning: no comment
+		public List<String> weather;
+		                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:610: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:608: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:606: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:611: 
+warning: no comment
+		public List<ConversationLine> lines;
+		                              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:607: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:609: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:615: 
+warning: no comment
+		public String speaker;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:616: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:409: 
+warning: no comment
+		public MessageBuilder with(String placeholder, Object value) {
+		                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:620: 
+warning: no comment
+		public String fallback;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:621: 
+warning: no comment
+		public Map<String, String> professions;
+		                           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:601: 
+warning: no comment
+		public String category;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:599: 
+warning: no comment
+		public Conditions conditions;
+		                  ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:597: 
+warning: no comment
+		public String id;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:602: 
+warning: no comment
+		public String text;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:598: 
+warning: no comment
+		public String type;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\DialogueManager.java:600: 
+warning: no comment
+		public double weight = 1.0;
+		              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\forge\src\main\java\io\github\draysus\chattingvillagers\platform\ForgePlatformHelper.jav
+a:10: warning: no comment
+public class ForgePlatformHelper implements IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\platform\services\IPlatformHelp
+er.java:5: warning: no comment
+public interface IPlatformHelper {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@param for timeOfDay
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:82: warning: no 
+@return
+	public double chanceFactor(String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for base
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@param for timeOfDay
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:94: warning: no 
+@return
+	public double effectiveChance(double base, String timeOfDay) {
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:105: warning: 
+no @param for name
+	public boolean applyFrequencyPreset(String name) {
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:18: warning: no 
+comment
+public class ModConfig {
+       ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:71: warning: no 
+comment
+	public int bubbleLifetimeTicks = 60;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:70: warning: no 
+comment
+	public boolean bubblesEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:30: warning: no 
+comment
+	public boolean builtInDialogue = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:58: warning: no 
+comment
+	public double chanceFactorDay = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:59: warning: no 
+comment
+	public double chanceFactorEvening = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:57: warning: no 
+comment
+	public double chanceFactorMorning = 1.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:60: warning: no 
+comment
+	public double chanceFactorNight = 0.3;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:34: warning: no 
+comment
+	public String chatColor = "white";               // colour of the spoken text
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:74: warning: no 
+comment
+	public boolean chatMessagesEnabled = true;       // off => villager lines appear ONLY in speech bubbles
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:64: warning: no 
+comment
+
+> Task :forge:javadocJar
+	public double conversationChance = 0.15;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:67: warning: no 
+comment
+	public int conversationLineDelayTicks = 40;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:65: warning: no 
+comment
+	public double conversationRadius = 5.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:63: warning: no 
+comment
+	public boolean conversationsEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:33: warning: no 
+comment
+	public List<String> disabledCategories = new ArrayList<>();
+	                    ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:46: warning: no 
+comment
+	public String frequencyPreset = "normal";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:24: warning: no 
+comment
+	public String language = "en_us";
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:23: warning: no 
+comment
+	public boolean masterEnabled = true;
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:51: warning: no 
+comment
+	public int maxMessagesPerPlayerPerMinute = 6;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:35: warning: no 
+comment
+	public String nameColor = "gold";                // colour of the villager name
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:66: warning: no 
+comment
+	public int pairCooldownSeconds = 120;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:41: warning: no 
+comment
+	public int portalScanRadius = 4;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:36: warning: no 
+comment
+	public double radius = 16.0;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:76: warning: no 
+comment
+	public int reactionCooldownTicks = 30;           // minimum gap between reactions from the same villager
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:75: warning: no 
+comment
+	public boolean reactionsEnabled = true;          // reaction when right-clicking head-shaking villagers
+	               ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:50: warning: no 
+comment
+	public double speakChance = 0.35;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:37: warning: no 
+comment
+	public int speakIntervalTicks = 100;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:79: warning: no 
+comment
+	public double tradeReactionChance = 0.25;
+	              ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:49: warning: no 
+comment
+	public int villagerCooldownSeconds = 45;
+	           ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:146: warning: 
+no comment
+	public static ModConfig load() {
+	                        ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:174: warning: 
+no comment
+	public ChatFormatting resolveChatColor() {
+	                      ^
+F:\Programme\VS-Code_Projekte\chattingvillagers-multi_20-1\common\src\main\java\io\github\draysus\chattingvillagers\ModConfig.java:182: warning: 
+no comment
+	public ChatFormatting resolveNameColor() {
+	                      ^
+100 warnings
+> Task :forge:reobfJar
+> Task :forge:sourcesJar
+> Task :forge:assemble
+> Task :forge:compileTestJava NO-SOURCE
+> Task :forge:processTestResources NO-SOURCE
+> Task :forge:testClasses UP-TO-DATE
+> Task :forge:test NO-SOURCE
+> Task :forge:check UP-TO-DATE
+> Task :forge:build
+[Incubating] Problems report is available at: file:///F:/Programme/VS-Code_Projekte/chattingvillagers-multi_20-1/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 19s
+35 actionable tasks: 28 executed, 7 up-to-date
